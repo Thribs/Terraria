@@ -5,3 +5,290 @@
 [20:57:50] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
 [20:57:50] [1/INFO] [tML]: Launch Parameters: 
 [20:57:50] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[20:57:51] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[20:57:51] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[20:57:51] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[20:57:51] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
+[20:57:51] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[20:57:52] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[20:57:52] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[20:57:52] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
+[20:57:52] [1/WARN] [tML]: Silently Caught Exception: 
+System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não foi possível encontrar o módulo especificado. (Exception from HRESULT: 0x8007007E)
+   at Microsoft.Xna.Framework.Graphics.MetalDevice.sel_registerName(Byte[] name)
+   at Microsoft.Xna.Framework.Graphics.MetalDevice..cctor()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.CreateWindow()
+   at Microsoft.Xna.Framework.Game..ctor()
+   at Terraria.Main..ctor()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[20:57:52] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
+[20:57:52] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
+[20:57:53] [1/INFO] [tML]: Checking Steam installation...
+[20:57:53] [1/INFO] [tML]: Steam installation OK.
+[20:57:54] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
+[20:58:04] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[20:58:06] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[20:58:07] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
+[20:58:07] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
+[20:58:08] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
+[20:58:10] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[20:58:10] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[20:58:10] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[20:58:10] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[20:58:12] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[20:58:12] [6/INFO] [Terraria]: JIT loading finished
+[20:58:16] [8/INFO] [tML]: Unloading mods
+[20:58:17] [8/INFO] [tML]: Finding Mods...
+[20:58:19] [8/INFO] [tML]: Sandboxing: CalamityMod
+[20:58:20] [8/INFO] [tML]: Sandboxing: CalamityModMusic
+[20:58:20] [8/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[20:58:20] [8/INFO] [tML]: Sandboxing: AutoTrash
+[20:58:20] [8/INFO] [tML]: Sandboxing: BaseMod
+[20:58:21] [8/INFO] [tML]: Sandboxing: BossChecklist
+[20:58:21] [8/INFO] [tML]: Sandboxing: BossCursor
+[20:58:21] [8/INFO] [tML]: Sandboxing: BothEvils
+[20:58:21] [8/INFO] [tML]: Sandboxing: CalValEX
+[20:58:21] [8/INFO] [tML]: Sandboxing: CataclysmMod
+[20:58:24] [8/INFO] [tML]: Sandboxing: CheatExtensions
+[20:58:24] [8/INFO] [tML]: Sandboxing: CheatSheet
+[20:58:25] [8/INFO] [tML]: Sandboxing: Fargowiltas
+[20:58:25] [8/INFO] [tML]: Sandboxing: FargowiltasSouls
+[20:58:25] [8/INFO] [tML]: Sandboxing: FargowiltasMusic
+[20:58:25] [8/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[20:58:25] [8/INFO] [tML]: Sandboxing: FKBossHealthBar
+[20:58:25] [8/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[20:58:26] [8/INFO] [tML]: Sandboxing: HEROsMod
+[20:58:26] [8/INFO] [tML]: Sandboxing: imkSushisMod
+[20:58:26] [8/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[20:58:26] [8/INFO] [tML]: Sandboxing: LootBags
+[20:58:26] [8/INFO] [tML]: Sandboxing: MagicStorageExtra
+[20:58:26] [8/INFO] [tML]: Sandboxing: MaxStackExtra
+[20:58:26] [8/INFO] [tML]: Sandboxing: MoreChestLoot
+[20:58:26] [8/INFO] [tML]: Sandboxing: RecipeBrowser
+[20:58:26] [8/INFO] [tML]: Sandboxing: SmartDoors
+[20:58:26] [8/INFO] [tML]: Sandboxing: UtilityBombMod
+[20:58:26] [8/INFO] [tML]: Sandboxing: VeinMiner
+[20:58:26] [8/INFO] [tML]: Sandboxing: WeaponOutLite
+[20:58:26] [8/INFO] [tML]: Sandboxing: Wildlife
+[20:58:26] [8/INFO] [tML]: Sandboxing: WMITF
+[20:58:26] [8/INFO] [tML]: Instantiating Mods...
+[20:58:27] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
+[20:58:27] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+[20:58:27] [8/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
+[20:58:28] [8/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[20:58:30] [8/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:58:36] [8/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[20:58:38] [8/INFO] [tML]: Initializing: ModLoader v0.11.8.4
+[20:58:40] [8/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[20:58:40] [8/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:58:40] [8/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[20:58:47] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[20:58:47] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
+[20:58:47] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:58:47] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[20:58:47] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[20:58:47] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
+[20:58:48] [8/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[20:58:48] [8/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[20:58:48] [8/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[20:58:49] [8/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[20:58:49] [8/INFO] [tML]: Initializing: AutoTrash v0.5
+[20:58:50] [8/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[20:58:50] [8/INFO] [tML]: Initializing: BossChecklist v1.1.5.5
+[20:58:50] [8/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[20:58:50] [8/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[20:58:51] [8/INFO] [tML]: Initializing: BossCursor v1.5.1
+[20:58:51] [8/INFO] [tML]: Initializing: BothEvils v3.1
+[20:58:51] [8/INFO] [tML]: Initializing: CalValEX v8.2.1
+[20:58:52] [8/DEBUG] [tML]: Assembly Resolve: CalValEX_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[20:58:52] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
+[20:58:52] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:52] [8/DEBUG] [tML]: Assembly Resolve: CalValEX_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[20:58:52] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
+[20:58:52] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:52] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:52] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:53] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:54] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[20:58:54] [8/INFO] [tML]: Initializing: CataclysmMod v1.0.3.2
+[20:58:54] [8/WARN] [tML]: Granted native detouring access to CataclysmMod_0
+[20:58:55] [8/INFO] [tML]: Initializing: CheatExtensions v0.1.3
+[20:58:55] [8/INFO] [tML]: Initializing: CheatSheet v0.6.6.4
+[20:58:55] [8/INFO] [tML]: Initializing: Fargowiltas v2.3.2.0
+[20:58:56] [8/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.2
+[20:58:57] [8/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[20:58:57] [8/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.1
+[20:58:58] [8/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.2.2
+[20:58:58] [8/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[20:58:59] [8/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[20:58:59] [8/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[20:58:59] [8/INFO] [tML]: Initializing: HEROsMod v0.3.6.1
+[20:59:00] [8/INFO] [tML]: Initializing: imkSushisMod v4.3.1
+[20:59:00] [8/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[20:59:00] [8/INFO] [tML]: Initializing: LootBags v1.1
+[20:59:01] [8/INFO] [tML]: Initializing: MagicStorageExtra v0.5.3.10
+[20:59:01] [8/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[20:59:01] [1/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at MagicStorageExtra.CraftingGUI.Update(GameTime gameTime) in MagicStorageExtra\CraftingGUI.cs:line 417
+   at Terraria.ModLoader.ModHooks.PostUpdateInput()
+   at Terraria.Main.DoUpdate_HandleInput()
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[20:59:02] [8/INFO] [tML]: Initializing: MoreChestLoot v0.6
+[20:59:02] [8/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[20:59:02] [8/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[20:59:02] [8/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[20:59:02] [8/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[20:59:02] [8/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[20:59:03] [8/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[20:59:03] [8/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[20:59:04] [8/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[20:59:04] [8/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[20:59:04] [8/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[20:59:05] [8/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[20:59:06] [8/INFO] [tML]: Initializing: Wildlife v0.14
+[20:59:06] [8/INFO] [tML]: Initializing: WMITF v2.6.2
+[20:59:06] [8/INFO] [tML]: Setting up...
+[20:59:07] [8/INFO] [tML]: Loading: ModLoader v0.11.8.4
+[20:59:07] [8/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[20:59:10] [8/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[20:59:11] [8/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[20:59:11] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[20:59:11] [8/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[20:59:12] [8/INFO] [tML]: Loading: AutoTrash v0.5
+[20:59:12] [8/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[20:59:12] [8/INFO] [tML]: Loading: BossChecklist v1.1.5.5
+[20:59:13] [8/INFO] [tML]: Loading: BossCursor v1.5.1
+[20:59:13] [8/INFO] [tML]: Loading: BothEvils v3.1
+[20:59:14] [8/INFO] [tML]: Loading: CalValEX v8.2.1
+[20:59:15] [8/INFO] [tML]: Loading: CataclysmMod v1.0.3.2
+[20:59:15] [8/INFO] [tML]: Loading: CheatExtensions v0.1.3
+[20:59:15] [8/INFO] [tML]: Loading: CheatSheet v0.6.6.4
+[20:59:16] [8/INFO] [tML]: Loading: Fargowiltas v2.3.2.0
+[20:59:17] [8/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.2
+[20:59:18] [8/INFO] [Terraria]: Loaded 6000 vanilla assets
+[20:59:19] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[20:59:19] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[20:59:19] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[20:59:19] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[20:59:20] [8/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.1
+[20:59:20] [8/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.2.2
+[20:59:20] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:59:20] [8/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[20:59:21] [8/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[20:59:21] [8/INFO] [tML]: Loading: HEROsMod v0.3.6.1
+[20:59:22] [8/INFO] [tML]: Loading: imkSushisMod v4.3.1
+[20:59:22] [8/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[20:59:22] [8/INFO] [tML]: Loading: LootBags v1.1
+[20:59:23] [8/INFO] [tML]: Loading: MagicStorageExtra v0.5.3.10
+[20:59:23] [8/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[20:59:24] [8/INFO] [tML]: Loading: MoreChestLoot v0.6
+[20:59:24] [8/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[20:59:24] [8/INFO] [tML]: Loading: SmartDoors v1.3.3
+[20:59:25] [8/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[20:59:25] [8/INFO] [tML]: Loading: VeinMiner v1.3.1
+[20:59:26] [8/INFO] [tML]: Loading: WeaponOutLite v0.1
+[20:59:26] [8/INFO] [tML]: Loading: Wildlife v0.14
+[20:59:26] [8/INFO] [tML]: Loading: WMITF v2.6.2
+[20:59:27] [8/INFO] [tML]: RAM usage: 3,3 GB
+[20:59:27] [8/INFO] [tML]: Adding Recipes...
+[20:59:28] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:59:29] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:59:29] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:00:03] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
+[21:00:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/c4WEe7q.png
+[21:00:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/MWxWteT.png
+[21:00:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/q2t6Wqn.png
+[21:00:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Bbkp08D.png
+[21:00:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/E4jmmNF.png
+[21:03:53] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/HEROsMod.tmod&tls12=y
+[21:03:54] [13/DEBUG] [tML]: Web Request: https://github.com/JavidPack/HEROsMod/releases/download/v0.3.6.2/HEROsMod.tmod
+[21:03:54] [13/DEBUG] [tML]: Web Request: https://github-releases.githubusercontent.com/87360999/4d70fc00-dcdf-11eb-94fc-11f3589798d4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210707T000407Z&X-Amz-Expires=300&X-Amz-Signature=ff39fd1ba23626473b09ca42a091d304adce25efbd19075f8efbaaab4272fe4e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=87360999&response-content-disposition=attachment%3B filename%3DHEROsMod.tmod&response-content-type=application%2Foctet-stream
+[21:03:55] [10/INFO] [tML]: Releasing file handle for HEROsMod: HERO's Mod
+[21:03:55] [9/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/Polarities.tmod&tls12=y
+[21:03:55] [13/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/2av7idaa78i85vt/Polarities.tmod?dl=1
+[21:03:56] [13/DEBUG] [tML]: Web Request: https://www.dropbox.com/s/dl/2av7idaa78i85vt/Polarities.tmod
+[21:03:56] [13/DEBUG] [tML]: Web Request: https://uc95d98b1e3bc7c025fdbfd97992.dl.dropboxusercontent.com/cd/0/get/BRx-ZtXwnl8SU4KjzrIi1PkkskUSdE_C0WIs4FPPhkf5cQz3Cb3PjpIQrHppJTHUg3XEGbpulQQsmcHU8RKBK5EqUOyeYJINfQdVMlFFT4TCEIfDbaA4opaWhZ2pRN-JgvHCN8LC_YkGMV9KOH0ZU4Ia/file?dl=1#
+[21:04:07] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ibTah5w.png
+[21:04:09] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/oHIg7QU.png
+[21:04:12] [7/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[21:04:12] [7/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[21:06:23] [1/WARN] [tML]: Silently Caught Exception: 
+System.IO.FileFormatException: Expected Re-Logic file format.
+   at Terraria.IO.FileMetadata.Read(BinaryReader reader)
+   at Terraria.IO.FileMetadata.Read(BinaryReader reader, FileType expectedType)
+   at Terraria.Player.LoadPlayer(String playerPath, Boolean cloudSave)
+   at Terraria.Player.GetFileData(String file, Boolean cloudSave)
+   at Terraria.Main.LoadPlayers()
+   at Terraria.GameContent.UI.States.UICharacterSelect.OnActivate()
+   at Terraria.UI.UIElement.Activate()
+   at Terraria.UI.UserInterface.SetState(UIState state)
+   at Terraria.Main.DrawMenu(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[21:08:45] [8/INFO] [Terraria]: Loading World: Colhellct-a-thon, IsCloud=False
+[21:08:45] [8/INFO] [StatusText]: Resetting game objects
+[21:08:47] [8/INFO] [StatusText]: Loading world data
+[21:08:47] [8/WARN] [tML]: Silently Caught Exception: 
+System.IO.EndOfStreamException: Não é possível ler depois do fim do fluxo.
+   em System.IO.__Error.EndOfFile()
+   em System.IO.BinaryReader.ReadByte()
+   em Terraria.IO.WorldFile.LoadWorldTiles(BinaryReader reader, Boolean[] importance)
+   em Terraria.IO.WorldFile.LoadWorld_Version2(BinaryReader reader)
+   em Terraria.IO.WorldFile.loadWorld(Boolean loadFromCloud)
+   em Terraria.WorldGen.do_playWorldCallBack(Object threadContext)
+   em Terraria.WorldGen.playWorldCallBack(Object threadContext)
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[21:08:47] [8/INFO] [StatusText]: Resetting game objects
+[21:08:47] [8/INFO] [StatusText]: Loading world data
+[21:08:51] [7/INFO] [Terraria]: Loading World: Colhellct-a-thon, IsCloud=False
+[21:08:51] [7/INFO] [StatusText]: Resetting game objects
+[21:08:51] [7/INFO] [StatusText]: Loading world data
+[21:08:52] [7/INFO] [StatusText]: Settling liquids
+[21:08:55] [7/INFO] [StatusText]: Loading map data
+[21:08:55] [7/INFO] [StatusText]: Drawing map
+[21:08:56] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/herosmod/psa.php?tmodversion=0.11.8.4&version=0.3.6.1&platform=l&steamid64=76561198083711056
+[21:08:56] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/herosmod/stats.php?tmodversion=0.11.8.4&version=0.3.6.1&platform=l&playhours=0&steamid64=76561198083711056
+[21:08:57] [1/INFO] [Terraria]: Entering world with player: Thribs, IsCloud=False
+[21:09:06] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[21:09:06] [8/INFO] [StatusText]: Saving map data
+[21:09:07] [8/INFO] [StatusText]: Saving world data
+[21:09:08] [8/INFO] [StatusText]: Validating world save
