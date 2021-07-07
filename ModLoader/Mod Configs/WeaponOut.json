@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "versionlite": 1,
+  "show_weaponOut_visuals": true,
+  "forceshow_weaponOut_visuals": false,
+  "toggle_weaponOut_waist_rotation": false,
+  "enable_base_weapons_and_tiles": true,
+  "enable_whips": true,
+  "enable_fists": true,
+  "enable_dual_weapons": true,
+  "enable_accessories": true,
+  "enable_emblems": true
+}

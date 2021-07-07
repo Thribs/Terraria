@@ -1,0 +1,25 @@
+{
+  "players": [],
+  "groups": [
+    {
+      "ID": 0,
+      "name": "Default",
+      "permissions": [
+        "ModifyTerrain"
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "worldID": 1269222449,
+      "name": "Colhellct-a-thon",
+      "BanDestructiveExplosives": false,
+      "TimePaused": false,
+      "TimePausedTime": 0.0,
+      "GraveStonesDisabled": false,
+      "NPCSpawnsDiabled": false,
+      "regions": [],
+      "waypoints": []
+    }
+  ]
+}

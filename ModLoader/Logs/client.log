@@ -1,0 +1,7 @@
+﻿[20:57:50] [1/INFO] [tML]: Starting tModLoader v0.11.8.4 Win32NT client (06/07/2021)
+[20:57:50] [1/INFO] [tML]: Running on NetFramework 4.8
+[20:57:50] [1/INFO] [tML]: Engine: FNA
+[20:57:50] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64bit.exe
+[20:57:50] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
+[20:57:50] [1/INFO] [tML]: Launch Parameters: 
+[20:57:50] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
