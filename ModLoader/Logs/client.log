@@ -292,3 +292,63 @@ System.IO.EndOfStreamException: Não é possível ler depois do fim do fluxo.
 [21:09:06] [8/INFO] [StatusText]: Saving map data
 [21:09:07] [8/INFO] [StatusText]: Saving world data
 [21:09:08] [8/INFO] [StatusText]: Validating world save
+[21:14:17] [35/INFO] [Terraria]: Loading World: Colhellct-a-thon, IsCloud=False
+[21:14:17] [35/INFO] [StatusText]: Resetting game objects
+[21:14:18] [35/INFO] [StatusText]: Loading world data
+[21:14:18] [35/INFO] [StatusText]: Settling liquids
+[21:14:20] [35/INFO] [StatusText]: Loading map data
+[21:14:20] [35/INFO] [StatusText]: Drawing map
+[21:14:20] [1/INFO] [Terraria]: Entering world with player: Thribs, IsCloud=False
+[21:24:13] [35/INFO] [StatusText]: Saving world data
+[21:24:14] [35/INFO] [StatusText]: Validating world save
+[21:34:13] [25/INFO] [StatusText]: Saving world data
+[21:34:14] [25/INFO] [StatusText]: Validating world save
+[21:44:13] [28/INFO] [StatusText]: Saving world data
+[21:44:14] [28/INFO] [StatusText]: Validating world save
+[21:46:57] [14/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:46:57] [14/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:46:57] [14/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:54:13] [12/INFO] [StatusText]: Saving world data
+[21:54:14] [12/INFO] [StatusText]: Validating world save
+[22:04:13] [33/INFO] [StatusText]: Saving world data
+[22:04:14] [33/INFO] [StatusText]: Validating world save
+[22:09:10] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/herosmod/stats.php?tmodversion=0.11.8.4&version=0.3.6.1&platform=l&playhours=1&steamid64=76561198083711056
+[22:14:13] [14/INFO] [StatusText]: Saving world data
+[22:14:14] [14/INFO] [StatusText]: Validating world save
+[22:24:13] [34/INFO] [StatusText]: Saving world data
+[22:24:14] [34/INFO] [StatusText]: Validating world save
+[22:34:13] [8/INFO] [StatusText]: Saving world data
+[22:34:14] [8/INFO] [StatusText]: Validating world save
+[22:35:22] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CalamityMod.NPCs.CalamityGlobalTownNPC.ShopSetup(Int32 type, Mod mod, Chest& shop, Int32& nextSlot) in CalamityMod\NPCs\CalamityGlobalTownNPC.cs:line 1154
+   at CalamityMod.NPCs.CalamityGlobalNPC.SetupShop(Int32 type, Chest shop, Int32& nextSlot) in CalamityMod\NPCs\CalamityGlobalNPC.cs:line 4424
+   at Terraria.ModLoader.NPCLoader.SetupShop(Int32 type, Chest shop, Int32& nextSlot)
+   at Terraria.Chest.SetupShop(Int32 type)
+   at Terraria.Main.GUIChatDrawInner()
+   at Terraria.Main.GUIChatDraw()
+   at Terraria.Main.<SetupDrawInterfaceLayers>b__1636_19()
+   at Terraria.UI.GameInterfaceLayer.Draw()
+   at Terraria.Main.DrawInterface(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[22:38:03] [1/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:38:03] [1/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:38:03] [1/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:38:03] [1/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:38:09] [1/DEBUG] [tML]: Assembly Resolve: MagicStorageExtra_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> RecursiveCraft_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:44:13] [15/INFO] [StatusText]: Saving world data
+[22:44:14] [15/INFO] [StatusText]: Validating world save
+[22:54:13] [9/INFO] [StatusText]: Saving world data
+[22:54:14] [9/INFO] [StatusText]: Validating world save
+[22:58:27] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[22:58:27] [24/INFO] [StatusText]: Saving map data
+[22:58:28] [24/INFO] [StatusText]: Saving world data
+[22:58:28] [24/INFO] [StatusText]: Validating world save
