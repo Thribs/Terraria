@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 29,
+  "lastUpdateTime": 16,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
@@ -20,7 +20,7 @@
     "CheatSheet": "0.6.6.4",
     "Fargowiltas": "2.3.2.0",
     "FKBossHealthBar": "1.3.2",
-    "HEROsMod": "0.3.6.1",
+    "HEROsMod": "0.3.6.2",
     "imkSushisMod": "4.3.1",
     "LansAutoSummon": "0.2",
     "LansSharedMap": "0.21",
