@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 16,
+  "lastUpdateTime": 41,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
@@ -45,7 +45,7 @@
     "HyperMode": "1.9",
     "CalamityModMusic": "1.4.5.3",
     "CalValEX": "8.2.1",
-    "CataclysmMod": "1.0.3.2",
+    "CataclysmMod": "1.1.0.1",
     "FargowiltasMusic": "1.0.1.1"
   },
   "lootInfos": {
