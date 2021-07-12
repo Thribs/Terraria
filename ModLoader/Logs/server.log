@@ -1,206 +1,238 @@
-﻿[22:52:30] [1/INFO] [tML]: Starting tModLoader v0.11.8.4 Windows server (28/06/2021)
-[22:52:30] [1/INFO] [tML]: Running on NetFramework 4.8
-[22:52:30] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoaderServer.exe
-[22:52:30] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
-[22:52:30] [1/INFO] [tML]: Launch Parameters: -autoshutdown -password -lang 1 -cloudworld ModLoader/worlds\PPK_GLX_1337_Reborn.wld -modpath C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods -showserverconsole -steam -localsteamid 76561198083711056 -lobby friends -friendsoffriends
-[22:52:30] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:52:30] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:52:30] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:52:31] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
-[22:52:31] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-[22:52:31] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
-[22:52:32] [1/INFO] [tML]: Unloading mods
-[22:52:33] [1/INFO] [tML]: Finding Mods...
-[22:52:34] [1/INFO] [tML]: Sandboxing: SpiritMod
-[22:52:35] [1/INFO] [tML]: Sandboxing: AlchemistNPCLite
-[22:52:35] [1/INFO] [tML]: Sandboxing: AutoTrash
-[22:52:35] [1/INFO] [tML]: Sandboxing: BaseMod
-[22:52:35] [1/INFO] [tML]: Sandboxing: BossChecklist
-[22:52:35] [1/INFO] [tML]: Sandboxing: BothEvils
-[22:52:35] [1/INFO] [tML]: Sandboxing: CheatExtensions
-[22:52:35] [1/INFO] [tML]: Sandboxing: CheatSheet
-[22:52:35] [1/INFO] [tML]: Sandboxing: Fargowiltas
-[22:52:36] [1/INFO] [tML]: Sandboxing: FunctionalBlockSwap
-[22:52:36] [1/INFO] [tML]: Sandboxing: HEROsMod
-[22:52:36] [1/INFO] [tML]: Sandboxing: imkSushisMod
-[22:52:36] [1/INFO] [tML]: Sandboxing: LansSharedMap
-[22:52:36] [1/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
-[22:52:36] [1/INFO] [tML]: Sandboxing: MagicStorageExtra
-[22:52:36] [1/INFO] [tML]: Sandboxing: MaxStackExtra
-[22:52:36] [1/INFO] [tML]: Sandboxing: MoreChestLoot
-[22:52:36] [1/INFO] [tML]: Sandboxing: RecipeBrowser
-[22:52:36] [1/INFO] [tML]: Sandboxing: ResearchFrom14
-[22:52:36] [1/INFO] [tML]: Sandboxing: SmartDoors
-[22:52:36] [1/INFO] [tML]: Sandboxing: Split
-[22:52:37] [1/INFO] [tML]: Sandboxing: UtilityBombMod
-[22:52:37] [1/INFO] [tML]: Sandboxing: VeinMiner
-[22:52:37] [1/INFO] [tML]: Sandboxing: WeaponOutLite
-[22:52:37] [1/INFO] [tML]: Sandboxing: Wildlife
-[22:52:37] [1/INFO] [tML]: Instantiating Mods...
-[22:52:38] [1/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
-[22:52:39] [1/INFO] [tML]: Initializing: ModLoader v0.11.8.4
-[22:52:39] [1/INFO] [tML]: Initializing: SpiritMod v1.4.2.3
-[22:52:39] [1/DEBUG] [tML]: Assembly Resolve: SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:52:39] [1/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:52:39] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.12.19.1 -> 20.11.16.1
-[22:52:39] [1/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:52:39] [1/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=19.12.19.1 -> 20.11.16.1
-[22:52:39] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawProjectiles() added by SpiritMod_0
-[22:52:39] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawNPC(int, bool) added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Projectile::NewProjectile(float, float, float, float, int, int, float, int, float, float) added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Player::KeyDoubleTap(int) added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawDust() added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Player::ToggleInv() added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawInterface(GameTime) added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook On.Terraria.Localization.LanguageManager::GetTextValue(string) added by SpiritMod_0
-[22:52:40] [1/DEBUG] [tML]: Hook IL.Terraria.Player::ItemCheck(int) modified by SpiritMod_0
-[22:52:42] [1/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
-[22:52:42] [1/INFO] [tML]: Initializing: AutoTrash v0.5
-[22:52:42] [1/INFO] [tML]: Initializing: BaseMod v2.0.0.0
-[22:52:42] [1/INFO] [tML]: Initializing: BossChecklist v1.1.5.5
-[22:52:42] [1/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
-[22:52:42] [1/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[22:52:42] [1/INFO] [tML]: Initializing: BothEvils v3.1
-[22:52:42] [1/INFO] [tML]: Initializing: CheatExtensions v0.1.3
-[22:52:42] [1/INFO] [tML]: Initializing: CheatSheet v0.6.6.4
-[22:52:42] [1/INFO] [tML]: Initializing: Fargowiltas v2.3.2.0
-[22:52:42] [1/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
-[22:52:42] [1/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
-[22:52:43] [1/INFO] [tML]: Initializing: HEROsMod v0.3.6.1
-[22:52:43] [1/INFO] [tML]: Initializing: imkSushisMod v4.3.1
-[22:52:43] [1/INFO] [tML]: Initializing: LansSharedMap v0.21
-[22:52:43] [1/DEBUG] [tML]: Hook IL.Terraria.Map.WorldMap::ConsumeUpdate(int, int) modified by LansSharedMap_0
-[22:52:43] [1/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
-[22:52:43] [1/INFO] [tML]: Initializing: MagicStorageExtra v0.5.3.9
-[22:52:43] [1/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
-[22:52:43] [1/INFO] [tML]: Initializing: MoreChestLoot v0.6
-[22:52:43] [1/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
-[22:52:43] [1/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
-[22:52:43] [1/INFO] [tML]: Initializing: ResearchFrom14 v2.0
-[22:52:43] [1/INFO] [tML]: Initializing: SmartDoors v1.3.3
-[22:52:43] [1/DEBUG] [tML]: Assembly Resolve: SmartDoors_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
-[22:52:43] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 20.11.16.1
-[22:52:43] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
-[22:52:43] [1/DEBUG] [tML]: Assembly Resolve: SmartDoors_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:52:43] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.3.0
-[22:52:44] [1/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
-[22:52:44] [1/INFO] [tML]: Initializing: Split v0.4.0.13
-[22:52:44] [1/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
-[22:52:44] [1/INFO] [tML]: Initializing: VeinMiner v1.3.1
-[22:52:45] [1/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
-[22:52:45] [1/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
-[22:52:46] [1/INFO] [tML]: Initializing: WeaponOutLite v0.1
-[22:52:46] [1/INFO] [tML]: Initializing: Wildlife v0.14
-[22:52:46] [1/INFO] [tML]: Setting up...
-[22:52:47] [1/INFO] [tML]: Loading: ModLoader v0.11.8.4
-[22:52:47] [1/INFO] [tML]: Loading: SpiritMod v1.4.2.3
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/NighttimeAmbience being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/NighttimeAmbience type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/WavesAmbience being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/WavesAmbience type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/LightWind being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/LightWind type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/DesertWind being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/DesertWind type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/CaveAmbience being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/CaveAmbience type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/SpookyAmbience being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/SpookyAmbience type: Custom
-[22:52:48] [1/DEBUG] [SpiritMod]: Sound looper Sounds/BossSFX/Scarab_Wings being created. Style: 0
-[22:52:48] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/BossSFX/Scarab_Wings type: Custom
-[22:52:48] [1/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
-[22:52:48] [1/INFO] [tML]: Loading: AutoTrash v0.5
-[22:52:48] [1/INFO] [tML]: Loading: BaseMod v2.0.0.0
-[22:52:48] [1/INFO] [tML]: Loading: BossChecklist v1.1.5.5
-[22:52:48] [1/INFO] [tML]: Loading: BothEvils v3.1
-[22:52:48] [1/INFO] [tML]: Loading: CheatExtensions v0.1.3
-[22:52:48] [1/INFO] [tML]: Loading: CheatSheet v0.6.6.4
-[22:52:48] [1/INFO] [tML]: Loading: Fargowiltas v2.3.2.0
-[22:52:48] [1/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
-[22:52:49] [1/INFO] [tML]: Loading: HEROsMod v0.3.6.1
-[22:52:49] [1/INFO] [tML]: Loading: imkSushisMod v4.3.1
-[22:52:49] [1/INFO] [tML]: Loading: LansSharedMap v0.21
-[22:52:49] [1/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
-[22:52:49] [1/INFO] [tML]: Loading: MagicStorageExtra v0.5.3.9
-[22:52:49] [1/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
-[22:52:49] [1/INFO] [tML]: Loading: MoreChestLoot v0.6
-[22:52:49] [1/INFO] [tML]: Loading: RecipeBrowser v0.8.9
-[22:52:49] [1/INFO] [tML]: Loading: ResearchFrom14 v2.0
-[22:52:49] [1/INFO] [tML]: Loading: SmartDoors v1.3.3
-[22:52:49] [1/INFO] [tML]: Loading: Split v0.4.0.13
-[22:52:50] [1/INFO] [tML]: Loading: UtilityBombMod v0.2.5
-[22:52:50] [1/INFO] [tML]: Loading: VeinMiner v1.3.1
-[22:52:50] [1/INFO] [tML]: Loading: WeaponOutLite v0.1
-[22:52:50] [1/INFO] [tML]: Loading: Wildlife v0.14
-[22:52:50] [1/INFO] [tML]: RAM usage: 345.5 MB
-[22:52:50] [1/INFO] [tML]: Adding Recipes...
-[22:52:51] [6/INFO] [Terraria]: Loading World: PPK GLX 1337 Reborn, IsCloud=True
-[22:52:51] [6/INFO] [StatusText]: Resetting game objects
-[22:52:55] [6/INFO] [StatusText]: Loading world data
-[22:52:57] [6/INFO] [StatusText]: Settling liquids
-[22:52:59] [7/INFO] [Terraria]: 127.0.0.1:50283 is connecting...
-[22:52:59] [10/WARN] [tML]: Silently Caught Exception: 
-System.Runtime.InteropServices.COMException: Recurso solicitado em uso. (Exceção de HRESULT: 0x800700AA)
-   em NATUPNPLib.IStaticPortMappingCollection.Add(Int32 lExternalPort, String bstrProtocol, Int32 lInternalPort, String bstrInternalClient, Boolean bEnabled, String bstrDescription)
-   em Terraria.Netplay.OpenPort()
-   em Terraria.Netplay.ServerLoop(Object threadContext)
-   em System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+﻿[22:43:44] [1/INFO] [tML]: Starting tModLoader v0.11.8.4 Win32NT server (11/07/2021)
+[22:43:44] [1/INFO] [tML]: Running on NetFramework 4.8
+[22:43:44] [1/INFO] [tML]: Engine: FNA
+[22:43:44] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64BitServer.exe
+[22:43:44] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
+[22:43:44] [1/INFO] [tML]: Launch Parameters: -autoshutdown -password -lang 1 -world C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Worlds\PPK_GLX_1337_Reborn.wld -modpath C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods -showserverconsole -steam -localsteamid 76561198083711056 -lobby friends
+[22:43:44] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[22:43:45] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[22:43:45] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[22:43:45] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[22:43:46] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:46] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[22:43:46] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:46] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
+[22:43:46] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
+[22:43:47] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
+[22:43:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:49] [1/INFO] [tML]: Unloading mods
+[22:43:50] [1/INFO] [tML]: Finding Mods...
+[22:43:52] [1/INFO] [tML]: Sandboxing: SpiritMod
+[22:43:53] [1/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[22:43:53] [1/INFO] [tML]: Sandboxing: AutoTrash
+[22:43:53] [1/INFO] [tML]: Sandboxing: BaseMod
+[22:43:54] [1/INFO] [tML]: Sandboxing: BossChecklist
+[22:43:54] [1/INFO] [tML]: Sandboxing: BothEvils
+[22:43:54] [1/INFO] [tML]: Sandboxing: CheatExtensions
+[22:43:54] [1/INFO] [tML]: Sandboxing: CheatSheet
+[22:43:54] [1/INFO] [tML]: Sandboxing: Fargowiltas
+[22:43:54] [1/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[22:43:54] [1/INFO] [tML]: Sandboxing: HEROsMod
+[22:43:54] [1/INFO] [tML]: Sandboxing: imkSushisMod
+[22:43:55] [1/INFO] [tML]: Sandboxing: LansSharedMap
+[22:43:55] [1/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[22:43:55] [1/INFO] [tML]: Sandboxing: MagicStorageExtra
+[22:43:55] [1/INFO] [tML]: Sandboxing: MaxStackExtra
+[22:43:55] [1/INFO] [tML]: Sandboxing: MoreChestLoot
+[22:43:55] [1/INFO] [tML]: Sandboxing: RecipeBrowser
+[22:43:55] [1/INFO] [tML]: Sandboxing: ResearchFrom14
+[22:43:55] [1/INFO] [tML]: Sandboxing: SmartDoors
+[22:43:55] [1/INFO] [tML]: Sandboxing: Split
+[22:43:56] [1/DEBUG] [tML]: Generating ModuleDefinition for FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:56] [1/DEBUG] [tML]: Generating ModuleDefinition for FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:56] [1/DEBUG] [tML]: Generating ModuleDefinition for FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:56] [1/INFO] [tML]: Sandboxing: UtilityBombMod
+[22:43:56] [1/INFO] [tML]: Sandboxing: VeinMiner
+[22:43:56] [1/INFO] [tML]: Sandboxing: WeaponOutLite
+[22:43:56] [1/INFO] [tML]: Sandboxing: Wildlife
+[22:43:56] [1/INFO] [tML]: Instantiating Mods...
+[22:43:57] [1/DEBUG] [tML]: Assembly Resolve: SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
+[22:43:57] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[22:43:57] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+[22:43:57] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
+[22:44:00] [1/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[22:44:00] [1/INFO] [tML]: Initializing: ModLoader v0.11.8.4
+[22:44:00] [1/INFO] [tML]: Initializing: SpiritMod v1.4.2.3
+[22:44:01] [1/DEBUG] [tML]: Assembly Resolve: SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[22:44:01] [1/DEBUG] [tML]: Assembly Resolve: SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[22:44:01] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawProjectiles() added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawNPC(int, bool) added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Projectile::NewProjectile(float, float, float, float, int, int, float, int, float, float) added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Player::KeyDoubleTap(int) added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawDust() added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Player::ToggleInv() added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawInterface(GameTime) added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook On.Terraria.Localization.LanguageManager::GetTextValue(string) added by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Hook IL.Terraria.Player::ItemCheck(int) modified by SpiritMod_0
+[22:44:01] [1/DEBUG] [tML]: Assembly Resolve: SpiritMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[22:44:01] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
+[22:44:02] [1/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[22:44:02] [1/INFO] [tML]: Initializing: AutoTrash v0.5
+[22:44:03] [1/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[22:44:03] [1/INFO] [tML]: Initializing: BossChecklist v1.1.5.5
+[22:44:03] [1/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[22:44:03] [1/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[22:44:03] [1/INFO] [tML]: Initializing: BothEvils v3.1
+[22:44:03] [1/INFO] [tML]: Initializing: CheatExtensions v0.1.3
+[22:44:03] [1/INFO] [tML]: Initializing: CheatSheet v0.6.6.4
+[22:44:03] [1/INFO] [tML]: Initializing: Fargowiltas v2.3.2.0
+[22:44:04] [1/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[22:44:04] [1/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[22:44:04] [1/INFO] [tML]: Initializing: HEROsMod v0.3.6.2
+[22:44:04] [1/INFO] [tML]: Initializing: imkSushisMod v4.3.1
+[22:44:04] [1/INFO] [tML]: Initializing: LansSharedMap v0.21
+[22:44:04] [1/DEBUG] [tML]: Hook IL.Terraria.Map.WorldMap::ConsumeUpdate(int, int) modified by LansSharedMap_0
+[22:44:04] [1/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[22:44:05] [1/INFO] [tML]: Initializing: MagicStorageExtra v0.5.3.10
+[22:44:05] [1/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[22:44:05] [1/INFO] [tML]: Initializing: MoreChestLoot v0.6
+[22:44:05] [1/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[22:44:05] [1/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[22:44:05] [1/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[22:44:05] [1/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[22:44:05] [1/DEBUG] [tML]: Assembly Resolve: SmartDoors_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[22:44:05] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
+[22:44:05] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[22:44:05] [1/DEBUG] [tML]: Assembly Resolve: SmartDoors_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[22:44:05] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
+[22:44:06] [1/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[22:44:06] [1/INFO] [tML]: Initializing: Split v0.4.0.14
+[22:44:06] [1/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[22:44:07] [1/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[22:44:07] [1/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[22:44:07] [1/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[22:44:08] [1/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[22:44:08] [1/INFO] [tML]: Initializing: Wildlife v0.14
+[22:44:08] [1/INFO] [tML]: Setting up...
+[22:44:08] [1/INFO] [tML]: Loading: ModLoader v0.11.8.4
+[22:44:08] [1/INFO] [tML]: Loading: SpiritMod v1.4.2.3
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/NighttimeAmbience being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/NighttimeAmbience type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/WavesAmbience being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/WavesAmbience type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/LightWind being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/LightWind type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/DesertWind being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/DesertWind type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/CaveAmbience being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/CaveAmbience type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/SpookyAmbience being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/SpookyAmbience type: Custom
+[22:44:10] [1/DEBUG] [SpiritMod]: Sound looper Sounds/BossSFX/Scarab_Wings being created. Style: 0
+[22:44:10] [1/WARN] [SpiritMod]: Couldn't create SoundLooper object properly! style: 0 name: Sounds/BossSFX/Scarab_Wings type: Custom
+[22:44:10] [1/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[22:44:10] [1/INFO] [tML]: Loading: AutoTrash v0.5
+[22:44:10] [1/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[22:44:10] [1/INFO] [tML]: Loading: BossChecklist v1.1.5.5
+[22:44:11] [1/INFO] [tML]: Loading: BothEvils v3.1
+[22:44:11] [1/INFO] [tML]: Loading: CheatExtensions v0.1.3
+[22:44:11] [1/INFO] [tML]: Loading: CheatSheet v0.6.6.4
+[22:44:11] [1/INFO] [tML]: Loading: Fargowiltas v2.3.2.0
+[22:44:11] [1/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[22:44:11] [1/INFO] [tML]: Loading: HEROsMod v0.3.6.2
+[22:44:11] [1/INFO] [tML]: Loading: imkSushisMod v4.3.1
+[22:44:12] [1/INFO] [tML]: Loading: LansSharedMap v0.21
+[22:44:12] [1/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[22:44:12] [1/INFO] [tML]: Loading: MagicStorageExtra v0.5.3.10
+[22:44:12] [1/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[22:44:12] [1/INFO] [tML]: Loading: MoreChestLoot v0.6
+[22:44:12] [1/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[22:44:13] [1/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[22:44:13] [1/INFO] [tML]: Loading: SmartDoors v1.3.3
+[22:44:13] [1/INFO] [tML]: Loading: Split v0.4.0.14
+[22:44:14] [1/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[22:44:14] [1/INFO] [tML]: Loading: VeinMiner v1.3.1
+[22:44:14] [1/INFO] [tML]: Loading: WeaponOutLite v0.1
+[22:44:14] [1/INFO] [tML]: Loading: Wildlife v0.14
+[22:44:14] [1/INFO] [tML]: RAM usage: 955.5 MB
+[22:44:14] [1/INFO] [tML]: Adding Recipes...
+[22:44:15] [3/INFO] [Terraria]: Loading World: PPK GLX 1337 Reborn, IsCloud=False
+[22:44:15] [3/INFO] [StatusText]: Resetting game objects
+[22:44:18] [3/INFO] [StatusText]: Loading world data
+[22:44:21] [3/INFO] [StatusText]: Settling liquids
+[22:44:24] [6/INFO] [Terraria]: 127.0.0.1:56537 is connecting...
+[22:44:24] [1/INFO] [Terraria]: Running one update...
+[22:44:24] [1/INFO] [tML]: Server starting with AllowVanillaClients set to False
+[22:44:24] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config AlchemistNPCLite ModConfiguration: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config BothEvils BothEvilsConfig: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config CheatExtensions Config: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config CheatSheet CheatSheetServerConfig: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config Fargowiltas FargoConfig: {"Halloween":true,"Christmas":true}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config HEROsMod HEROsModServerConfig: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config LansUnlimitedBuffSlots Config: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config MaxStackExtra MaxStackExtraConfig: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 Config: {"autoShiftResearch":true,"allowCraftFromResearch":true,"buttonAlwaysOn":true,"shareWithTeam":true,"PartsCompat":true}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 ExceptionListConfig: {}
+[22:44:25] [1/INFO] [Terraria]: Sending Server Config UtilityBombMod Config: {}
+[22:44:25] [3/INFO] [Terraria]: JIT loading finished
+[22:44:26] [1/INFO] [Terraria]: Listening on port 7777
+[22:44:30] [1/INFO] [Terraria]: Giorgio has joined.
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config AlchemistNPCLite ModConfiguration: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config BothEvils BothEvilsConfig: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config CheatExtensions Config: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config CheatSheet CheatSheetServerConfig: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config Fargowiltas FargoConfig: {"Halloween":true,"Christmas":true}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config HEROsMod HEROsModServerConfig: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config LansUnlimitedBuffSlots Config: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config MaxStackExtra MaxStackExtraConfig: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 Config: {"autoShiftResearch":true,"allowCraftFromResearch":true,"buttonAlwaysOn":true,"shareWithTeam":true,"PartsCompat":true}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 ExceptionListConfig: {}
+[22:45:07] [1/INFO] [Terraria]: Sending Server Config UtilityBombMod Config: {}
+[22:45:12] [1/INFO] [Terraria]: Pog has joined.
+[22:49:38] [24/INFO] [StatusText]: Saving world data
+[22:49:39] [24/INFO] [StatusText]: Validating world save
+[22:52:05] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
+[22:52:08] [18/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em SpiritMod.Items.Halloween.Candy.SetDefaults() na SpiritMod\Items\Halloween\Candy.cs:linha 46
+   em Terraria.ModLoader.ItemLoader.SetDefaults(Item item, Boolean createModItem)
+   em Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck)
+   em ResearchFrom14.Common.ResearchTable.FillResearchTable() na ResearchFrom14\Common\ResearchTable.cs:linha 106
+   em System.Threading.Tasks.Task.Execute()
    em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   em System.Threading.ThreadHelper.ThreadStart(Object obj)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:52:59] [1/INFO] [Terraria]: Running one update...
-[22:52:59] [1/INFO] [tML]: Server starting with AllowVanillaClients set to False
-[22:52:59] [1/DEBUG] [tML]: Fallback synchronization context assigned
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config AlchemistNPCLite ModConfiguration: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config BothEvils BothEvilsConfig: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config CheatExtensions Config: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config CheatSheet CheatSheetServerConfig: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config Fargowiltas FargoConfig: {"Halloween":true,"Christmas":true}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config HEROsMod HEROsModServerConfig: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config LansUnlimitedBuffSlots Config: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config MaxStackExtra MaxStackExtraConfig: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 Config: {"autoShiftResearch":true,"allowCraftFromResearch":true,"buttonAlwaysOn":true,"shareWithTeam":true,"PartsCompat":true}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config ResearchFrom14 ExceptionListConfig: {}
-[22:53:00] [1/INFO] [Terraria]: Sending Server Config UtilityBombMod Config: {}
-[22:53:01] [13/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:53:01] [13/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
-[22:53:01] [13/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:53:01] [13/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:53:01] [1/INFO] [Terraria]: Listening on port 7777
-[22:53:01] [6/INFO] [Terraria]: JIT loading finished
-[22:53:03] [1/INFO] [Terraria]: Giorgio has joined.
-[22:54:43] [1/WARN] [tML]: Silently Caught Exception: 
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at Terraria.Player.GetModPlayer(Nullable`1 index)
-   at Terraria.Player.GetModPlayer[T]()
-   at ResearchFrom14.ResearchFrom14.HandlePacket(BinaryReader reader, Int32 whoAmI) in ResearchFrom14.cs:line 303
-   at Terraria.ModLoader.ModNet.HandleModPacket(BinaryReader reader, Int32 whoAmI, Int32 length)
-   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType)
-   at Terraria.NetMessage.CheckBytes(Int32 bufferIndex)
-   at Terraria.Netplay.<>c.<ServerLoop>b__46_2()
-   at System.Threading.Tasks.Task.InnerInvoke()
-   at System.Threading.Tasks.Task.Execute()
-   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
-   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
-   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
-   at Terraria.Netplay.OnUpdate()
+[22:52:08] [18/WARN] [ResearchFrom14]: Item id: 4576 Threw an exception on SetDefaults and will be unresearchable:
+   em SpiritMod.Items.Halloween.Candy.SetDefaults() na SpiritMod\Items\Halloween\Candy.cs:linha 46
+   em Terraria.ModLoader.ItemLoader.SetDefaults(Item item, Boolean createModItem)
+   em Terraria.Item.SetDefaults(Int32 Type, Boolean noMatCheck)
+   em ResearchFrom14.Common.ResearchTable.FillResearchTable() na ResearchFrom14\Common\ResearchTable.cs:linha 106
+[22:52:09] [18/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
+[22:52:09] [18/INFO] [ResearchFrom14]: Research System Initialized.
+[23:17:02] [1/INFO] [Terraria]: Pog has left.
+[23:19:24] [1/WARN] [tML]: Silently Caught Exception: 
+System.Net.Sockets.SocketException: Uma conexão estabelecida foi anulada pelo software no computador host
+   at System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7)
+   at Terraria.NPC.UpdateNPC(Int32 i)
    at Terraria.Main.DoUpdate(GameTime gameTime)
    at Terraria.Main.Update(GameTime gameTime)
    at Terraria.Main.DedServ()
    at Terraria.Program.LaunchGame_()
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
-   at Terraria.WindowsLaunch.Main(String[] args)
+   at Terraria.FNALaunch.Main(String[] args)
 
-[22:56:47] [1/INFO] [Terraria]: Giorgio has left.
-[22:56:47] [1/INFO] [Terraria]: Local player left. Autoshutdown starting.
-[22:56:48] [1/INFO] [StatusText]: Saving world data
-[22:56:49] [1/INFO] [StatusText]: Validating world save
-[22:56:52] [10/INFO] [StatusText]: Saving world data
-[22:56:53] [10/INFO] [StatusText]: Validating world save
+[23:19:24] [1/WARN] [tML]: Silently Caught Exception: 
+System.IO.IOException: Unable to write data to the transport connection: Uma conexão estabelecida foi anulada pelo software no computador host.
+   at System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[23:19:24] [1/INFO] [Terraria]: Giorgio has left.
+[23:19:24] [1/INFO] [Terraria]: Local player left. Autoshutdown starting.
+[23:19:25] [1/INFO] [StatusText]: Saving world data
+[23:19:25] [1/INFO] [StatusText]: Validating world save
+[23:19:26] [10/INFO] [StatusText]: Saving world data
+[23:19:27] [10/INFO] [StatusText]: Validating world save

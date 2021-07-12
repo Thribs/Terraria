@@ -1,5 +1,12 @@
 {
-  "players": [],
+  "players": [
+    {
+      "ID": 0,
+      "username": "k",
+      "password": "k",
+      "group": -1
+    }
+  ],
   "groups": [
     {
       "ID": 0,
@@ -13,6 +20,17 @@
     {
       "worldID": 1269222449,
       "name": "Colhellct-a-thon",
+      "BanDestructiveExplosives": false,
+      "TimePaused": false,
+      "TimePausedTime": 0.0,
+      "GraveStonesDisabled": false,
+      "NPCSpawnsDiabled": false,
+      "regions": [],
+      "waypoints": []
+    },
+    {
+      "worldID": 190934394,
+      "name": "PPK GLX 1337 Reborn",
       "BanDestructiveExplosives": false,
       "TimePaused": false,
       "TimePausedTime": 0.0,

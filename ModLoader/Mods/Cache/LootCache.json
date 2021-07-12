@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 41,
+  "lastUpdateTime": 1498,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
@@ -38,7 +38,7 @@
     "FunctionalBlockSwap": "1.0.6.5",
     "MagicStorageExtra": "0.5.3.10",
     "SpiritMod": "1.4.2.3",
-    "Split": "0.4.0.13",
+    "Split": "0.4.0.14",
     "CalamityMod": "1.4.5.7",
     "FargowiltasSouls": "1.3.96.2",
     "FargowiltasSoulsDLC": "0.2.2",
@@ -351,12 +351,12 @@
         "id": 318
       },
       {
-        "mod": "Split",
-        "name": "Spotter"
-      },
-      {
         "mod": "CalamityMod",
         "name": "CalamityEye"
+      },
+      {
+        "mod": "Split",
+        "name": "Spotter"
       }
     ],
     "Terraria\tShackle\t216": [
@@ -733,14 +733,6 @@
         "name": "WoodCrateMimic"
       },
       {
-        "mod": "Split",
-        "name": "Hobgoblin"
-      },
-      {
-        "mod": "Split",
-        "name": "Troll"
-      },
-      {
         "mod": "CalamityMod",
         "name": "CrabulonIdle"
       },
@@ -759,6 +751,14 @@
       {
         "mod": "CalValEX",
         "name": "Fogbound"
+      },
+      {
+        "mod": "Split",
+        "name": "Hobgoblin"
+      },
+      {
+        "mod": "Split",
+        "name": "Troll"
       }
     ],
     "MagicStorage\tShadowDiamond": [
@@ -883,12 +883,12 @@
         "name": "Teratoma"
       },
       {
-        "mod": "Split",
-        "name": "Decaying"
-      },
-      {
         "mod": "CalamityMod",
         "name": "HiveMindP2"
+      },
+      {
+        "mod": "Split",
+        "name": "Decaying"
       }
     ],
     "Terraria\tWorm Tooth\t69": [
@@ -1789,10 +1789,6 @@
         "name": "Hornetfish"
       },
       {
-        "mod": "Split",
-        "name": "Hunny"
-      },
-      {
         "mod": "CalamityMod",
         "name": "PlagueBee"
       },
@@ -1811,6 +1807,10 @@
       {
         "mod": "CalamityMod",
         "name": "PlaguebringerShade"
+      },
+      {
+        "mod": "Split",
+        "name": "Hunny"
       }
     ],
     "Terraria\tAncient Cobalt Leggings\t962": [
@@ -3378,14 +3378,6 @@
         "name": "Spewer"
       },
       {
-        "mod": "Split",
-        "name": "Spotter"
-      },
-      {
-        "mod": "Split",
-        "name": "Stalker"
-      },
-      {
         "mod": "CalamityMod",
         "name": "PerforatorHeadLarge"
       },
@@ -3400,6 +3392,14 @@
       {
         "mod": "CalamityMod",
         "name": "PerforatorHive"
+      },
+      {
+        "mod": "Split",
+        "name": "Spotter"
+      },
+      {
+        "mod": "Split",
+        "name": "Stalker"
       }
     ],
     "Terraria\tMeat Grinder\t996": [
@@ -7600,242 +7600,6 @@
         "name": "WinterbornMelee"
       },
       {
-        "mod": "Split",
-        "name": "CollectorTeleport"
-      },
-      {
-        "mod": "Split",
-        "name": "Breathtaker"
-      },
-      {
-        "mod": "Split",
-        "name": "Idler"
-      },
-      {
-        "mod": "Split",
-        "name": "Latopus"
-      },
-      {
-        "mod": "Split",
-        "name": "OverloaderHead"
-      },
-      {
-        "mod": "Split",
-        "name": "Savage"
-      },
-      {
-        "mod": "Split",
-        "name": "Toiler"
-      },
-      {
-        "mod": "Split",
-        "name": "Unfairy"
-      },
-      {
-        "mod": "Split",
-        "name": "BoneSerpentHead"
-      },
-      {
-        "mod": "Split",
-        "name": "CommandoBoss"
-      },
-      {
-        "mod": "Split",
-        "name": "CommandoDefeated"
-      },
-      {
-        "mod": "Split",
-        "name": "Insurgent"
-      },
-      {
-        "mod": "Split",
-        "name": "InsurgentDefeated"
-      },
-      {
-        "mod": "Split",
-        "name": "Menace"
-      },
-      {
-        "mod": "Split",
-        "name": "Mirage"
-      },
-      {
-        "mod": "Split",
-        "name": "MirageDefeated"
-      },
-      {
-        "mod": "Split",
-        "name": "OneShot"
-      },
-      {
-        "mod": "Split",
-        "name": "OneShotFall"
-      },
-      {
-        "mod": "Split",
-        "name": "OneShotSpawn"
-      },
-      {
-        "mod": "Split",
-        "name": "Paraffin"
-      },
-      {
-        "mod": "Split",
-        "name": "ParaffinDefeated"
-      },
-      {
-        "mod": "Split",
-        "name": "ParaffinReleased"
-      },
-      {
-        "mod": "Split",
-        "name": "Seth"
-      },
-      {
-        "mod": "Split",
-        "name": "SethDefeated"
-      },
-      {
-        "mod": "Split",
-        "name": "SpiritOfCaptivity"
-      },
-      {
-        "mod": "Split",
-        "name": "TheSpirit"
-      },
-      {
-        "mod": "Split",
-        "name": "CaveImp"
-      },
-      {
-        "mod": "Split",
-        "name": "Hobgoblin"
-      },
-      {
-        "mod": "Split",
-        "name": "Sentinel"
-      },
-      {
-        "mod": "Split",
-        "name": "Decaying"
-      },
-      {
-        "mod": "Split",
-        "name": "Spotter"
-      },
-      {
-        "mod": "Split",
-        "name": "Stalker"
-      },
-      {
-        "mod": "Split",
-        "name": "Fortress"
-      },
-      {
-        "mod": "Split",
-        "name": "SwitchCaster"
-      },
-      {
-        "mod": "Split",
-        "name": "Echo"
-      },
-      {
-        "mod": "Split",
-        "name": "Fairyfly"
-      },
-      {
-        "mod": "Split",
-        "name": "Hunny"
-      },
-      {
-        "mod": "Split",
-        "name": "Sarracenia"
-      },
-      {
-        "mod": "Split",
-        "name": "Colossus"
-      },
-      {
-        "mod": "Split",
-        "name": "ColossusDeath"
-      },
-      {
-        "mod": "Split",
-        "name": "Darknut"
-      },
-      {
-        "mod": "Split",
-        "name": "FunkySoul"
-      },
-      {
-        "mod": "Split",
-        "name": "Garghoul"
-      },
-      {
-        "mod": "Split",
-        "name": "Husk"
-      },
-      {
-        "mod": "Split",
-        "name": "Jumpkin"
-      },
-      {
-        "mod": "Split",
-        "name": "Knocker"
-      },
-      {
-        "mod": "Split",
-        "name": "MindFlayer"
-      },
-      {
-        "mod": "Split",
-        "name": "RebelliousSpirit"
-      },
-      {
-        "mod": "Split",
-        "name": "ShadowCaster"
-      },
-      {
-        "mod": "Split",
-        "name": "Threater"
-      },
-      {
-        "mod": "Split",
-        "name": "Troll"
-      },
-      {
-        "mod": "Split",
-        "name": "TrollDeath"
-      },
-      {
-        "mod": "Split",
-        "name": "Crabcannon"
-      },
-      {
-        "mod": "Split",
-        "name": "FacelessPirate"
-      },
-      {
-        "mod": "Split",
-        "name": "HeadlessPirate"
-      },
-      {
-        "mod": "Split",
-        "name": "HeadlessPirateExplode"
-      },
-      {
-        "mod": "Split",
-        "name": "Thriller"
-      },
-      {
-        "mod": "Split",
-        "name": "Witness"
-      },
-      {
-        "mod": "Split",
-        "name": "Combuster"
-      },
-      {
         "mod": "CalamityMod",
         "name": "Bloatfish"
       },
@@ -8726,6 +8490,242 @@
       {
         "mod": "FargowiltasSoulsDLC",
         "name": "GunUzi"
+      },
+      {
+        "mod": "Split",
+        "name": "CollectorTeleport"
+      },
+      {
+        "mod": "Split",
+        "name": "Breathtaker"
+      },
+      {
+        "mod": "Split",
+        "name": "Idler"
+      },
+      {
+        "mod": "Split",
+        "name": "Latopus"
+      },
+      {
+        "mod": "Split",
+        "name": "OverloaderHead"
+      },
+      {
+        "mod": "Split",
+        "name": "Savage"
+      },
+      {
+        "mod": "Split",
+        "name": "Toiler"
+      },
+      {
+        "mod": "Split",
+        "name": "Unfairy"
+      },
+      {
+        "mod": "Split",
+        "name": "BoneSerpentHead"
+      },
+      {
+        "mod": "Split",
+        "name": "CommandoBoss"
+      },
+      {
+        "mod": "Split",
+        "name": "CommandoDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "Insurgent"
+      },
+      {
+        "mod": "Split",
+        "name": "InsurgentDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "Menace"
+      },
+      {
+        "mod": "Split",
+        "name": "MenaceDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "Mirage"
+      },
+      {
+        "mod": "Split",
+        "name": "MirageDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "OneShot"
+      },
+      {
+        "mod": "Split",
+        "name": "OneShotFall"
+      },
+      {
+        "mod": "Split",
+        "name": "OneShotSpawn"
+      },
+      {
+        "mod": "Split",
+        "name": "Paraffin"
+      },
+      {
+        "mod": "Split",
+        "name": "ParaffinDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "ParaffinReleased"
+      },
+      {
+        "mod": "Split",
+        "name": "Seth"
+      },
+      {
+        "mod": "Split",
+        "name": "SethDefeated"
+      },
+      {
+        "mod": "Split",
+        "name": "SpiritOfCaptivity"
+      },
+      {
+        "mod": "Split",
+        "name": "TheSpirit"
+      },
+      {
+        "mod": "Split",
+        "name": "CaveImp"
+      },
+      {
+        "mod": "Split",
+        "name": "Hobgoblin"
+      },
+      {
+        "mod": "Split",
+        "name": "Sentinel"
+      },
+      {
+        "mod": "Split",
+        "name": "Decaying"
+      },
+      {
+        "mod": "Split",
+        "name": "Spotter"
+      },
+      {
+        "mod": "Split",
+        "name": "Stalker"
+      },
+      {
+        "mod": "Split",
+        "name": "Fortress"
+      },
+      {
+        "mod": "Split",
+        "name": "SwitchCaster"
+      },
+      {
+        "mod": "Split",
+        "name": "Echo"
+      },
+      {
+        "mod": "Split",
+        "name": "Fairyfly"
+      },
+      {
+        "mod": "Split",
+        "name": "Hunny"
+      },
+      {
+        "mod": "Split",
+        "name": "Sarracenia"
+      },
+      {
+        "mod": "Split",
+        "name": "Colossus"
+      },
+      {
+        "mod": "Split",
+        "name": "Darknut"
+      },
+      {
+        "mod": "Split",
+        "name": "FunkySoul"
+      },
+      {
+        "mod": "Split",
+        "name": "Garghoul"
+      },
+      {
+        "mod": "Split",
+        "name": "Husk"
+      },
+      {
+        "mod": "Split",
+        "name": "Jumpkin"
+      },
+      {
+        "mod": "Split",
+        "name": "Knocker"
+      },
+      {
+        "mod": "Split",
+        "name": "MindFlayer"
+      },
+      {
+        "mod": "Split",
+        "name": "RebelliousSpirit"
+      },
+      {
+        "mod": "Split",
+        "name": "ShadowCaster"
+      },
+      {
+        "mod": "Split",
+        "name": "Threater"
+      },
+      {
+        "mod": "Split",
+        "name": "Troll"
+      },
+      {
+        "mod": "Split",
+        "name": "TrollDeath"
+      },
+      {
+        "mod": "Split",
+        "name": "Crabcannon"
+      },
+      {
+        "mod": "Split",
+        "name": "FacelessPirate"
+      },
+      {
+        "mod": "Split",
+        "name": "HeadlessPirate"
+      },
+      {
+        "mod": "Split",
+        "name": "HeadlessPirateExplode"
+      },
+      {
+        "mod": "Split",
+        "name": "Thriller"
+      },
+      {
+        "mod": "Split",
+        "name": "Witness"
+      },
+      {
+        "mod": "Split",
+        "name": "Combuster"
       }
     ],
     "Terraria\tSandstorm in a Bottle\t857": [
@@ -10448,36 +10448,150 @@
         "name": "WinterbornMelee"
       }
     ],
-    "Split\tBasaltiteItem": [
+    "Split\tBalloonGland": [
       {
         "mod": "Split",
-        "name": "Idler"
+        "name": "Witness"
+      }
+    ],
+    "Split\tMoonDust": [
+      {
+        "mod": "Split",
+        "name": "Witness"
+      }
+    ],
+    "Split\tZircon": [
+      {
+        "mod": "Split",
+        "name": "Thriller"
+      }
+    ],
+    "Split\tPieceOfGlass": [
+      {
+        "mod": "Split",
+        "name": "FacelessPirate"
+      }
+    ],
+    "Split\tCrabShell": [
+      {
+        "mod": "Split",
+        "name": "Crabcannon"
+      }
+    ],
+    "Terraria\tStrange Brew\t3001": [
+      {
+        "mod": "Split",
+        "name": "Menace"
       },
       {
         "mod": "Split",
-        "name": "Savage"
+        "name": "OneShot"
       },
       {
         "mod": "Split",
-        "name": "Toiler"
+        "name": "TheSpirit"
       }
     ],
-    "Split\tTectonicKey": [
+    "Split\tBloodstone": [
       {
         "mod": "Split",
-        "name": "OverloaderHead"
+        "name": "Threater"
       }
     ],
-    "Split\tTectonicPlate": [
+    "Split\tManOfShadows": [
       {
         "mod": "Split",
-        "name": "OverloaderHead"
+        "name": "ShadowCaster"
       }
     ],
-    "Split\tChthonicPearl": [
+    "Split\tEther": [
       {
         "mod": "Split",
-        "name": "Unfairy"
+        "name": "RebelliousSpirit"
+      }
+    ],
+    "Split\tSack": [
+      {
+        "mod": "Split",
+        "name": "Knocker"
+      }
+    ],
+    "Terraria\tCrystal Shard\t502": [
+      {
+        "mod": "CalamityMod",
+        "name": "CrawlerCrystal"
+      },
+      {
+        "mod": "Split",
+        "name": "Echo"
+      }
+    ],
+    "Split\tHuskSkull": [
+      {
+        "mod": "Split",
+        "name": "Husk"
+      }
+    ],
+    "Split\tBellmet": [
+      {
+        "mod": "Split",
+        "name": "Garghoul"
+      }
+    ],
+    "Split\tBlackAlloy": [
+      {
+        "mod": "Split",
+        "name": "Darknut"
+      }
+    ],
+    "Split\tWildPetal": [
+      {
+        "mod": "Split",
+        "name": "Hunny"
+      },
+      {
+        "mod": "Split",
+        "name": "Sarracenia"
+      }
+    ],
+    "Split\tLightCore": [
+      {
+        "mod": "Split",
+        "name": "Fairyfly"
+      }
+    ],
+    "Terraria\tPumpkin\t1725": [
+      {
+        "mod": "Split",
+        "name": "Jumpkin"
+      }
+    ],
+    "Split\tBoneRing": [
+      {
+        "mod": "Split",
+        "name": "SwitchCaster"
+      }
+    ],
+    "Split\tMorgenstern": [
+      {
+        "mod": "Split",
+        "name": "Fortress"
+      }
+    ],
+    "Split\tBurningCoal": [
+      {
+        "mod": "Split",
+        "name": "CaveImp"
+      },
+      {
+        "mod": "Split",
+        "name": "Sentinel"
+      }
+    ],
+    "Split\tGreatestStrangeBrew": [
+      {
+        "mod": "Split",
+        "name": "Seth"
       }
     ],
     "Split\tGreaterStrangeBrew": [
@@ -10498,150 +10612,36 @@
         "name": "Paraffin"
       }
     ],
-    "Terraria\tStrange Brew\t3001": [
+    "Split\tChthonicPearl": [
       {
         "mod": "Split",
-        "name": "Menace"
+        "name": "Unfairy"
+      }
+    ],
+    "Split\tTectonicPlate": [
+      {
+        "mod": "Split",
+        "name": "OverloaderHead"
+      }
+    ],
+    "Split\tTectonicKey": [
+      {
+        "mod": "Split",
+        "name": "OverloaderHead"
+      }
+    ],
+    "Split\tBasaltiteItem": [
+      {
+        "mod": "Split",
+        "name": "Idler"
       },
       {
         "mod": "Split",
-        "name": "OneShot"
+        "name": "Savage"
       },
       {
         "mod": "Split",
-        "name": "TheSpirit"
-      }
-    ],
-    "Split\tGreatestStrangeBrew": [
-      {
-        "mod": "Split",
-        "name": "Seth"
-      }
-    ],
-    "Split\tBurningCoal": [
-      {
-        "mod": "Split",
-        "name": "CaveImp"
-      },
-      {
-        "mod": "Split",
-        "name": "Sentinel"
-      }
-    ],
-    "Split\tMorgenstern": [
-      {
-        "mod": "Split",
-        "name": "Fortress"
-      }
-    ],
-    "Split\tBoneRing": [
-      {
-        "mod": "Split",
-        "name": "SwitchCaster"
-      }
-    ],
-    "Terraria\tCrystal Shard\t502": [
-      {
-        "mod": "Split",
-        "name": "Echo"
-      },
-      {
-        "mod": "CalamityMod",
-        "name": "CrawlerCrystal"
-      }
-    ],
-    "Split\tLightCore": [
-      {
-        "mod": "Split",
-        "name": "Fairyfly"
-      }
-    ],
-    "Split\tWildPetal": [
-      {
-        "mod": "Split",
-        "name": "Hunny"
-      },
-      {
-        "mod": "Split",
-        "name": "Sarracenia"
-      }
-    ],
-    "Split\tBlackAlloy": [
-      {
-        "mod": "Split",
-        "name": "Darknut"
-      }
-    ],
-    "Split\tBellmet": [
-      {
-        "mod": "Split",
-        "name": "Garghoul"
-      }
-    ],
-    "Split\tHuskSkull": [
-      {
-        "mod": "Split",
-        "name": "Husk"
-      }
-    ],
-    "Terraria\tPumpkin\t1725": [
-      {
-        "mod": "Split",
-        "name": "Jumpkin"
-      }
-    ],
-    "Split\tSack": [
-      {
-        "mod": "Split",
-        "name": "Knocker"
-      }
-    ],
-    "Split\tEther": [
-      {
-        "mod": "Split",
-        "name": "RebelliousSpirit"
-      }
-    ],
-    "Split\tManOfShadows": [
-      {
-        "mod": "Split",
-        "name": "ShadowCaster"
-      }
-    ],
-    "Split\tBloodstone": [
-      {
-        "mod": "Split",
-        "name": "Threater"
-      }
-    ],
-    "Split\tCrabShell": [
-      {
-        "mod": "Split",
-        "name": "Crabcannon"
-      }
-    ],
-    "Split\tPieceOfGlass": [
-      {
-        "mod": "Split",
-        "name": "FacelessPirate"
-      }
-    ],
-    "Split\tZircon": [
-      {
-        "mod": "Split",
-        "name": "Thriller"
-      }
-    ],
-    "Split\tMoonDust": [
-      {
-        "mod": "Split",
-        "name": "Witness"
-      }
-    ],
-    "Split\tBalloonGland": [
-      {
-        "mod": "Split",
-        "name": "Witness"
+        "name": "Toiler"
       }
     ],
     "CalamityMod\tVoidstone": [
