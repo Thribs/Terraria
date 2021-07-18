@@ -37,6 +37,7 @@
     "Frost": true,
     "Snow": true,
     "Jungle": true,
+    "JungleDash": true,
     "Molten": true,
     "MoltenE": true,
     "Rain": true,
@@ -82,6 +83,7 @@
     "DefenseBee": true,
     "DefensePanic": true,
     "DefenseFleshKnuckle": true,
+    "DefensePaladin": true,
     "RunSpeed": true,
     "Momentum": true,
     "Supersonic": true,
@@ -101,6 +103,7 @@
     "MasoIcon": true,
     "MasoIconDrops": true,
     "MasoGraze": true,
+    "MasoGrazeRing": true,
     "MasoDevianttHearts": true,
     "MasoFishron": true,
     "MasoSlime": true,
@@ -173,5 +176,8 @@
   "TogglerPosition": {
     "X": 500,
     "Y": 250
-  }
+  },
+  "Toggles.JungleDash": true,
+  "Toggles.DefensePaladin": true,
+  "Toggles.MasoGrazeRing": true
 }

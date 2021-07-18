@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 30,
+  "lastUpdateTime": 10368,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
@@ -18,7 +18,7 @@
     "BothEvils": "3.1",
     "CheatExtensions": "0.1.3",
     "CheatSheet": "0.6.6.4",
-    "Fargowiltas": "2.3.2.0",
+    "Fargowiltas": "2.4",
     "FKBossHealthBar": "1.3.2",
     "HEROsMod": "0.3.6.2",
     "imkSushisMod": "4.3.1",
@@ -40,13 +40,13 @@
     "SpiritMod": "1.4.2.3",
     "Split": "0.4.0.14",
     "CalamityMod": "1.4.5.7",
-    "FargowiltasSouls": "1.3.96.2",
-    "FargowiltasSoulsDLC": "0.2.2",
+    "FargowiltasSouls": "1.3.96.3",
+    "FargowiltasSoulsDLC": "0.3.1",
     "HyperMode": "1.9",
     "CalamityModMusic": "1.4.5.3",
     "CalValEX": "8.2.1",
     "CataclysmMod": "1.1.0.1",
-    "FargowiltasMusic": "1.0.1.1"
+    "FargowiltasMusic": "1.0.1.2"
   },
   "lootInfos": {
     "Terraria\tGel\t23": [
@@ -741,14 +741,6 @@
         "name": "DesertScourgeHead"
       },
       {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "CeilingOfMoonLord"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "Guntera"
-      },
-      {
         "mod": "CalValEX",
         "name": "Fogbound"
       },
@@ -759,6 +751,14 @@
       {
         "mod": "Split",
         "name": "Troll"
+      },
+      {
+        "mod": "FargowiltasSoulsDLC",
+        "name": "CeilingOfMoonLord"
+      },
+      {
+        "mod": "FargowiltasSoulsDLC",
+        "name": "Guntera"
       }
     ],
     "MagicStorage\tShadowDiamond": [
@@ -8444,54 +8444,6 @@
         "name": "Yharon"
       },
       {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "CeilingOfMoonLord"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "CeilingOfMoonLordEye"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "CeilingOfMoonLordFace"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunCelebration"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunMagnum"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunQuad"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunShotgun"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunSniper"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "Guntera"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunteraHook"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunteraTentacle"
-      },
-      {
-        "mod": "FargowiltasSoulsDLC",
-        "name": "GunUzi"
-      },
-      {
         "mod": "Split",
         "name": "CollectorTeleport"
       },
@@ -13774,7 +13726,7 @@
         "name": "MutantBoss"
       }
     ],
-    "FargowiltasSouls\tMutantBag": [
+    "FargowiltasSouls\tMasochist": [
       {
         "mod": "FargowiltasSouls",
         "name": "MutantBoss"
@@ -13786,7 +13738,7 @@
         "name": "DeviBoss"
       }
     ],
-    "FargowiltasSouls\tDeviBag": [
+    "FargowiltasSouls\tDeviatingEnergy": [
       {
         "mod": "FargowiltasSouls",
         "name": "DeviBoss"
@@ -13838,7 +13790,7 @@
         "name": "TimberChampionHead"
       }
     ],
-    "FargowiltasSouls\tShadewoodEnchant": [
+    "FargowiltasSouls\tBorealWoodEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "TimberChampion"
@@ -13848,7 +13800,7 @@
         "name": "TimberChampionHead"
       }
     ],
-    "FargowiltasSouls\tBorealWoodEnchant": [
+    "FargowiltasSouls\tRichMahoganyEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "TimberChampion"
@@ -13868,7 +13820,7 @@
         "name": "TimberChampionHead"
       }
     ],
-    "FargowiltasSouls\tRichMahoganyEnchant": [
+    "FargowiltasSouls\tShadewoodEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "TimberChampion"
@@ -13964,13 +13916,7 @@
         "name": "SpiritChampion"
       }
     ],
-    "FargowiltasSouls\tShinobiEnchant": [
-      {
-        "mod": "FargowiltasSouls",
-        "name": "ShadowChampion"
-      }
-    ],
-    "FargowiltasSouls\tNecroEnchant": [
+    "FargowiltasSouls\tAncientShadowEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "ShadowChampion"
@@ -13982,7 +13928,13 @@
         "name": "ShadowChampion"
       }
     ],
-    "FargowiltasSouls\tAncientShadowEnchant": [
+    "FargowiltasSouls\tShinobiEnchant": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "ShadowChampion"
+      }
+    ],
+    "FargowiltasSouls\tNecroEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "ShadowChampion"
@@ -14066,7 +14018,7 @@
         "name": "EarthChampion"
       }
     ],
-    "FargowiltasSouls\tMythrilEnchant": [
+    "FargowiltasSouls\tPalladiumEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "EarthChampion"
@@ -14078,7 +14030,7 @@
         "name": "EarthChampion"
       }
     ],
-    "FargowiltasSouls\tPalladiumEnchant": [
+    "FargowiltasSouls\tMythrilEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "EarthChampion"
@@ -14138,7 +14090,7 @@
         "name": "AbomBoss"
       }
     ],
-    "FargowiltasSouls\tAbomBag": [
+    "FargowiltasSouls\tMutantScale": [
       {
         "mod": "FargowiltasSouls",
         "name": "AbomBoss"
