@@ -556,14 +556,14 @@
       "Hotbar10": ["D0"],
       "ViewZoomIn": ["OemPlus"],
       "ViewZoomOut": ["OemMinus"],
+      "CalamityMod: Rage Mode": ["Mouse1"],
+      "CalamityMod: Adrenaline Mode": ["Mouse1"],
       "RecipeBrowser: Toggle Recipe Browser": ["OemOpenBrackets"],
-      "ResearchFrom14: Open or Close ResearchUI": ["C"],
-      "ResearchFrom14: Open or Close Prefix Assignment": ["Subtract"],
       "VeinMiner: Veinmine": ["Mouse1"],
       "VeinMiner: Add tile to whitelist": ["Insert"],
       "VeinMiner: Remove tile from whitelist": ["Delete"],
-      "CalamityMod: Rage Mode": ["Mouse1"],
-      "CalamityMod: Adrenaline Mode": ["Mouse1"]
+      "ResearchFrom14: Open or Close ResearchUI": ["C"],
+      "ResearchFrom14: Open or Close Prefix Assignment": ["Subtract"]
     },
     "Gamepad": 
     {
