@@ -559,11 +559,11 @@
       "CalamityMod: Rage Mode": ["Mouse1"],
       "CalamityMod: Adrenaline Mode": ["Mouse1"],
       "RecipeBrowser: Toggle Recipe Browser": ["OemOpenBrackets"],
+      "ResearchFrom14: Open or Close ResearchUI": ["C"],
+      "ResearchFrom14: Open or Close Prefix Assignment": ["Subtract"],
       "VeinMiner: Veinmine": ["Mouse1"],
       "VeinMiner: Add tile to whitelist": ["Insert"],
-      "VeinMiner: Remove tile from whitelist": ["Delete"],
-      "ResearchFrom14: Open or Close ResearchUI": ["C"],
-      "ResearchFrom14: Open or Close Prefix Assignment": ["Subtract"]
+      "VeinMiner: Remove tile from whitelist": ["Delete"]
     },
     "Gamepad": 
     {
