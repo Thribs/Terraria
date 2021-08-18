@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 375,
+  "lastUpdateTime": 7060,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
@@ -40,7 +40,7 @@
     "SpiritMod": "1.4.2.3",
     "Split": "0.4.0.14",
     "CalamityMod": "1.4.5.7",
-    "FargowiltasSouls": "1.3.96.3",
+    "FargowiltasSouls": "1.3.96.5",
     "FargowiltasSoulsDLC": "0.3.1",
     "HyperMode": "1.9",
     "CalamityModMusic": "1.4.5.3",
@@ -13720,18 +13720,6 @@
         "name": "Yharon"
       }
     ],
-    "FargowiltasSouls\tMutantTrophy": [
-      {
-        "mod": "FargowiltasSouls",
-        "name": "MutantBoss"
-      }
-    ],
-    "FargowiltasSouls\tMasochist": [
-      {
-        "mod": "FargowiltasSouls",
-        "name": "MutantBoss"
-      }
-    ],
     "FargowiltasSouls\tDeviTrophy": [
       {
         "mod": "FargowiltasSouls",
@@ -13774,6 +13762,12 @@
         "name": "WillChampion"
       }
     ],
+    "FargowiltasSouls\tWillDye": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "WillChampion"
+      }
+    ],
     "FargowiltasSouls\tValhallaKnightEnchant": [
       {
         "mod": "FargowiltasSouls",
@@ -13781,6 +13775,16 @@
       }
     ],
     "FargowiltasSouls\tPalmWoodEnchant": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "TimberChampion"
+      },
+      {
+        "mod": "FargowiltasSouls",
+        "name": "TimberChampionHead"
+      }
+    ],
+    "FargowiltasSouls\tShadewoodEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "TimberChampion"
@@ -13800,16 +13804,6 @@
         "name": "TimberChampionHead"
       }
     ],
-    "FargowiltasSouls\tRichMahoganyEnchant": [
-      {
-        "mod": "FargowiltasSouls",
-        "name": "TimberChampion"
-      },
-      {
-        "mod": "FargowiltasSouls",
-        "name": "TimberChampionHead"
-      }
-    ],
     "FargowiltasSouls\tEbonwoodEnchant": [
       {
         "mod": "FargowiltasSouls",
@@ -13820,7 +13814,7 @@
         "name": "TimberChampionHead"
       }
     ],
-    "FargowiltasSouls\tShadewoodEnchant": [
+    "FargowiltasSouls\tRichMahoganyEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "TimberChampion"
@@ -13916,7 +13910,7 @@
         "name": "SpiritChampion"
       }
     ],
-    "FargowiltasSouls\tAncientShadowEnchant": [
+    "FargowiltasSouls\tShinobiEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "ShadowChampion"
@@ -13928,13 +13922,13 @@
         "name": "ShadowChampion"
       }
     ],
-    "FargowiltasSouls\tShinobiEnchant": [
+    "FargowiltasSouls\tNecroEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "ShadowChampion"
       }
     ],
-    "FargowiltasSouls\tNecroEnchant": [
+    "FargowiltasSouls\tAncientShadowEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "ShadowChampion"
@@ -13946,19 +13940,13 @@
         "name": "ShadowChampion"
       }
     ],
-    "FargowiltasSouls\tCrimsonEnchant": [
-      {
-        "mod": "FargowiltasSouls",
-        "name": "NatureChampion"
-      }
-    ],
     "FargowiltasSouls\tChlorophyteEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "NatureChampion"
       }
     ],
-    "FargowiltasSouls\tRainEnchant": [
+    "FargowiltasSouls\tMoltenEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "NatureChampion"
@@ -13970,7 +13958,13 @@
         "name": "NatureChampion"
       }
     ],
-    "FargowiltasSouls\tMoltenEnchant": [
+    "FargowiltasSouls\tRainEnchant": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "NatureChampion"
+      }
+    ],
+    "FargowiltasSouls\tCrimsonEnchant": [
       {
         "mod": "FargowiltasSouls",
         "name": "NatureChampion"
@@ -14001,6 +13995,12 @@
       }
     ],
     "FargowiltasSouls\tPumpkinEnchant": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "LifeChampion"
+      }
+    ],
+    "FargowiltasSouls\tLifeDye": [
       {
         "mod": "FargowiltasSouls",
         "name": "LifeChampion"
@@ -14106,6 +14106,18 @@
       {
         "mod": "CalValEX",
         "name": "Fogbound"
+      }
+    ],
+    "FargowiltasSouls\tMasochist": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "MutantBoss"
+      }
+    ],
+    "FargowiltasSouls\tMutantTrophy": [
+      {
+        "mod": "FargowiltasSouls",
+        "name": "MutantBoss"
       }
     ]
   }
