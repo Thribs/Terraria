@@ -1,12 +1,12 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 22,
+  "lastUpdateTime": 445,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.4",
     "AlchemistNPCLite": "1.7.4",
     "AutoTrash": "0.5.1",
-    "BossChecklist": "1.1.5.5",
+    "BossChecklist": "1.1.6",
     "BossCursor": "1.5.1",
     "MagicStorage": "0.4.3.5",
     "SubworldLibrary": "1.1.0.3",
@@ -44,7 +44,7 @@
     "FargowiltasSoulsDLC": "0.3.1",
     "HyperMode": "1.9",
     "CalamityModMusic": "1.4.5.3",
-    "CalValEX": "8.3.1",
+    "CalValEX": "8.4.1",
     "CataclysmMod": "1.1.0.1",
     "FargowiltasMusic": "1.0.1.2"
   },
