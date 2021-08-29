@@ -40,13 +40,16 @@
       196,
       202,
       123,
-      203
+      203,
+      19,
+      314
     ]
   },
   "ModOreNames": {
     "$type": "System.String[], mscorlib",
     "$values": [
-      "MutantStatueGift"
+      "MutantStatueGift",
+      "SulphurousSandNoWater"
     ]
   },
   "OresOnly": true,
