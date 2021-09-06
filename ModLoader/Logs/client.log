@@ -1,19 +1,19 @@
-﻿[21:26:39] [1/INFO] [tML]: Starting tModLoader v0.11.8.4 Win32NT client (29/08/2021)
-[21:26:39] [1/INFO] [tML]: Running on NetFramework 4.8
-[21:26:39] [1/INFO] [tML]: Engine: FNA
-[21:26:39] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64bit.exe
-[21:26:39] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
-[21:26:39] [1/INFO] [tML]: Launch Parameters: 
-[21:26:39] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[21:26:39] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[21:26:39] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[21:26:39] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
-[21:26:39] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
-[21:26:40] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-[21:26:40] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
-[21:26:40] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
-[21:26:40] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
-[21:26:40] [1/WARN] [tML]: Silently Caught Exception: 
+﻿[19:04:05] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Win32NT client (05/09/2021)
+[19:04:05] [1/INFO] [tML]: Running on NetFramework 4.8
+[19:04:05] [1/INFO] [tML]: Engine: FNA
+[19:04:05] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64bit.exe
+[19:04:05] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
+[19:04:05] [1/INFO] [tML]: Launch Parameters: 
+[19:04:05] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:04:05] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:04:05] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:04:06] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[19:04:06] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:06] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[19:04:06] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:06] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:06] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
+[19:04:06] [1/WARN] [tML]: Silently Caught Exception: 
 System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não foi possível encontrar o módulo especificado. (Exception from HRESULT: 0x8007007E)
    at Microsoft.Xna.Framework.Graphics.MetalDevice.sel_registerName(Byte[] name)
    at Microsoft.Xna.Framework.Graphics.MetalDevice..cctor()
@@ -24,25 +24,25 @@ System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[21:26:40] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
-[21:26:40] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
-[21:26:41] [1/INFO] [tML]: Checking Steam installation...
-[21:26:41] [1/INFO] [tML]: Steam installation OK.
-[21:26:42] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
-[21:26:47] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
-[21:26:48] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
-[21:26:49] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
-[21:26:49] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
-[21:26:50] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
-[21:26:52] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[21:26:52] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[21:26:52] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[21:26:52] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[21:26:54] [1/DEBUG] [tML]: Fallback synchronization context assigned
-[21:26:54] [6/INFO] [Terraria]: JIT loading finished
-[21:26:58] [8/INFO] [tML]: Unloading mods
-[21:26:58] [8/INFO] [tML]: Finding Mods...
-[21:26:59] [8/WARN] [tML]: Silently Caught Exception: 
+[19:04:07] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
+[19:04:07] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
+[19:04:07] [1/INFO] [tML]: Checking Steam installation...
+[19:04:09] [1/INFO] [tML]: Steam installation OK.
+[19:04:11] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
+[19:04:17] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[19:04:18] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[19:04:18] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
+[19:04:19] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
+[19:04:19] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
+[19:04:20] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[19:04:20] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[19:04:20] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[19:04:20] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[19:04:22] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[19:04:23] [6/INFO] [Terraria]: JIT loading finished
+[19:04:27] [11/INFO] [tML]: Unloading mods
+[19:04:28] [11/INFO] [tML]: Finding Mods...
+[19:04:30] [11/WARN] [tML]: Silently Caught Exception: 
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
@@ -56,117 +56,117 @@ System.Exception: Hash mismatch, data blob has been modified or corrupted
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[21:26:59] [8/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+[19:04:30] [11/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
    em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[21:27:01] [8/INFO] [tML]: Sandboxing: CalamityMod
-[21:27:02] [8/INFO] [tML]: Sandboxing: CalamityModMusic
-[21:27:02] [8/INFO] [tML]: Sandboxing: AlchemistNPCLite
-[21:27:02] [8/INFO] [tML]: Sandboxing: AutoTrash
-[21:27:03] [8/INFO] [tML]: Sandboxing: BaseMod
-[21:27:03] [8/INFO] [tML]: Sandboxing: BossChecklist
-[21:27:03] [8/INFO] [tML]: Sandboxing: BossCursor
-[21:27:03] [8/INFO] [tML]: Sandboxing: BothEvils
-[21:27:03] [8/INFO] [tML]: Sandboxing: CalValEX
-[21:27:03] [8/INFO] [tML]: Sandboxing: CataclysmMod
-[21:27:07] [8/INFO] [tML]: Sandboxing: Fargowiltas
-[21:27:07] [8/INFO] [tML]: Sandboxing: FargowiltasSouls
-[21:27:07] [8/INFO] [tML]: Sandboxing: FargowiltasMusic
-[21:27:07] [8/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
-[21:27:07] [8/INFO] [tML]: Sandboxing: FKBossHealthBar
-[21:27:08] [8/INFO] [tML]: Sandboxing: FunctionalBlockSwap
-[21:27:08] [8/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
-[21:27:08] [8/INFO] [tML]: Sandboxing: MagicStorageExtra
-[21:27:08] [8/INFO] [tML]: Sandboxing: MaxStackExtra
-[21:27:08] [8/INFO] [tML]: Sandboxing: RecipeBrowser
-[21:27:08] [8/INFO] [tML]: Sandboxing: ResearchFrom14
-[21:27:08] [8/INFO] [tML]: Sandboxing: SmartDoors
-[21:27:08] [8/INFO] [tML]: Sandboxing: UtilityBombMod
-[21:27:08] [8/INFO] [tML]: Sandboxing: VeinMiner
-[21:27:08] [8/INFO] [tML]: Sandboxing: WeaponOutLite
-[21:27:08] [8/INFO] [tML]: Sandboxing: Wildlife
-[21:27:08] [8/INFO] [tML]: Sandboxing: WMITF
-[21:27:08] [8/INFO] [tML]: Instantiating Mods...
-[21:27:09] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
-[21:27:09] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:09] [8/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
-[21:27:10] [8/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
-[21:27:12] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[21:27:12] [8/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
-[21:27:12] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[21:27:12] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
-[21:27:12] [8/WARN] [tML]: Granted native detouring access to Fargowiltas_0
-[21:27:12] [8/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
-[21:27:12] [8/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
-[21:27:12] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[21:27:12] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
-[21:27:16] [8/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
-[21:27:18] [8/INFO] [tML]: Initializing: ModLoader v0.11.8.4
-[21:27:20] [8/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
-[21:27:20] [8/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:20] [8/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
-[21:27:26] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
-[21:27:26] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
-[21:27:26] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:26] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[21:27:26] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
-[21:27:26] [8/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
-[21:27:26] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
-[21:27:27] [8/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
-[21:27:27] [8/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
-[21:27:28] [8/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
-[21:27:28] [8/INFO] [tML]: Initializing: AutoTrash v0.5.1
-[21:27:28] [8/INFO] [tML]: Initializing: BaseMod v2.0.0.0
-[21:27:29] [8/INFO] [tML]: Initializing: BossChecklist v1.1.6
-[21:27:29] [8/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
-[21:27:29] [8/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[21:27:29] [8/INFO] [tML]: Initializing: BossCursor v1.5.1
-[21:27:30] [8/INFO] [tML]: Initializing: BothEvils v3.1
-[21:27:30] [8/INFO] [tML]: Initializing: CalValEX v8.4.1
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:31] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:32] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[21:27:33] [8/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
-[21:27:33] [8/DEBUG] [CataclysmMod]: Loading mod-dependent content...
-[21:27:33] [8/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:33] [8/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
-[21:27:33] [8/DEBUG] [CataclysmMod]: Preparing direct dependency content...
-[21:27:33] [8/DEBUG] [CataclysmMod]: Loading direct dependency content...
-[21:27:33] [8/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:33] [8/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
-[21:27:33] [8/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.5
-[21:27:34] [8/INFO] [FargowiltasSouls]: ToggleCollections found: 4
-[21:27:35] [8/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.2
-[21:27:35] [8/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
-[21:27:36] [8/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
-[21:27:36] [8/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
-[21:27:36] [8/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
-[21:27:36] [8/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
-[21:27:37] [8/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
-[21:27:37] [8/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
-[21:27:37] [1/WARN] [tML]: Silently Caught Exception: 
+[19:04:31] [11/INFO] [tML]: Sandboxing: CalamityMod
+[19:04:33] [11/INFO] [tML]: Sandboxing: CalamityModMusic
+[19:04:33] [11/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[19:04:33] [11/INFO] [tML]: Sandboxing: AutoTrash
+[19:04:33] [11/INFO] [tML]: Sandboxing: BaseMod
+[19:04:34] [11/INFO] [tML]: Sandboxing: BossChecklist
+[19:04:34] [11/INFO] [tML]: Sandboxing: BossCursor
+[19:04:34] [11/INFO] [tML]: Sandboxing: BothEvils
+[19:04:34] [11/INFO] [tML]: Sandboxing: CalValEX
+[19:04:34] [11/INFO] [tML]: Sandboxing: CataclysmMod
+[19:04:38] [11/INFO] [tML]: Sandboxing: Fargowiltas
+[19:04:38] [11/INFO] [tML]: Sandboxing: FargowiltasSouls
+[19:04:38] [11/INFO] [tML]: Sandboxing: FargowiltasMusic
+[19:04:38] [11/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[19:04:39] [11/INFO] [tML]: Sandboxing: FKBossHealthBar
+[19:04:39] [11/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[19:04:39] [11/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[19:04:39] [11/INFO] [tML]: Sandboxing: MagicStorageExtra
+[19:04:39] [11/INFO] [tML]: Sandboxing: MaxStackExtra
+[19:04:39] [11/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:04:39] [11/INFO] [tML]: Sandboxing: ResearchFrom14
+[19:04:39] [11/INFO] [tML]: Sandboxing: SmartDoors
+[19:04:39] [11/INFO] [tML]: Sandboxing: UtilityBombMod
+[19:04:39] [11/INFO] [tML]: Sandboxing: VeinMiner
+[19:04:39] [11/INFO] [tML]: Sandboxing: WeaponOutLite
+[19:04:39] [11/INFO] [tML]: Sandboxing: Wildlife
+[19:04:39] [11/INFO] [tML]: Sandboxing: WMITF
+[19:04:39] [11/INFO] [tML]: Instantiating Mods...
+[19:04:40] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
+[19:04:40] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:40] [11/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
+[19:04:41] [11/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[19:04:43] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:04:43] [11/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
+[19:04:43] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:04:43] [11/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
+[19:04:43] [11/WARN] [tML]: Granted native detouring access to Fargowiltas_0
+[19:04:43] [11/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
+[19:04:43] [11/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
+[19:04:43] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:04:44] [11/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
+[19:04:48] [11/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[19:04:49] [11/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[19:04:52] [11/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[19:04:52] [11/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:52] [11/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[19:04:59] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[19:04:59] [11/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
+[19:04:59] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:04:59] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[19:04:59] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:04:59] [11/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
+[19:05:02] [11/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[19:05:02] [11/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[19:05:02] [11/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[19:05:03] [11/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[19:05:03] [11/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[19:05:03] [11/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[19:05:03] [11/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[19:05:03] [11/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[19:05:04] [11/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[19:05:06] [11/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[19:05:06] [11/INFO] [tML]: Initializing: AutoTrash v0.5.1
+[19:05:06] [11/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[19:05:07] [11/INFO] [tML]: Initializing: BossChecklist v1.1.6
+[19:05:07] [11/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:05:07] [11/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[19:05:07] [11/INFO] [tML]: Initializing: BossCursor v1.5.1
+[19:05:08] [11/INFO] [tML]: Initializing: BothEvils v3.1
+[19:05:08] [11/INFO] [tML]: Initializing: CalValEX v8.4.1
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:09] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:10] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:05:11] [11/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
+[19:05:11] [11/DEBUG] [CataclysmMod]: Loading mod-dependent content...
+[19:05:11] [11/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:11] [11/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
+[19:05:11] [11/DEBUG] [CataclysmMod]: Preparing direct dependency content...
+[19:05:11] [11/DEBUG] [CataclysmMod]: Loading direct dependency content...
+[19:05:11] [11/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:11] [11/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
+[19:05:12] [11/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.5
+[19:05:13] [11/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[19:05:13] [11/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.2
+[19:05:14] [11/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
+[19:05:14] [11/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[19:05:15] [11/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[19:05:15] [11/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[19:05:15] [11/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[19:05:15] [11/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
+[19:05:15] [11/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
+[19:05:15] [1/WARN] [tML]: Silently Caught Exception: 
 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.ThrowHelper.ThrowKeyNotFoundException()
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
@@ -182,78 +182,1326 @@ System.Collections.Generic.KeyNotFoundException: The given key was not present i
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[21:27:37] [8/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
-[21:27:37] [8/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
-[21:27:38] [8/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
-[21:27:38] [8/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
-[21:27:38] [8/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
-[21:27:38] [8/INFO] [tML]: Initializing: ResearchFrom14 v2.0
-[21:27:39] [8/INFO] [tML]: Initializing: SmartDoors v1.3.3
-[21:27:39] [8/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
-[21:27:39] [8/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
-[21:27:39] [8/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
-[21:27:40] [8/INFO] [tML]: Initializing: VeinMiner v1.3.1
-[21:27:40] [8/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
-[21:27:40] [8/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
-[21:27:41] [8/INFO] [tML]: Initializing: WeaponOutLite v0.1
-[21:27:41] [8/INFO] [tML]: Initializing: Wildlife v0.14
-[21:27:41] [8/INFO] [tML]: Initializing: WMITF v2.6.2
-[21:27:42] [8/INFO] [tML]: Initializing: Fargowiltas v2.4.1.1
-[21:27:42] [8/INFO] [tML]: Setting up...
-[21:27:43] [8/INFO] [tML]: Loading: ModLoader v0.11.8.4
-[21:27:43] [8/INFO] [tML]: Loading: CalamityMod v1.4.5.7
-[21:27:45] [8/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
-[21:27:46] [8/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
-[21:27:46] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
-[21:27:46] [8/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
-[21:27:47] [8/INFO] [tML]: Loading: AutoTrash v0.5.1
-[21:27:47] [8/INFO] [tML]: Loading: BaseMod v2.0.0.0
-[21:27:48] [8/INFO] [tML]: Loading: BossChecklist v1.1.6
-[21:27:48] [8/INFO] [tML]: Loading: BossCursor v1.5.1
-[21:27:48] [8/INFO] [tML]: Loading: BothEvils v3.1
-[21:27:48] [8/INFO] [tML]: Loading: CalValEX v8.4.1
-[21:27:49] [8/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
-[21:27:49] [8/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
-[21:27:49] [8/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
-[21:27:49] [8/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.5
-[21:27:51] [8/INFO] [Terraria]: Loaded 6000 vanilla assets
-[21:27:52] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
-[21:27:52] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
-[21:27:52] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
-[21:27:52] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
-[21:27:52] [8/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.2
-[21:27:52] [8/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
-[21:27:52] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:53] [8/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
-[21:27:53] [8/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
-[21:27:53] [8/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
-[21:27:53] [8/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
-[21:27:54] [8/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
-[21:27:54] [8/INFO] [tML]: Loading: RecipeBrowser v0.8.9
-[21:27:54] [8/INFO] [tML]: Loading: ResearchFrom14 v2.0
-[21:27:54] [8/INFO] [tML]: Loading: SmartDoors v1.3.3
-[21:27:55] [8/INFO] [tML]: Loading: UtilityBombMod v0.2.5
-[21:27:55] [8/INFO] [tML]: Loading: VeinMiner v1.3.1
-[21:27:55] [8/INFO] [tML]: Loading: WeaponOutLite v0.1
-[21:27:56] [8/INFO] [tML]: Loading: Wildlife v0.14
-[21:27:56] [8/INFO] [tML]: Loading: WMITF v2.6.2
-[21:27:56] [8/INFO] [tML]: Loading: Fargowiltas v2.4.1.1
-[21:27:57] [8/INFO] [tML]: RAM usage: 3,5 GB
-[21:27:57] [8/INFO] [tML]: Adding Recipes...
-[21:27:58] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:58] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:27:58] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[21:50:36] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
-[21:50:39] [13/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
-[21:50:39] [13/INFO] [ResearchFrom14]: Research System Initialized.
-[21:50:49] [8/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
-[21:50:49] [8/INFO] [StatusText]: Resetting game objects
-[21:50:51] [8/INFO] [StatusText]: Loading world data
-[21:50:51] [8/INFO] [StatusText]: Settling liquids
-[21:50:53] [8/INFO] [StatusText]: Loading map data
-[21:50:54] [8/INFO] [StatusText]: Drawing map
-[21:50:55] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
-[21:59:20] [13/WARN] [tML]: Silently Caught Exception: 
+[19:05:15] [11/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
+[19:05:16] [11/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[19:05:16] [11/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[19:05:16] [11/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:05:17] [11/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:05:17] [11/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[19:05:17] [11/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[19:05:17] [11/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[19:05:18] [11/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[19:05:18] [11/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[19:05:18] [11/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:05:19] [11/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:05:19] [11/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:05:20] [11/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[19:05:20] [11/INFO] [tML]: Initializing: Wildlife v0.14
+[19:05:20] [11/INFO] [tML]: Initializing: WMITF v2.6.2
+[19:05:21] [11/INFO] [tML]: Initializing: Fargowiltas v2.4.1.1
+[19:05:21] [11/INFO] [tML]: Setting up...
+[19:05:22] [11/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[19:05:22] [11/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[19:05:24] [11/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[19:05:25] [11/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[19:05:25] [11/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[19:05:26] [11/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[19:05:26] [11/INFO] [tML]: Loading: AutoTrash v0.5.1
+[19:05:27] [11/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[19:05:27] [11/INFO] [tML]: Loading: BossChecklist v1.1.6
+[19:05:27] [11/INFO] [tML]: Loading: BossCursor v1.5.1
+[19:05:28] [11/INFO] [tML]: Loading: BothEvils v3.1
+[19:05:28] [11/INFO] [tML]: Loading: CalValEX v8.4.1
+[19:05:29] [11/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
+[19:05:29] [11/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
+[19:05:29] [11/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
+[19:05:29] [11/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.5
+[19:05:31] [11/INFO] [Terraria]: Loaded 6000 vanilla assets
+[19:05:31] [11/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[19:05:31] [11/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[19:05:31] [11/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[19:05:31] [11/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[19:05:32] [11/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.2
+[19:05:32] [11/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
+[19:05:32] [11/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:32] [11/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[19:05:33] [11/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[19:05:33] [11/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[19:05:33] [11/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
+[19:05:34] [11/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[19:05:34] [11/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[19:05:35] [11/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[19:05:35] [11/INFO] [tML]: Loading: SmartDoors v1.3.3
+[19:05:35] [11/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[19:05:36] [11/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:05:36] [11/INFO] [tML]: Loading: WeaponOutLite v0.1
+[19:05:36] [11/INFO] [tML]: Loading: Wildlife v0.14
+[19:05:37] [11/INFO] [tML]: Loading: WMITF v2.6.2
+[19:05:37] [11/INFO] [tML]: Loading: Fargowiltas v2.4.1.1
+[19:05:38] [11/INFO] [tML]: RAM usage: 3,6 GB
+[19:05:38] [11/INFO] [tML]: Adding Recipes...
+[19:05:39] [11/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:39] [11/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:39] [11/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:05:39] [11/INFO] [tML]: Recipe Browser: Rebuilding Loot Cache (Hold shift to skip if stuck)
+[19:05:40] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1097
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:40] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1193
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:40] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1197
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:41] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1201
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:41] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1277
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:41] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1205
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:41] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1209
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:42] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1182
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:43] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1213
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:43] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1217
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:44] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1221
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:44] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1281
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:44] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1237
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:44] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1225
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:44] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1296
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:45] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1300
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:45] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1229
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:45] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1287
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:45] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1311
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1245
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1269
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1253
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1261
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1257
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1265
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1249
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:46] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1233
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:47] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1273
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:47] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1241
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:47] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1122
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:47] [11/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fargowiltas.NPCs.FargoGlobalNPC.<NPCLoot>g__TryDowned|21_0(String[] names) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 891
+   em Fargowiltas.NPCs.FargoGlobalNPC.NPCLoot(NPC npc) na Fargowiltas\NPCs\FargoGlobalNPC.cs:linha 1102
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:05:47] [11/INFO] [tML]: Adding Recipes
+[19:06:06] [10/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
+[19:06:08] [6/WARN] [tML]: Silently Caught Exception: 
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:06:08] [6/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+[19:06:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/k3FOxuT.png
+[19:06:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/5ZLxXdD.png
+[19:06:08] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/6r5rJrK.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/t1Ho4BS.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/gCuV8kL.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/5a8PbXr.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/d9f5Ici.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/R6D3sTD.png
+[19:06:12] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/E4fRaTe.png
+[19:06:48] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:06:48] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:07:05] [10/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:07:05] [10/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:07:31] [8/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:07:31] [8/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:09:36] [11/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:09:47] [11/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:09:47] [11/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
+[19:09:53] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/Fargowiltas.tmod&tls12=y
+[19:09:53] [21/DEBUG] [tML]: Web Request: https://cdn.discordapp.com/attachments/284077567986761730/882607373263470662/Fargowiltas.tmod
+[19:09:54] [9/INFO] [tML]: Releasing file handle for Fargowiltas: Fargo's Mutant Mod
+[19:09:54] [3/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/AutoTrash.tmod&tls12=y
+[19:09:54] [20/DEBUG] [tML]: Web Request: https://github.com/JavidPack/AutoTrash/releases/download/v0.5.2/AutoTrash.tmod
+[19:09:54] [20/DEBUG] [tML]: Web Request: https://github-releases.githubusercontent.com/78263195/e378febf-0b03-47b0-9346-9219217e2ce5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210905T221112Z&X-Amz-Expires=300&X-Amz-Signature=e7dea357258e574439537b7ac6dec390c5c88bf76090cd4e6d6ee56dc96a1fcb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=78263195&response-content-disposition=attachment%3B filename%3DAutoTrash.tmod&response-content-type=application%2Foctet-stream
+[19:09:55] [8/INFO] [tML]: Releasing file handle for AutoTrash: Auto Trash
+[19:09:55] [8/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/FargowiltasSouls.tmod&tls12=y
+[19:09:55] [20/DEBUG] [tML]: Web Request: https://cdn.discordapp.com/attachments/284077567986761730/882280517964271717/FargowiltasSouls.tmod
+[19:09:56] [3/INFO] [tML]: Releasing file handle for FargowiltasSouls: Fargo's Souls Mod
+[19:09:56] [11/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/LansAutoSummon.tmod&tls12=y
+[19:09:56] [20/DEBUG] [tML]: Web Request: https://cdn.discordapp.com/attachments/284077567986761730/882718313728327760/LansAutoSummon.tmod
+[19:09:56] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/CalValEX.tmod&tls12=y
+[19:09:56] [20/DEBUG] [tML]: Web Request: https://github.com/PotatoPersonEX/CalValEX/releases/download/v8.5.2/CalValEX.tmod
+[19:09:56] [20/DEBUG] [tML]: Web Request: https://github-releases.githubusercontent.com/276259068/e86fb9c8-e3a8-4ce7-b9d1-c578c341c8d9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210905T221059Z&X-Amz-Expires=300&X-Amz-Signature=5564ad39d6decfc18f8592df5a2cabc2e11e391326aa4d7e0b65f5e9e9349fd2&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=276259068&response-content-disposition=attachment%3B filename%3DCalValEX.tmod&response-content-type=application%2Foctet-stream
+[19:09:58] [11/INFO] [tML]: Releasing file handle for CalValEX: Calamity's Vanities
+[19:09:58] [8/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/FargowiltasMusic.tmod&tls12=y
+[19:10:16] [20/DEBUG] [tML]: Web Request: https://github.com/terrynmuse/FargowiltasMusic/releases/download/v1.0.1.3/FargowiltasMusic.tmod
+[19:10:16] [18/DEBUG] [tML]: Web Request: https://github-releases.githubusercontent.com/297001673/ea7f2dbe-86d9-4e83-8730-17258131cf8b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210905T221134Z&X-Amz-Expires=300&X-Amz-Signature=c97896889f3b3b39c16e57ef739accc6d10806124a7047b123421ff79e45baa6&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=297001673&response-content-disposition=attachment%3B filename%3DFargowiltasMusic.tmod&response-content-type=application%2Foctet-stream
+[19:10:21] [8/INFO] [tML]: Releasing file handle for FargowiltasMusic: Fargo's Music Mod
+[19:10:27] [9/INFO] [tML]: Unloading mods
+[19:10:27] [9/INFO] [tML]: Unloading: Fargo's Mutant Mod
+[19:10:27] [9/DEBUG] [tML]: Unloaded 1 hooks, 2 detours and 2 native detours from Fargowiltas
+[19:10:27] [9/INFO] [tML]: Unloading: Which Mod Is This From? (WMITF)
+[19:10:27] [9/INFO] [tML]: Unloading: Wildlife Mod
+[19:10:27] [9/INFO] [tML]: Unloading: WeaponOut Lite
+[19:10:27] [9/INFO] [tML]: Unloading: VeinMiner
+[19:10:27] [9/INFO] [tML]: Unloading: Utility Bombs Reborn
+[19:10:27] [9/INFO] [tML]: Unloading: Smart Doors (from 1.4)
+[19:10:27] [9/DEBUG] [tML]: Unloaded 0 hooks, 2 detours and 2 native detours from SmartDoors
+[19:10:27] [9/INFO] [tML]: Unloading: Research System from Terraria 1.4
+[19:10:27] [9/INFO] [tML]: Unloading: Recipe Browser
+[19:10:27] [9/WARN] [tML]: Silently Caught Exception: 
+System.Threading.Tasks.TaskCanceledException: Uma tarefa foi cancelada.
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em RecipeBrowser.RecipeBrowser.<ConcurrentTaskHandler>d__16.MoveNext() na RecipeBrowser.cs:linha 194
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.Run()
+   em System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining, Task& currentTask)
+   em System.Threading.Tasks.Task.FinishContinuations()
+   em System.Threading.Tasks.Task`1.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   em System.Threading.Tasks.Task.DelayPromise.Complete()
+   em System.Threading.CancellationCallbackInfo.ExecuteCallback()
+   em System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   em System.Threading.CancellationTokenSource.NotifyCancellation(Boolean throwOnFirstException)
+   em RecipeBrowser.RecipeBrowser.Unload() na RecipeBrowser.cs:linha 131
+   em Terraria.ModLoader.Mod.UnloadContent()
+   em Terraria.ModLoader.ModContent.UnloadModContent()
+   em Terraria.ModLoader.ModLoader.do_Unload()
+   em Terraria.ModLoader.ModLoader.Unload()
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:10:27] [9/DEBUG] [tML]: Unloaded 2 hooks, 2 detours and 2 native detours from RecipeBrowser
+[19:10:27] [9/INFO] [tML]: Unloading: Max Stack Plus Extra
+[19:10:27] [9/INFO] [tML]: Unloading: Magic Storage - Extra
+[19:10:27] [9/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) removed by MagicStorageExtra_0
+[19:10:27] [9/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) removed by MagicStorageExtra_0
+[19:10:27] [9/INFO] [tML]: Unloading: Lan's Unlimited Buff Slots
+[19:10:27] [9/INFO] [tML]: Unloading: Block Swap
+[19:10:27] [9/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from FunctionalBlockSwap
+[19:10:27] [9/INFO] [tML]: Unloading: Yet Another Boss Health Bar
+[19:10:27] [9/INFO] [tML]: Unloading: Fargo's Soul Mod DLC
+[19:10:27] [9/INFO] [tML]: Unloading: Fargo's Music Mod
+[19:10:27] [9/INFO] [tML]: Unloading: Fargo's Souls Mod
+[19:10:27] [9/INFO] [tML]: Unloading: Cataclysm (Multi-Mod Addon: Calamity, Thorium, Clicker Class)
+[19:10:27] [9/DEBUG] [tML]: Unloaded 0 hooks, 1 detours and 1 native detours from CataclysmMod
+[19:10:27] [9/INFO] [tML]: Unloading: Calamity's Vanities
+[19:10:29] [9/DEBUG] [tML]: Unloaded 0 hooks, 17 detours and 17 native detours from CalValEX
+[19:10:29] [9/INFO] [tML]: Unloading: Fargo's Both Evils
+[19:10:29] [9/INFO] [tML]: Unloading: Boss Cursor
+[19:10:29] [9/INFO] [tML]: Unloading: Boss Checklist
+[19:10:29] [9/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from BossChecklist
+[19:10:29] [9/INFO] [tML]: Unloading: Base Mod
+[19:10:29] [9/INFO] [tML]: Unloading: Auto Trash
+[19:10:29] [9/INFO] [tML]: Unloading: AlchemistNPC Lite
+[19:10:29] [9/INFO] [tML]: Unloading: Calamity Mod Music
+[19:10:29] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() unmodified by CalamityModMusic_0
+[19:10:29] [9/INFO] [tML]: Unloading: Calamity Mod (No Calamity Music)
+[19:10:29] [9/DEBUG] [tML]: Unloaded 5 hooks, 9 detours and 9 native detours from CalamityMod
+[19:10:29] [9/INFO] [tML]: Unloading: tModLoader
+[19:10:30] [9/WARN] [tML]: CalamityMod not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: BaseMod not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: BossChecklist not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: CataclysmMod not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: Fargowiltas not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: FargowiltasSouls not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: FargowiltasSoulsDLC not fully unloaded during unload.
+[19:10:30] [9/WARN] [tML]: ResearchFrom14 not fully unloaded during unload.
+[19:10:30] [9/INFO] [tML]: Finding Mods...
+[19:10:30] [9/WARN] [tML]: Silently Caught Exception: 
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+   em Terraria.ModLoader.Core.ModOrganizer.LoadMods(CancellationToken token)
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:10:30] [9/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+[19:10:30] [9/INFO] [tML]: Sandboxing: CalamityMod
+[19:10:30] [9/INFO] [tML]: Sandboxing: CalamityModMusic
+[19:10:30] [9/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[19:10:30] [9/INFO] [tML]: Sandboxing: AutoTrash
+[19:10:30] [9/INFO] [tML]: Sandboxing: BaseMod
+[19:10:30] [9/INFO] [tML]: Sandboxing: BossChecklist
+[19:10:30] [9/INFO] [tML]: Sandboxing: BossCursor
+[19:10:30] [9/INFO] [tML]: Sandboxing: BothEvils
+[19:10:30] [9/INFO] [tML]: Sandboxing: CalValEX
+[19:10:31] [9/INFO] [tML]: Sandboxing: CataclysmMod
+[19:10:31] [9/INFO] [tML]: Sandboxing: Fargowiltas
+[19:10:31] [9/INFO] [tML]: Sandboxing: FargowiltasSouls
+[19:10:31] [9/INFO] [tML]: Sandboxing: FargowiltasMusic
+[19:10:31] [9/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[19:10:31] [9/INFO] [tML]: Sandboxing: FKBossHealthBar
+[19:10:31] [9/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[19:10:31] [9/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[19:10:31] [9/INFO] [tML]: Sandboxing: MagicStorageExtra
+[19:10:31] [9/INFO] [tML]: Sandboxing: MaxStackExtra
+[19:10:31] [9/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:10:31] [9/INFO] [tML]: Sandboxing: ResearchFrom14
+[19:10:31] [9/INFO] [tML]: Sandboxing: SmartDoors
+[19:10:31] [9/INFO] [tML]: Sandboxing: UtilityBombMod
+[19:10:31] [9/INFO] [tML]: Sandboxing: VeinMiner
+[19:10:31] [9/INFO] [tML]: Sandboxing: WeaponOutLite
+[19:10:31] [9/INFO] [tML]: Sandboxing: Wildlife
+[19:10:31] [9/INFO] [tML]: Sandboxing: WMITF
+[19:10:31] [9/INFO] [tML]: Instantiating Mods...
+[19:10:37] [9/WARN] [tML]: Granted native detouring access to Fargowiltas_1
+[19:10:37] [9/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_1
+[19:10:37] [9/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_1
+[19:10:45] [9/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[19:10:47] [9/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[19:10:50] [9/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[19:10:56] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[19:10:56] [9/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[19:10:57] [9/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[19:10:57] [9/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[19:10:58] [9/INFO] [tML]: Initializing: AutoTrash v0.5.2
+[19:10:58] [9/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[19:10:58] [9/INFO] [tML]: Initializing: BossChecklist v1.1.6
+[19:10:58] [9/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:10:58] [9/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[19:10:59] [9/INFO] [tML]: Initializing: BossCursor v1.5.1
+[19:10:59] [9/INFO] [tML]: Initializing: BothEvils v3.1
+[19:10:59] [9/INFO] [tML]: Initializing: CalValEX v8.5.2
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:11:02] [9/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
+[19:11:02] [9/DEBUG] [CataclysmMod]: Loading mod-dependent content...
+[19:11:02] [9/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
+[19:11:02] [9/DEBUG] [CataclysmMod]: Preparing direct dependency content...
+[19:11:02] [9/DEBUG] [CataclysmMod]: Loading direct dependency content...
+[19:11:02] [9/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:11:02] [9/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
+[19:11:03] [9/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
+[19:11:04] [9/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[19:11:04] [9/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
+[19:11:05] [9/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
+[19:11:05] [9/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[19:11:05] [9/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[19:11:05] [9/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[19:11:06] [9/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[19:11:06] [9/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
+[19:11:06] [9/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
+[19:11:06] [9/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
+[19:11:07] [9/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[19:11:07] [9/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[19:11:07] [9/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:11:07] [9/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:11:07] [9/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[19:11:08] [9/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[19:11:08] [9/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[19:11:08] [9/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[19:11:08] [9/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[19:11:09] [9/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:11:09] [9/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:11:09] [9/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:11:10] [9/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[19:11:10] [9/INFO] [tML]: Initializing: Wildlife v0.14
+[19:11:10] [9/INFO] [tML]: Initializing: WMITF v2.6.2
+[19:11:11] [9/INFO] [tML]: Initializing: Fargowiltas v2.4.2
+[19:11:11] [9/INFO] [tML]: Setting up...
+[19:11:12] [9/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[19:11:12] [9/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[19:11:12] [9/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[19:11:13] [9/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[19:11:13] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[19:11:13] [9/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[19:11:13] [9/INFO] [tML]: Loading: AutoTrash v0.5.2
+[19:11:14] [9/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[19:11:14] [9/INFO] [tML]: Loading: BossChecklist v1.1.6
+[19:11:14] [9/INFO] [tML]: Loading: BossCursor v1.5.1
+[19:11:14] [9/INFO] [tML]: Loading: BothEvils v3.1
+[19:11:15] [9/INFO] [tML]: Loading: CalValEX v8.5.2
+[19:11:16] [9/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
+[19:11:16] [9/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
+[19:11:16] [9/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
+[19:11:16] [9/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
+[19:11:17] [9/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[19:11:17] [9/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[19:11:17] [9/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[19:11:17] [9/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[19:11:17] [9/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
+[19:11:18] [9/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
+[19:11:18] [9/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:11:18] [9/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[19:11:18] [9/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[19:11:18] [9/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[19:11:19] [9/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
+[19:11:19] [9/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[19:11:19] [9/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[19:11:20] [9/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[19:11:20] [9/INFO] [tML]: Loading: SmartDoors v1.3.3
+[19:11:20] [9/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[19:11:21] [9/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:11:21] [9/INFO] [tML]: Loading: WeaponOutLite v0.1
+[19:11:21] [9/INFO] [tML]: Loading: Wildlife v0.14
+[19:11:22] [9/INFO] [tML]: Loading: WMITF v2.6.2
+[19:11:22] [9/INFO] [tML]: Loading: Fargowiltas v2.4.2
+[19:11:22] [9/INFO] [tML]: RAM usage: 3,7 GB
+[19:11:22] [9/INFO] [tML]: Adding Recipes...
+[19:11:23] [9/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:11:23] [9/INFO] [tML]: Recipe Browser: Rebuilding Loot Cache (Hold shift to skip if stuck)
+[19:11:30] [9/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.ThrowHelper.ThrowKeyNotFoundException()
+   em Fargowiltas.NPCs.Squirrel.NPCLoot() na Fargowiltas\NPCs\Squirrel.cs:linha 346
+   em Terraria.ModLoader.NPCLoader.NPCLoot(NPC npc)
+   em Terraria.NPC.NPCLoot()
+   em RecipeBrowser.LootCacheManager.CalculateLoot(NPC npc) na RecipeBrowser\LootCache.cs:linha 531
+   em RecipeBrowser.LootCacheManager.Setup(Mod recipeBrowserMod) na RecipeBrowser\LootCache.cs:linha 427
+   em RecipeBrowser.RecipeBrowser.PostAddRecipes() na RecipeBrowser.cs:linha 224
+   em Terraria.ModLoader.RecipeHooks.PostAddRecipes()
+   em Terraria.Recipe.SetupRecipes()
+   em Terraria.ModLoader.ModContent.SetupRecipes(CancellationToken token)
+   em DMD<Terraria.ModLoader.ModContent::Load>(CancellationToken )
+   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:11:31] [9/INFO] [tML]: Adding Recipes
+[19:13:59] [9/WARN] [tML]: Silently Caught Exception: 
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:13:59] [9/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+[19:14:01] [3/INFO] [tML]: Unloading mods
+[19:14:01] [3/INFO] [tML]: Unloading: Fargo's Mutant Mod
+[19:14:01] [3/DEBUG] [tML]: Unloaded 1 hooks, 2 detours and 2 native detours from Fargowiltas
+[19:14:01] [3/INFO] [tML]: Unloading: Which Mod Is This From? (WMITF)
+[19:14:01] [3/INFO] [tML]: Unloading: Wildlife Mod
+[19:14:01] [3/INFO] [tML]: Unloading: WeaponOut Lite
+[19:14:01] [3/INFO] [tML]: Unloading: VeinMiner
+[19:14:01] [3/INFO] [tML]: Unloading: Utility Bombs Reborn
+[19:14:01] [3/INFO] [tML]: Unloading: Smart Doors (from 1.4)
+[19:14:01] [3/DEBUG] [tML]: Unloaded 0 hooks, 2 detours and 2 native detours from SmartDoors
+[19:14:01] [3/INFO] [tML]: Unloading: Research System from Terraria 1.4
+[19:14:01] [3/INFO] [tML]: Unloading: Recipe Browser
+[19:14:01] [3/DEBUG] [tML]: Unloaded 2 hooks, 2 detours and 2 native detours from RecipeBrowser
+[19:14:01] [3/INFO] [tML]: Unloading: Max Stack Plus Extra
+[19:14:01] [3/INFO] [tML]: Unloading: Magic Storage - Extra
+[19:14:01] [3/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) removed by MagicStorageExtra_0
+[19:14:01] [3/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) removed by MagicStorageExtra_0
+[19:14:01] [3/INFO] [tML]: Unloading: Lan's Unlimited Buff Slots
+[19:14:01] [3/INFO] [tML]: Unloading: Block Swap
+[19:14:01] [3/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from FunctionalBlockSwap
+[19:14:01] [3/INFO] [tML]: Unloading: Yet Another Boss Health Bar
+[19:14:01] [3/INFO] [tML]: Unloading: Fargo's Soul Mod DLC
+[19:14:01] [3/INFO] [tML]: Unloading: Fargo's Music Mod
+[19:14:01] [3/INFO] [tML]: Unloading: Fargo's Souls Mod
+[19:14:01] [3/INFO] [tML]: Unloading: Cataclysm (Multi-Mod Addon: Calamity, Thorium, Clicker Class)
+[19:14:01] [3/DEBUG] [tML]: Unloaded 0 hooks, 1 detours and 1 native detours from CataclysmMod
+[19:14:01] [3/INFO] [tML]: Unloading: Calamity's Vanities
+[19:14:02] [3/DEBUG] [tML]: Unloaded 0 hooks, 17 detours and 17 native detours from CalValEX
+[19:14:02] [3/INFO] [tML]: Unloading: Fargo's Both Evils
+[19:14:02] [3/INFO] [tML]: Unloading: Boss Cursor
+[19:14:02] [3/INFO] [tML]: Unloading: Boss Checklist
+[19:14:02] [3/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from BossChecklist
+[19:14:02] [3/INFO] [tML]: Unloading: Base Mod
+[19:14:02] [3/INFO] [tML]: Unloading: Auto Trash
+[19:14:02] [3/INFO] [tML]: Unloading: AlchemistNPC Lite
+[19:14:02] [3/INFO] [tML]: Unloading: Calamity Mod Music
+[19:14:02] [3/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() unmodified by CalamityModMusic_0
+[19:14:02] [3/INFO] [tML]: Unloading: Calamity Mod (No Calamity Music)
+[19:14:03] [3/DEBUG] [tML]: Unloaded 5 hooks, 9 detours and 9 native detours from CalamityMod
+[19:14:03] [3/INFO] [tML]: Unloading: tModLoader
+[19:14:03] [3/WARN] [tML]: CalamityMod not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: BaseMod not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: BossChecklist not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: CataclysmMod not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: Fargowiltas not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: FargowiltasSouls not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: FargowiltasSoulsDLC not fully unloaded during unload.
+[19:14:03] [3/WARN] [tML]: ResearchFrom14 not fully unloaded during unload.
+[19:14:03] [3/INFO] [tML]: Finding Mods...
+[19:14:03] [3/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+[19:14:03] [3/INFO] [tML]: Sandboxing: CalamityMod
+[19:14:03] [3/INFO] [tML]: Sandboxing: CalamityModMusic
+[19:14:03] [3/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[19:14:03] [3/INFO] [tML]: Sandboxing: AutoTrash
+[19:14:03] [3/INFO] [tML]: Sandboxing: BaseMod
+[19:14:03] [3/INFO] [tML]: Sandboxing: BossChecklist
+[19:14:03] [3/INFO] [tML]: Sandboxing: BossCursor
+[19:14:03] [3/INFO] [tML]: Sandboxing: BothEvils
+[19:14:03] [3/INFO] [tML]: Sandboxing: CalValEX
+[19:14:03] [3/INFO] [tML]: Sandboxing: CataclysmMod
+[19:14:03] [3/INFO] [tML]: Sandboxing: Fargowiltas
+[19:14:03] [3/INFO] [tML]: Sandboxing: FargowiltasSouls
+[19:14:03] [3/INFO] [tML]: Sandboxing: FargowiltasMusic
+[19:14:03] [3/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[19:14:03] [3/INFO] [tML]: Sandboxing: FKBossHealthBar
+[19:14:03] [3/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[19:14:03] [3/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[19:14:03] [3/INFO] [tML]: Sandboxing: MagicStorageExtra
+[19:14:03] [3/INFO] [tML]: Sandboxing: MaxStackExtra
+[19:14:03] [3/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:14:03] [3/INFO] [tML]: Sandboxing: ResearchFrom14
+[19:14:03] [3/INFO] [tML]: Sandboxing: SmartDoors
+[19:14:03] [3/INFO] [tML]: Sandboxing: UtilityBombMod
+[19:14:03] [3/INFO] [tML]: Sandboxing: VeinMiner
+[19:14:03] [3/INFO] [tML]: Sandboxing: WeaponOutLite
+[19:14:03] [3/INFO] [tML]: Sandboxing: Wildlife
+[19:14:03] [3/INFO] [tML]: Sandboxing: WMITF
+[19:14:03] [3/INFO] [tML]: Instantiating Mods...
+[19:14:07] [3/WARN] [tML]: Granted native detouring access to Fargowiltas_1
+[19:14:07] [3/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_1
+[19:14:07] [3/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_1
+[19:14:11] [3/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[19:14:12] [3/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[19:14:14] [3/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[19:14:20] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[19:14:20] [3/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[19:14:21] [3/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[19:14:21] [3/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[19:14:22] [3/INFO] [tML]: Initializing: AutoTrash v0.5.2
+[19:14:22] [3/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[19:14:22] [3/INFO] [tML]: Initializing: BossChecklist v1.1.6
+[19:14:23] [3/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:14:23] [3/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[19:14:23] [3/INFO] [tML]: Initializing: BossCursor v1.5.1
+[19:14:23] [3/INFO] [tML]: Initializing: BothEvils v3.1
+[19:14:23] [3/INFO] [tML]: Initializing: CalValEX v8.5.2
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:24] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:25] [3/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_1
+[19:14:26] [3/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
+[19:14:26] [3/DEBUG] [CataclysmMod]: Loading mod-dependent content...
+[19:14:26] [3/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
+[19:14:26] [3/DEBUG] [CataclysmMod]: Preparing direct dependency content...
+[19:14:26] [3/DEBUG] [CataclysmMod]: Loading direct dependency content...
+[19:14:26] [3/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:14:26] [3/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
+[19:14:27] [3/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
+[19:14:27] [3/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[19:14:28] [3/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
+[19:14:28] [3/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
+[19:14:29] [3/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[19:14:29] [3/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[19:14:29] [3/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[19:14:29] [3/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[19:14:30] [3/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
+[19:14:30] [3/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
+[19:14:30] [3/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
+[19:14:30] [3/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[19:14:30] [3/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[19:14:30] [3/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:14:30] [3/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:14:31] [3/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[19:14:31] [3/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[19:14:31] [3/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[19:14:31] [3/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[19:14:32] [3/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[19:14:32] [3/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:14:32] [3/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:14:32] [3/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:14:33] [3/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[19:14:33] [3/INFO] [tML]: Initializing: Wildlife v0.14
+[19:14:34] [3/INFO] [tML]: Initializing: WMITF v2.6.2
+[19:14:34] [3/INFO] [tML]: Initializing: Fargowiltas v2.4.2
+[19:14:34] [3/INFO] [tML]: Setting up...
+[19:14:35] [3/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[19:14:35] [3/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[19:14:35] [3/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[19:14:36] [3/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[19:14:36] [3/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[19:14:36] [3/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[19:14:36] [3/INFO] [tML]: Loading: AutoTrash v0.5.2
+[19:14:37] [3/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[19:14:37] [3/INFO] [tML]: Loading: BossChecklist v1.1.6
+[19:14:37] [3/INFO] [tML]: Loading: BossCursor v1.5.1
+[19:14:38] [3/INFO] [tML]: Loading: BothEvils v3.1
+[19:14:38] [3/INFO] [tML]: Loading: CalValEX v8.5.2
+[19:14:38] [3/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
+[19:14:38] [3/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
+[19:14:38] [3/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
+[19:14:39] [3/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
+[19:14:39] [3/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[19:14:39] [3/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[19:14:39] [3/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[19:14:39] [3/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[19:14:39] [3/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
+[19:14:39] [3/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
+[19:14:40] [3/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[19:14:40] [3/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[19:14:40] [3/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[19:14:41] [3/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
+[19:14:41] [3/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[19:14:41] [3/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[19:14:42] [3/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[19:14:42] [3/INFO] [tML]: Loading: SmartDoors v1.3.3
+[19:14:42] [3/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[19:14:43] [3/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:14:43] [3/INFO] [tML]: Loading: WeaponOutLite v0.1
+[19:14:43] [3/INFO] [tML]: Loading: Wildlife v0.14
+[19:14:44] [3/INFO] [tML]: Loading: WMITF v2.6.2
+[19:14:44] [3/INFO] [tML]: Loading: Fargowiltas v2.4.2
+[19:14:44] [3/INFO] [tML]: RAM usage: 3,7 GB
+[19:14:44] [3/INFO] [tML]: Adding Recipes...
+[19:15:28] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
+[19:15:31] [8/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
+[19:15:31] [8/INFO] [ResearchFrom14]: Research System Initialized.
+[19:15:49] [10/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
+[19:15:49] [10/INFO] [StatusText]: Resetting game objects
+[19:15:51] [10/INFO] [StatusText]: Loading world data
+[19:15:52] [10/INFO] [StatusText]: Settling liquids
+[19:15:54] [10/INFO] [StatusText]: Loading map data
+[19:15:56] [10/INFO] [StatusText]: Drawing map
+[19:15:57] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
+[19:20:23] [6/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -266,21 +1514,16 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:00:30] [1/INFO] [Terraria]: Loaded 7000 vanilla assets
-[22:00:34] [1/INFO] [Terraria]: Loaded 8000 vanilla assets
-[22:00:39] [1/INFO] [Terraria]: Loaded 9000 vanilla assets
-[22:00:43] [1/INFO] [Terraria]: Loaded 10000 vanilla assets
-[22:00:57] [10/INFO] [StatusText]: Saving world data
-[22:00:57] [10/INFO] [StatusText]: Validating world save
-[22:10:57] [17/INFO] [StatusText]: Saving world data
-[22:10:57] [17/INFO] [StatusText]: Validating world save
-[22:20:57] [33/INFO] [StatusText]: Saving world data
-[22:20:57] [33/INFO] [StatusText]: Validating world save
-[22:30:57] [21/INFO] [StatusText]: Saving world data
-[22:30:57] [21/INFO] [StatusText]: Validating world save
-[22:40:57] [11/INFO] [StatusText]: Saving world data
-[22:40:57] [11/INFO] [StatusText]: Validating world save
-[22:41:09] [15/WARN] [tML]: Silently Caught Exception: 
+[19:26:03] [10/INFO] [StatusText]: Saving world data
+[19:26:05] [10/INFO] [StatusText]: Validating world save
+[19:35:58] [30/INFO] [StatusText]: Saving world data
+[19:35:59] [30/INFO] [StatusText]: Validating world save
+[19:41:50] [1/INFO] [Terraria]: Loaded 7000 vanilla assets
+[19:45:58] [3/INFO] [StatusText]: Saving world data
+[19:45:59] [3/INFO] [StatusText]: Validating world save
+[19:55:58] [13/INFO] [StatusText]: Saving world data
+[19:55:59] [13/INFO] [StatusText]: Validating world save
+[20:02:17] [19/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -294,7 +1537,37 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:41:09] [15/WARN] [tML]: Silently Caught Exception: 
+[20:05:58] [8/INFO] [StatusText]: Saving world data
+[20:05:59] [8/INFO] [StatusText]: Validating world save
+[20:15:58] [21/INFO] [StatusText]: Saving world data
+[20:15:59] [21/INFO] [StatusText]: Validating world save
+[20:22:46] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CalamityMod.NPCs.Abyss.Reaper.AI() in CalamityMod\NPCs\Abyss\Reaper.cs:line 98
+   at Terraria.ModLoader.NPCLoader.AI(NPC npc)
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[20:25:58] [35/INFO] [StatusText]: Saving world data
+[20:25:59] [35/INFO] [StatusText]: Validating world save
+[20:35:58] [6/INFO] [StatusText]: Saving world data
+[20:35:59] [6/INFO] [StatusText]: Validating world save
+[20:45:58] [25/INFO] [StatusText]: Saving world data
+[20:45:59] [25/INFO] [StatusText]: Validating world save
+[20:55:58] [9/INFO] [StatusText]: Saving world data
+[20:55:59] [9/INFO] [StatusText]: Validating world save
+[20:59:00] [1/INFO] [Terraria]: Loaded 8000 vanilla assets
+[21:05:59] [24/INFO] [StatusText]: Saving world data
+[21:05:59] [24/INFO] [StatusText]: Validating world save
+[21:14:24] [21/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -309,7 +1582,7 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:41:10] [15/WARN] [tML]: Silently Caught Exception: 
+[21:14:25] [21/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -325,7 +1598,7 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:41:11] [15/WARN] [tML]: Silently Caught Exception: 
+[21:14:25] [21/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -342,7 +1615,7 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:41:11] [15/WARN] [tML]: Silently Caught Exception: 
+[21:14:27] [21/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -360,11 +1633,49 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:50:57] [18/INFO] [StatusText]: Saving world data
-[22:50:57] [18/INFO] [StatusText]: Validating world save
-[22:59:52] [1/INFO] [Terraria]: Loaded 11000 vanilla assets
-[23:00:00] [1/INFO] [Terraria]: Loaded 12000 vanilla assets
-[23:00:04] [1/INFO] [Terraria]: Loaded 13000 vanilla assets
-[23:00:08] [1/INFO] [Terraria]: Loaded 14000 vanilla assets
-[23:00:57] [8/INFO] [StatusText]: Saving world data
-[23:00:57] [8/INFO] [StatusText]: Validating world save
+[21:15:58] [13/INFO] [StatusText]: Saving world data
+[21:15:59] [13/INFO] [StatusText]: Validating world save
+[21:19:47] [1/INFO] [Terraria]: Loaded 9000 vanilla assets
+[21:19:51] [1/INFO] [Terraria]: Loaded 10000 vanilla assets
+[21:21:00] [1/INFO] [Terraria]: Loaded 11000 vanilla assets
+[21:21:07] [1/INFO] [Terraria]: Loaded 12000 vanilla assets
+[21:25:59] [18/INFO] [StatusText]: Saving world data
+[21:25:59] [18/INFO] [StatusText]: Validating world save
+[21:35:59] [20/INFO] [StatusText]: Saving world data
+[21:35:59] [20/INFO] [StatusText]: Validating world save
+[21:45:59] [21/INFO] [StatusText]: Saving world data
+[21:45:59] [21/INFO] [StatusText]: Validating world save
+[21:48:29] [1/INFO] [Terraria]: Loaded 13000 vanilla assets
+[21:50:32] [1/INFO] [Terraria]: Loaded 14000 vanilla assets
+[21:50:45] [1/INFO] [Terraria]: Loaded 15000 vanilla assets
+[21:50:49] [1/INFO] [Terraria]: Loaded 16000 vanilla assets
+[21:50:53] [1/INFO] [Terraria]: Loaded 17000 vanilla assets
+[21:50:58] [1/INFO] [Terraria]: Loaded 18000 vanilla assets
+[21:55:43] [1/INFO] [Terraria]: Loaded 19000 vanilla assets
+[21:55:51] [1/INFO] [Terraria]: Loaded 20000 vanilla assets
+[21:55:59] [38/INFO] [StatusText]: Saving world data
+[21:55:59] [38/INFO] [StatusText]: Validating world save
+[22:05:15] [1/INFO] [Terraria]: Loaded 21000 vanilla assets
+[22:05:18] [1/INFO] [Terraria]: Loaded 22000 vanilla assets
+[22:05:22] [1/INFO] [Terraria]: Loaded 23000 vanilla assets
+[22:05:35] [1/INFO] [Terraria]: Loaded 24000 vanilla assets
+[22:05:59] [25/INFO] [StatusText]: Saving world data
+[22:05:59] [25/INFO] [StatusText]: Validating world save
+[22:15:59] [15/INFO] [StatusText]: Saving world data
+[22:15:59] [15/INFO] [StatusText]: Validating world save
+[22:25:59] [27/INFO] [StatusText]: Saving world data
+[22:25:59] [27/INFO] [StatusText]: Validating world save
+[22:35:59] [26/INFO] [StatusText]: Saving world data
+[22:35:59] [26/INFO] [StatusText]: Validating world save
+[22:45:59] [38/INFO] [StatusText]: Saving world data
+[22:45:59] [38/INFO] [StatusText]: Validating world save
+[22:55:59] [25/INFO] [StatusText]: Saving world data
+[22:55:59] [25/INFO] [StatusText]: Validating world save
+[23:05:59] [9/INFO] [StatusText]: Saving world data
+[23:05:59] [9/INFO] [StatusText]: Validating world save
+[23:15:59] [27/INFO] [StatusText]: Saving world data
+[23:15:59] [27/INFO] [StatusText]: Validating world save
+[23:17:08] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[23:17:08] [35/INFO] [StatusText]: Saving map data
+[23:17:11] [35/INFO] [StatusText]: Saving world data
+[23:17:11] [35/INFO] [StatusText]: Validating world save
