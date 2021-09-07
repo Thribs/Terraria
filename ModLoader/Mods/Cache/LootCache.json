@@ -1,12 +1,12 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 7046,
+  "lastUpdateTime": 21,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.5",
     "AlchemistNPCLite": "1.7.4",
     "AutoTrash": "0.5.2",
-    "BossChecklist": "1.1.6",
+    "BossChecklist": "1.1.6.1",
     "BossCursor": "1.5.1",
     "MagicStorage": "0.4.3.5",
     "SubworldLibrary": "1.1.0.3",
