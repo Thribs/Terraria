@@ -1,19 +1,19 @@
-﻿[22:31:05] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Win32NT client (06/09/2021)
-[22:31:05] [1/INFO] [tML]: Running on NetFramework 4.8
-[22:31:05] [1/INFO] [tML]: Engine: FNA
-[22:31:05] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64bit.exe
-[22:31:05] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
-[22:31:05] [1/INFO] [tML]: Launch Parameters: 
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
-[22:31:05] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-[22:31:06] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
-[22:31:06] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
-[22:31:06] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
-[22:31:06] [1/WARN] [tML]: Silently Caught Exception: 
+﻿[18:10:46] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Win32NT client (07/09/2021)
+[18:10:46] [1/INFO] [tML]: Running on NetFramework 4.8
+[18:10:46] [1/INFO] [tML]: Engine: FNA
+[18:10:46] [1/INFO] [tML]: Executable: G:\SteamLibrary\steamapps\common\tModLoader\tModLoader64bit.exe
+[18:10:46] [1/INFO] [tML]: Working Directory: G:\SteamLibrary\steamapps\common\tModLoader
+[18:10:46] [1/INFO] [tML]: Launch Parameters: 
+[18:10:46] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[18:10:46] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[18:10:46] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[18:10:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[18:10:47] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
+[18:10:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[18:10:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[18:10:47] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[18:10:47] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
+[18:10:48] [1/WARN] [tML]: Silently Caught Exception: 
 System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não foi possível encontrar o módulo especificado. (Exception from HRESULT: 0x8007007E)
    at Microsoft.Xna.Framework.Graphics.MetalDevice.sel_registerName(Byte[] name)
    at Microsoft.Xna.Framework.Graphics.MetalDevice..cctor()
@@ -24,25 +24,25 @@ System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:31:07] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
-[22:31:07] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
-[22:31:07] [1/INFO] [tML]: Checking Steam installation...
-[22:31:07] [1/INFO] [tML]: Steam installation OK.
-[22:31:09] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
-[22:31:23] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
-[22:31:31] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
-[22:31:37] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
-[22:31:43] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
-[22:31:49] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
-[22:31:55] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[22:31:55] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[22:31:55] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[22:31:55] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[22:31:57] [1/DEBUG] [tML]: Fallback synchronization context assigned
-[22:31:59] [3/INFO] [Terraria]: JIT loading finished
-[22:32:02] [7/INFO] [tML]: Unloading mods
-[22:32:03] [7/INFO] [tML]: Finding Mods...
-[22:32:05] [7/WARN] [tML]: Silently Caught Exception: 
+[18:10:49] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
+[18:10:49] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
+[18:10:49] [1/INFO] [tML]: Checking Steam installation...
+[18:10:50] [1/INFO] [tML]: Steam installation OK.
+[18:10:51] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
+[18:11:00] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[18:11:07] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[18:11:13] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
+[18:11:19] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
+[18:11:24] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
+[18:11:29] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[18:11:29] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[18:11:29] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[18:11:29] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[18:11:32] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[18:11:32] [6/INFO] [Terraria]: JIT loading finished
+[18:11:35] [7/INFO] [tML]: Unloading mods
+[18:11:36] [7/INFO] [tML]: Finding Mods...
+[18:11:37] [7/WARN] [tML]: Silently Caught Exception: 
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
@@ -56,117 +56,117 @@ System.Exception: Hash mismatch, data blob has been modified or corrupted
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:32:05] [7/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+[18:11:37] [7/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
    em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[22:32:07] [7/INFO] [tML]: Sandboxing: CalamityMod
-[22:32:08] [7/INFO] [tML]: Sandboxing: CalamityModMusic
-[22:32:08] [7/INFO] [tML]: Sandboxing: AlchemistNPCLite
-[22:32:08] [7/INFO] [tML]: Sandboxing: AutoTrash
-[22:32:09] [7/INFO] [tML]: Sandboxing: BaseMod
-[22:32:09] [7/INFO] [tML]: Sandboxing: BossChecklist
-[22:32:09] [7/INFO] [tML]: Sandboxing: BossCursor
-[22:32:09] [7/INFO] [tML]: Sandboxing: BothEvils
-[22:32:09] [7/INFO] [tML]: Sandboxing: CalValEX
-[22:32:09] [7/INFO] [tML]: Sandboxing: CataclysmMod
-[22:32:13] [7/INFO] [tML]: Sandboxing: Fargowiltas
-[22:32:13] [7/INFO] [tML]: Sandboxing: FargowiltasSouls
-[22:32:14] [7/INFO] [tML]: Sandboxing: FargowiltasMusic
-[22:32:14] [7/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
-[22:32:14] [7/INFO] [tML]: Sandboxing: FKBossHealthBar
-[22:32:14] [7/INFO] [tML]: Sandboxing: FunctionalBlockSwap
-[22:32:14] [7/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
-[22:32:14] [7/INFO] [tML]: Sandboxing: MagicStorageExtra
-[22:32:14] [7/INFO] [tML]: Sandboxing: MaxStackExtra
-[22:32:14] [7/INFO] [tML]: Sandboxing: RecipeBrowser
-[22:32:14] [7/INFO] [tML]: Sandboxing: ResearchFrom14
-[22:32:14] [7/INFO] [tML]: Sandboxing: SmartDoors
-[22:32:14] [7/INFO] [tML]: Sandboxing: UtilityBombMod
-[22:32:14] [7/INFO] [tML]: Sandboxing: VeinMiner
-[22:32:14] [7/INFO] [tML]: Sandboxing: WeaponOutLite
-[22:32:15] [7/INFO] [tML]: Sandboxing: Wildlife
-[22:32:15] [7/INFO] [tML]: Sandboxing: WMITF
-[22:32:15] [7/INFO] [tML]: Instantiating Mods...
-[22:32:15] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
-[22:32:15] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
-[22:32:15] [7/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
-[22:32:16] [7/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
-[22:32:19] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:32:19] [7/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
-[22:32:19] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:32:19] [7/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
-[22:32:19] [7/WARN] [tML]: Granted native detouring access to Fargowiltas_0
-[22:32:19] [7/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
-[22:32:19] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
-[22:32:19] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:32:19] [7/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
-[22:32:23] [7/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
-[22:32:25] [7/INFO] [tML]: Initializing: ModLoader v0.11.8.5
-[22:32:27] [7/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
-[22:32:28] [7/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:32:28] [7/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
-[22:32:34] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
-[22:32:34] [7/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
-[22:32:34] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:32:34] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
-[22:32:34] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:32:34] [7/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
-[22:32:35] [7/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
-[22:32:35] [7/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
-[22:32:36] [7/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
-[22:32:36] [7/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
-[22:32:37] [7/INFO] [tML]: Initializing: AutoTrash v0.5.2
-[22:32:37] [7/INFO] [tML]: Initializing: BaseMod v2.0.0.0
-[22:32:38] [7/INFO] [tML]: Initializing: BossChecklist v1.1.6
-[22:32:38] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
-[22:32:38] [7/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[22:32:38] [7/INFO] [tML]: Initializing: BossCursor v1.5.1
-[22:32:38] [7/INFO] [tML]: Initializing: BothEvils v3.1
-[22:32:39] [7/INFO] [tML]: Initializing: CalValEX v8.5.2
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:40] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:41] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:32:42] [7/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
-[22:32:42] [7/DEBUG] [CataclysmMod]: Loading mod-dependent content...
-[22:32:42] [7/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:32:42] [7/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
-[22:32:42] [7/DEBUG] [CataclysmMod]: Preparing direct dependency content...
-[22:32:42] [7/DEBUG] [CataclysmMod]: Loading direct dependency content...
-[22:32:42] [7/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:32:42] [7/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
-[22:32:43] [7/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
-[22:32:44] [7/INFO] [FargowiltasSouls]: ToggleCollections found: 4
-[22:32:44] [7/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
-[22:32:45] [7/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
-[22:32:45] [7/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
-[22:32:46] [7/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
-[22:32:46] [7/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
-[22:32:46] [7/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
-[22:32:46] [7/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
-[22:32:46] [7/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
-[22:32:46] [1/WARN] [tML]: Silently Caught Exception: 
+[18:11:38] [7/INFO] [tML]: Sandboxing: CalamityMod
+[18:11:39] [7/INFO] [tML]: Sandboxing: CalamityModMusic
+[18:11:39] [7/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[18:11:40] [7/INFO] [tML]: Sandboxing: AutoTrash
+[18:11:40] [7/INFO] [tML]: Sandboxing: BaseMod
+[18:11:40] [7/INFO] [tML]: Sandboxing: BossChecklist
+[18:11:40] [7/INFO] [tML]: Sandboxing: BossCursor
+[18:11:40] [7/INFO] [tML]: Sandboxing: BothEvils
+[18:11:40] [7/INFO] [tML]: Sandboxing: CalValEX
+[18:11:40] [7/INFO] [tML]: Sandboxing: CataclysmMod
+[18:11:44] [7/INFO] [tML]: Sandboxing: Fargowiltas
+[18:11:44] [7/INFO] [tML]: Sandboxing: FargowiltasSouls
+[18:11:44] [7/INFO] [tML]: Sandboxing: FargowiltasMusic
+[18:11:44] [7/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[18:11:45] [7/INFO] [tML]: Sandboxing: FKBossHealthBar
+[18:11:45] [7/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[18:11:45] [7/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[18:11:45] [7/INFO] [tML]: Sandboxing: MagicStorageExtra
+[18:11:45] [7/INFO] [tML]: Sandboxing: MaxStackExtra
+[18:11:45] [7/INFO] [tML]: Sandboxing: RecipeBrowser
+[18:11:45] [7/INFO] [tML]: Sandboxing: ResearchFrom14
+[18:11:45] [7/INFO] [tML]: Sandboxing: SmartDoors
+[18:11:45] [7/INFO] [tML]: Sandboxing: UtilityBombMod
+[18:11:45] [7/INFO] [tML]: Sandboxing: VeinMiner
+[18:11:45] [7/INFO] [tML]: Sandboxing: WeaponOutLite
+[18:11:45] [7/INFO] [tML]: Sandboxing: Wildlife
+[18:11:45] [7/INFO] [tML]: Sandboxing: WMITF
+[18:11:45] [7/INFO] [tML]: Instantiating Mods...
+[18:11:46] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
+[18:11:46] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+[18:11:46] [7/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
+[18:11:47] [7/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[18:11:49] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[18:11:49] [7/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
+[18:11:49] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[18:11:49] [7/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
+[18:11:49] [7/WARN] [tML]: Granted native detouring access to Fargowiltas_0
+[18:11:49] [7/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
+[18:11:49] [7/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
+[18:11:49] [7/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[18:11:49] [7/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
+[18:11:54] [7/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[18:11:55] [7/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[18:11:57] [7/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[18:11:58] [7/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:11:58] [7/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[18:12:05] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[18:12:05] [7/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
+[18:12:05] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:05] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[18:12:05] [7/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
+[18:12:05] [7/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[18:12:05] [7/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[18:12:06] [7/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[18:12:07] [7/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[18:12:07] [7/INFO] [tML]: Initializing: AutoTrash v0.5.2
+[18:12:07] [7/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[18:12:08] [7/INFO] [tML]: Initializing: BossChecklist v1.1.6.1
+[18:12:08] [7/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[18:12:08] [7/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[18:12:08] [7/INFO] [tML]: Initializing: BossCursor v1.5.1
+[18:12:08] [7/INFO] [tML]: Initializing: BothEvils v3.1
+[18:12:09] [7/INFO] [tML]: Initializing: CalValEX v8.5.2
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:10] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:11] [7/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[18:12:12] [7/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
+[18:12:12] [7/DEBUG] [CataclysmMod]: Loading mod-dependent content...
+[18:12:12] [7/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:12] [7/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
+[18:12:12] [7/DEBUG] [CataclysmMod]: Preparing direct dependency content...
+[18:12:12] [7/DEBUG] [CataclysmMod]: Loading direct dependency content...
+[18:12:12] [7/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:12] [7/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
+[18:12:13] [7/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
+[18:12:14] [7/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[18:12:14] [7/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
+[18:12:15] [7/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
+[18:12:15] [7/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[18:12:15] [7/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[18:12:15] [7/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[18:12:16] [7/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[18:12:16] [7/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
+[18:12:16] [7/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
+[18:12:16] [1/WARN] [tML]: Silently Caught Exception: 
 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.ThrowHelper.ThrowKeyNotFoundException()
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
@@ -182,365 +182,82 @@ System.Collections.Generic.KeyNotFoundException: The given key was not present i
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:32:47] [7/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
-[22:32:47] [7/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
-[22:32:47] [7/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
-[22:32:48] [7/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
-[22:32:48] [7/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
-[22:32:48] [7/INFO] [tML]: Initializing: ResearchFrom14 v2.0
-[22:32:48] [7/INFO] [tML]: Initializing: SmartDoors v1.3.3
-[22:32:48] [7/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
-[22:32:49] [7/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
-[22:32:49] [7/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
-[22:32:49] [7/INFO] [tML]: Initializing: VeinMiner v1.3.1
-[22:32:50] [7/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
-[22:32:50] [7/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
-[22:32:51] [7/INFO] [tML]: Initializing: WeaponOutLite v0.1
-[22:32:51] [7/INFO] [tML]: Initializing: Wildlife v0.14
-[22:32:52] [7/INFO] [tML]: Initializing: WMITF v2.6.2
-[22:32:52] [7/INFO] [tML]: Initializing: Fargowiltas v2.4.2
-[22:32:53] [7/INFO] [tML]: Setting up...
-[22:32:53] [7/INFO] [tML]: Loading: ModLoader v0.11.8.5
-[22:32:54] [7/INFO] [tML]: Loading: CalamityMod v1.4.5.7
-[22:32:56] [7/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
-[22:32:57] [7/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
-[22:32:57] [7/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
-[22:32:58] [7/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
-[22:32:58] [7/INFO] [tML]: Loading: AutoTrash v0.5.2
-[22:32:59] [7/INFO] [tML]: Loading: BaseMod v2.0.0.0
-[22:32:59] [7/INFO] [tML]: Loading: BossChecklist v1.1.6
-[22:33:00] [7/INFO] [tML]: Loading: BossCursor v1.5.1
-[22:33:00] [7/INFO] [tML]: Loading: BothEvils v3.1
-[22:33:00] [7/INFO] [tML]: Loading: CalValEX v8.5.2
-[22:33:02] [7/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
-[22:33:02] [7/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
-[22:33:02] [7/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
-[22:33:02] [7/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
-[22:33:04] [7/INFO] [Terraria]: Loaded 6000 vanilla assets
-[22:33:05] [7/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
-[22:33:05] [7/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
-[22:33:05] [7/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
-[22:33:05] [7/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
-[22:33:05] [7/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
-[22:33:06] [7/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
-[22:33:06] [7/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:33:06] [7/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
-[22:33:06] [7/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
-[22:33:06] [7/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
-[22:33:07] [7/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
-[22:33:07] [7/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
-[22:33:07] [7/INFO] [tML]: Loading: RecipeBrowser v0.8.9
-[22:33:08] [7/INFO] [tML]: Loading: ResearchFrom14 v2.0
-[22:33:08] [7/INFO] [tML]: Loading: SmartDoors v1.3.3
-[22:33:08] [7/INFO] [tML]: Loading: UtilityBombMod v0.2.5
-[22:33:09] [7/INFO] [tML]: Loading: VeinMiner v1.3.1
-[22:33:09] [7/INFO] [tML]: Loading: WeaponOutLite v0.1
-[22:33:09] [7/INFO] [tML]: Loading: Wildlife v0.14
-[22:33:09] [7/INFO] [tML]: Loading: WMITF v2.6.2
-[22:33:10] [7/INFO] [tML]: Loading: Fargowiltas v2.4.2
-[22:33:11] [7/INFO] [tML]: RAM usage: 3,6 GB
-[22:33:11] [7/INFO] [tML]: Adding Recipes...
-[22:33:12] [7/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:33:12] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:33:12] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:33:25] [6/WARN] [tML]: Silently Caught Exception: 
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Read()
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-   em System.Threading.Tasks.Task`1.InnerInvoke()
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[22:33:25] [6/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Read()
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[22:33:47] [3/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
-[22:33:49] [6/WARN] [tML]: Silently Caught Exception: 
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-   em System.Threading.Tasks.Task`1.InnerInvoke()
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[22:33:49] [6/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Read()
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[22:33:50] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/ob0Ta9M.png
-[22:33:50] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/3QQbnbG.png
-[22:33:53] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/lImjIWb.png
-[22:34:03] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
-[22:34:03] [6/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/moddescription.php
-[22:34:19] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/BossChecklist.tmod&tls12=y
-[22:34:19] [1/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/download.php?Down=mods/BossChecklist.tmod&tls12=y
-[22:34:19] [21/DEBUG] [tML]: Web Request: https://github.com/JavidPack/BossChecklist/releases/download/v1.1.6.1/BossChecklist.tmod
-[22:34:19] [21/DEBUG] [tML]: Web Request: https://github-releases.githubusercontent.com/71979298/8ca5c25c-39cd-4d3e-982d-c12bd7ce968e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210907T013344Z&X-Amz-Expires=300&X-Amz-Signature=75dd176f737a9f6840281e4fb12c8b5fa3a0a4669a632ed722ec9402bf77fe60&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=71979298&response-content-disposition=attachment%3B filename%3DBossChecklist.tmod&response-content-type=application%2Foctet-stream
-[22:34:20] [6/INFO] [tML]: Releasing file handle for BossChecklist: Boss Checklist
-[22:34:37] [9/INFO] [tML]: Unloading mods
-[22:34:37] [9/INFO] [tML]: Unloading: Fargo's Mutant Mod
-[22:34:37] [9/DEBUG] [tML]: Unloaded 1 hooks, 2 detours and 2 native detours from Fargowiltas
-[22:34:37] [9/INFO] [tML]: Unloading: Which Mod Is This From? (WMITF)
-[22:34:37] [9/INFO] [tML]: Unloading: Wildlife Mod
-[22:34:37] [9/INFO] [tML]: Unloading: WeaponOut Lite
-[22:34:37] [9/INFO] [tML]: Unloading: VeinMiner
-[22:34:37] [9/INFO] [tML]: Unloading: Utility Bombs Reborn
-[22:34:37] [9/INFO] [tML]: Unloading: Smart Doors (from 1.4)
-[22:34:37] [9/DEBUG] [tML]: Unloaded 0 hooks, 2 detours and 2 native detours from SmartDoors
-[22:34:37] [9/INFO] [tML]: Unloading: Research System from Terraria 1.4
-[22:34:37] [9/INFO] [tML]: Unloading: Recipe Browser
-[22:34:37] [9/WARN] [tML]: Silently Caught Exception: 
-System.Threading.Tasks.TaskCanceledException: Uma tarefa foi cancelada.
-   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   em RecipeBrowser.RecipeBrowser.<ConcurrentTaskHandler>d__16.MoveNext() na RecipeBrowser.cs:linha 194
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.Run()
-   em System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining, Task& currentTask)
-   em System.Threading.Tasks.Task.FinishContinuations()
-   em System.Threading.Tasks.Task`1.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
-   em System.Threading.Tasks.Task.DelayPromise.Complete()
-   em System.Threading.CancellationCallbackInfo.ExecuteCallback()
-   em System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
-   em System.Threading.CancellationTokenSource.NotifyCancellation(Boolean throwOnFirstException)
-   em RecipeBrowser.RecipeBrowser.Unload() na RecipeBrowser.cs:linha 131
-   em Terraria.ModLoader.Mod.UnloadContent()
-   em Terraria.ModLoader.ModContent.UnloadModContent()
-   em Terraria.ModLoader.ModLoader.do_Unload()
-   em Terraria.ModLoader.ModLoader.Unload()
-   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[22:34:37] [9/DEBUG] [tML]: Unloaded 2 hooks, 2 detours and 2 native detours from RecipeBrowser
-[22:34:37] [9/INFO] [tML]: Unloading: Max Stack Plus Extra
-[22:34:37] [9/INFO] [tML]: Unloading: Magic Storage - Extra
-[22:34:37] [9/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) removed by MagicStorageExtra_0
-[22:34:37] [9/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) removed by MagicStorageExtra_0
-[22:34:37] [9/INFO] [tML]: Unloading: Lan's Unlimited Buff Slots
-[22:34:37] [9/INFO] [tML]: Unloading: Block Swap
-[22:34:37] [9/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from FunctionalBlockSwap
-[22:34:37] [9/INFO] [tML]: Unloading: Yet Another Boss Health Bar
-[22:34:37] [9/INFO] [tML]: Unloading: Fargo's Soul Mod DLC
-[22:34:37] [9/INFO] [tML]: Unloading: Fargo's Music Mod
-[22:34:37] [9/INFO] [tML]: Unloading: Fargo's Souls Mod
-[22:34:37] [9/INFO] [tML]: Unloading: Cataclysm (Multi-Mod Addon: Calamity, Thorium, Clicker Class)
-[22:34:37] [9/DEBUG] [tML]: Unloaded 0 hooks, 1 detours and 1 native detours from CataclysmMod
-[22:34:37] [9/INFO] [tML]: Unloading: Calamity's Vanities
-[22:34:39] [9/DEBUG] [tML]: Unloaded 0 hooks, 17 detours and 17 native detours from CalValEX
-[22:34:39] [9/INFO] [tML]: Unloading: Fargo's Both Evils
-[22:34:39] [9/INFO] [tML]: Unloading: Boss Cursor
-[22:34:39] [9/INFO] [tML]: Unloading: Boss Checklist
-[22:34:39] [9/DEBUG] [tML]: Unloaded 1 hooks, 1 detours and 1 native detours from BossChecklist
-[22:34:39] [9/INFO] [tML]: Unloading: Base Mod
-[22:34:39] [9/INFO] [tML]: Unloading: Auto Trash
-[22:34:39] [9/INFO] [tML]: Unloading: AlchemistNPC Lite
-[22:34:39] [9/INFO] [tML]: Unloading: Calamity Mod Music
-[22:34:39] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() unmodified by CalamityModMusic_0
-[22:34:39] [9/INFO] [tML]: Unloading: Calamity Mod (No Calamity Music)
-[22:34:39] [9/DEBUG] [tML]: Unloaded 5 hooks, 9 detours and 9 native detours from CalamityMod
-[22:34:39] [9/INFO] [tML]: Unloading: tModLoader
-[22:34:40] [9/WARN] [tML]: CalamityMod not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: BaseMod not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: BossChecklist not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: CataclysmMod not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: Fargowiltas not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: FargowiltasSouls not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: FargowiltasSoulsDLC not fully unloaded during unload.
-[22:34:40] [9/WARN] [tML]: ResearchFrom14 not fully unloaded during unload.
-[22:34:40] [9/INFO] [tML]: Finding Mods...
-[22:34:40] [9/WARN] [tML]: Silently Caught Exception: 
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-   em Terraria.ModLoader.Core.ModOrganizer.LoadMods(CancellationToken token)
-   em Terraria.ModLoader.ModLoader.Load(CancellationToken token)
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[22:34:40] [9/WARN] [tML]: Failed to read C:\Users\thrib\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
-System.Exception: Hash mismatch, data blob has been modified or corrupted
-   em Terraria.ModLoader.Core.TmodFile.Read()
-   em Terraria.ModLoader.Core.TmodFile.Open()
-   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[22:34:40] [9/INFO] [tML]: Sandboxing: CalamityMod
-[22:34:40] [9/INFO] [tML]: Sandboxing: CalamityModMusic
-[22:34:40] [9/INFO] [tML]: Sandboxing: AlchemistNPCLite
-[22:34:40] [9/INFO] [tML]: Sandboxing: AutoTrash
-[22:34:40] [9/INFO] [tML]: Sandboxing: BaseMod
-[22:34:40] [9/INFO] [tML]: Sandboxing: BossChecklist
-[22:34:40] [9/INFO] [tML]: Sandboxing: BossCursor
-[22:34:40] [9/INFO] [tML]: Sandboxing: BothEvils
-[22:34:40] [9/INFO] [tML]: Sandboxing: CalValEX
-[22:34:40] [9/INFO] [tML]: Sandboxing: CataclysmMod
-[22:34:40] [9/INFO] [tML]: Sandboxing: Fargowiltas
-[22:34:40] [9/INFO] [tML]: Sandboxing: FargowiltasSouls
-[22:34:40] [9/INFO] [tML]: Sandboxing: FargowiltasMusic
-[22:34:40] [9/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
-[22:34:40] [9/INFO] [tML]: Sandboxing: FKBossHealthBar
-[22:34:40] [9/INFO] [tML]: Sandboxing: FunctionalBlockSwap
-[22:34:40] [9/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
-[22:34:40] [9/INFO] [tML]: Sandboxing: MagicStorageExtra
-[22:34:40] [9/INFO] [tML]: Sandboxing: MaxStackExtra
-[22:34:40] [9/INFO] [tML]: Sandboxing: RecipeBrowser
-[22:34:40] [9/INFO] [tML]: Sandboxing: ResearchFrom14
-[22:34:40] [9/INFO] [tML]: Sandboxing: SmartDoors
-[22:34:40] [9/INFO] [tML]: Sandboxing: UtilityBombMod
-[22:34:40] [9/INFO] [tML]: Sandboxing: VeinMiner
-[22:34:40] [9/INFO] [tML]: Sandboxing: WeaponOutLite
-[22:34:40] [9/INFO] [tML]: Sandboxing: Wildlife
-[22:34:40] [9/INFO] [tML]: Sandboxing: WMITF
-[22:34:40] [9/INFO] [tML]: Instantiating Mods...
-[22:34:44] [9/WARN] [tML]: Granted native detouring access to Fargowiltas_0
-[22:34:44] [9/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
-[22:34:44] [9/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
-[22:34:47] [9/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
-[22:34:49] [9/INFO] [tML]: Initializing: ModLoader v0.11.8.5
-[22:34:51] [9/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
-[22:34:57] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
-[22:34:57] [9/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
-[22:34:58] [9/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
-[22:34:58] [9/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
-[22:34:58] [9/INFO] [tML]: Initializing: AutoTrash v0.5.2
-[22:34:59] [9/INFO] [tML]: Initializing: BaseMod v2.0.0.0
-[22:34:59] [9/INFO] [tML]: Initializing: BossChecklist v1.1.6.1
-[22:34:59] [9/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_1
-[22:34:59] [9/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[22:34:59] [9/INFO] [tML]: Initializing: BossCursor v1.5.1
-[22:35:00] [9/INFO] [tML]: Initializing: BothEvils v3.1
-[22:35:00] [9/INFO] [tML]: Initializing: CalValEX v8.5.2
-[22:35:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:00] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:01] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:02] [9/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:35:03] [9/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
-[22:35:03] [9/DEBUG] [CataclysmMod]: Loading mod-dependent content...
-[22:35:03] [9/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
-[22:35:03] [9/DEBUG] [CataclysmMod]: Preparing direct dependency content...
-[22:35:03] [9/DEBUG] [CataclysmMod]: Loading direct dependency content...
-[22:35:03] [9/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:35:03] [9/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
-[22:35:03] [9/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
-[22:35:04] [9/INFO] [FargowiltasSouls]: ToggleCollections found: 4
-[22:35:05] [9/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
-[22:35:05] [9/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
-[22:35:05] [9/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
-[22:35:06] [9/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
-[22:35:06] [9/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
-[22:35:06] [9/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
-[22:35:06] [9/INFO] [tML]: Initializing: MagicStorageExtra v0.5.4.3
-[22:35:06] [9/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
-[22:35:06] [9/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
-[22:35:07] [9/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
-[22:35:07] [9/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
-[22:35:07] [9/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
-[22:35:07] [9/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
-[22:35:07] [9/INFO] [tML]: Initializing: ResearchFrom14 v2.0
-[22:35:08] [9/INFO] [tML]: Initializing: SmartDoors v1.3.3
-[22:35:08] [9/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
-[22:35:08] [9/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
-[22:35:09] [9/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
-[22:35:09] [9/INFO] [tML]: Initializing: VeinMiner v1.3.1
-[22:35:09] [9/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
-[22:35:09] [9/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
-[22:35:10] [9/INFO] [tML]: Initializing: WeaponOutLite v0.1
-[22:35:11] [9/INFO] [tML]: Initializing: Wildlife v0.14
-[22:35:11] [9/INFO] [tML]: Initializing: WMITF v2.6.2
-[22:35:11] [9/INFO] [tML]: Initializing: Fargowiltas v2.4.2
-[22:35:12] [9/INFO] [tML]: Setting up...
-[22:35:12] [9/INFO] [tML]: Loading: ModLoader v0.11.8.5
-[22:35:12] [9/INFO] [tML]: Loading: CalamityMod v1.4.5.7
-[22:35:13] [9/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
-[22:35:13] [9/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
-[22:35:13] [9/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
-[22:35:13] [9/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
-[22:35:14] [9/INFO] [tML]: Loading: AutoTrash v0.5.2
-[22:35:14] [9/INFO] [tML]: Loading: BaseMod v2.0.0.0
-[22:35:14] [9/INFO] [tML]: Loading: BossChecklist v1.1.6.1
-[22:35:14] [9/INFO] [tML]: Loading: BossCursor v1.5.1
-[22:35:15] [9/INFO] [tML]: Loading: BothEvils v3.1
-[22:35:15] [9/INFO] [tML]: Loading: CalValEX v8.5.2
-[22:35:15] [9/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
-[22:35:15] [9/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
-[22:35:15] [9/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
-[22:35:16] [9/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
-[22:35:16] [9/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
-[22:35:16] [9/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
-[22:35:16] [9/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
-[22:35:16] [9/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
-[22:35:16] [9/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
-[22:35:16] [9/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
-[22:35:16] [9/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
-[22:35:17] [9/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
-[22:35:17] [9/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
-[22:35:17] [9/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
-[22:35:18] [9/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
-[22:35:18] [9/INFO] [tML]: Loading: RecipeBrowser v0.8.9
-[22:35:18] [9/INFO] [tML]: Loading: ResearchFrom14 v2.0
-[22:35:19] [9/INFO] [tML]: Loading: SmartDoors v1.3.3
-[22:35:19] [9/INFO] [tML]: Loading: UtilityBombMod v0.2.5
-[22:35:19] [9/INFO] [tML]: Loading: VeinMiner v1.3.1
-[22:35:20] [9/INFO] [tML]: Loading: WeaponOutLite v0.1
-[22:35:20] [9/INFO] [tML]: Loading: Wildlife v0.14
-[22:35:20] [9/INFO] [tML]: Loading: WMITF v2.6.2
-[22:35:20] [9/INFO] [tML]: Loading: Fargowiltas v2.4.2
-[22:35:21] [9/INFO] [tML]: RAM usage: 3,7 GB
-[22:35:21] [9/INFO] [tML]: Adding Recipes...
-[22:35:21] [9/INFO] [tML]: Recipe Browser: Rebuilding Loot Cache (Hold shift to skip if stuck)
-[22:35:21] [9/INFO] [tML]: Adding Recipes
-[22:35:34] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
-[22:35:37] [9/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
-[22:35:37] [9/INFO] [ResearchFrom14]: Research System Initialized.
-[22:35:44] [7/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
-[22:35:44] [7/INFO] [StatusText]: Resetting game objects
-[22:35:46] [7/INFO] [StatusText]: Loading world data
-[22:35:47] [7/INFO] [StatusText]: Settling liquids
-[22:35:49] [7/INFO] [StatusText]: Loading map data
-[22:35:50] [7/INFO] [StatusText]: Drawing map
-[22:35:52] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
-[22:45:53] [10/INFO] [StatusText]: Saving world data
-[22:45:54] [10/INFO] [StatusText]: Validating world save
-[22:47:51] [25/WARN] [tML]: Silently Caught Exception: 
+[18:12:16] [7/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
+[18:12:17] [7/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[18:12:17] [7/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[18:12:17] [7/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[18:12:17] [7/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[18:12:18] [7/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[18:12:18] [7/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[18:12:18] [7/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[18:12:18] [7/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[18:12:19] [7/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[18:12:19] [7/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[18:12:19] [7/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[18:12:19] [7/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[18:12:20] [7/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[18:12:20] [7/INFO] [tML]: Initializing: Wildlife v0.14
+[18:12:20] [7/INFO] [tML]: Initializing: WMITF v2.6.2
+[18:12:21] [7/INFO] [tML]: Initializing: Fargowiltas v2.4.2
+[18:12:21] [7/INFO] [tML]: Setting up...
+[18:12:22] [7/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[18:12:22] [7/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[18:12:24] [7/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[18:12:25] [7/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[18:12:25] [7/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[18:12:26] [7/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[18:12:26] [7/INFO] [tML]: Loading: AutoTrash v0.5.2
+[18:12:26] [7/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[18:12:27] [7/INFO] [tML]: Loading: BossChecklist v1.1.6.1
+[18:12:27] [7/INFO] [tML]: Loading: BossCursor v1.5.1
+[18:12:27] [7/INFO] [tML]: Loading: BothEvils v3.1
+[18:12:28] [7/INFO] [tML]: Loading: CalValEX v8.5.2
+[18:12:29] [7/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
+[18:12:29] [7/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
+[18:12:29] [7/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
+[18:12:29] [7/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
+[18:12:31] [7/INFO] [Terraria]: Loaded 6000 vanilla assets
+[18:12:31] [7/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[18:12:31] [7/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[18:12:31] [7/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[18:12:31] [7/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[18:12:32] [7/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
+[18:12:32] [7/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
+[18:12:32] [7/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:32] [7/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[18:12:33] [7/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[18:12:33] [7/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[18:12:33] [7/INFO] [tML]: Loading: MagicStorageExtra v0.5.4.3
+[18:12:34] [7/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[18:12:34] [7/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[18:12:35] [7/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[18:12:35] [7/INFO] [tML]: Loading: SmartDoors v1.3.3
+[18:12:35] [7/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[18:12:36] [7/INFO] [tML]: Loading: VeinMiner v1.3.1
+[18:12:36] [7/INFO] [tML]: Loading: WeaponOutLite v0.1
+[18:12:36] [7/INFO] [tML]: Loading: Wildlife v0.14
+[18:12:37] [7/INFO] [tML]: Loading: WMITF v2.6.2
+[18:12:37] [7/INFO] [tML]: Loading: Fargowiltas v2.4.2
+[18:12:38] [7/INFO] [tML]: RAM usage: 3,6 GB
+[18:12:38] [7/INFO] [tML]: Adding Recipes...
+[18:12:39] [7/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:39] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:39] [7/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[18:12:44] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
+[18:12:47] [9/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
+[18:12:47] [9/INFO] [ResearchFrom14]: Research System Initialized.
+[18:12:51] [10/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
+[18:12:51] [10/INFO] [StatusText]: Resetting game objects
+[18:12:53] [10/INFO] [StatusText]: Loading world data
+[18:12:53] [10/INFO] [StatusText]: Settling liquids
+[18:12:55] [10/INFO] [StatusText]: Loading map data
+[18:12:57] [10/INFO] [StatusText]: Drawing map
+[18:12:58] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
+[18:22:59] [10/INFO] [StatusText]: Saving world data
+[18:23:00] [10/INFO] [StatusText]: Validating world save
+[18:32:59] [18/INFO] [StatusText]: Saving world data
+[18:33:00] [18/INFO] [StatusText]: Validating world save
+[18:42:00] [18/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -553,7 +270,7 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:53:22] [12/WARN] [tML]: Silently Caught Exception: 
+[18:42:14] [18/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -567,15 +284,23 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:55:54] [10/INFO] [StatusText]: Saving world data
-[22:55:54] [10/INFO] [StatusText]: Validating world save
-[23:02:21] [1/INFO] [Terraria]: Loaded 7000 vanilla assets
-[23:05:37] [1/INFO] [Terraria]: Loaded 8000 vanilla assets
-[23:05:39] [1/INFO] [Terraria]: Loaded 9000 vanilla assets
-[23:05:54] [13/INFO] [StatusText]: Saving world data
-[23:05:54] [13/INFO] [StatusText]: Validating world save
-[23:11:49] [1/INFO] [Terraria]: Loaded 10000 vanilla assets
-[23:13:11] [22/WARN] [tML]: Silently Caught Exception: 
+[18:42:59] [10/INFO] [StatusText]: Saving world data
+[18:43:00] [10/INFO] [StatusText]: Validating world save
+[18:52:59] [29/INFO] [StatusText]: Saving world data
+[18:53:00] [29/INFO] [StatusText]: Validating world save
+[19:02:59] [21/INFO] [StatusText]: Saving world data
+[19:03:00] [21/INFO] [StatusText]: Validating world save
+[19:12:59] [33/INFO] [StatusText]: Saving world data
+[19:13:00] [33/INFO] [StatusText]: Validating world save
+[19:14:08] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:14:08] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:14:08] [1/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> SacredTools_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:16:01] [1/INFO] [Terraria]: Loaded 7000 vanilla assets
+[19:16:05] [1/INFO] [Terraria]: Loaded 8000 vanilla assets
+[19:16:10] [1/INFO] [Terraria]: Loaded 9000 vanilla assets
+[19:16:14] [1/INFO] [Terraria]: Loaded 10000 vanilla assets
+[19:16:18] [1/INFO] [Terraria]: Loaded 11000 vanilla assets
+[19:20:38] [28/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -590,7 +315,7 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[23:13:32] [22/WARN] [tML]: Silently Caught Exception: 
+[19:20:38] [28/WARN] [tML]: Silently Caught Exception: 
 System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
    em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
@@ -606,16 +331,53 @@ System.InvalidOperationException: Coleção foi modificada; talvez a operação 
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[23:15:54] [21/INFO] [StatusText]: Saving world data
-[23:15:54] [21/INFO] [StatusText]: Validating world save
-[23:19:06] [1/INFO] [Terraria]: Loaded 11000 vanilla assets
-[23:23:46] [1/INFO] [Terraria]: Loaded 12000 vanilla assets
-[23:25:54] [7/INFO] [StatusText]: Saving world data
-[23:25:54] [7/INFO] [StatusText]: Validating world save
-[23:30:04] [1/WARN] [tML]: Silently Caught Exception: 
+[19:22:59] [18/INFO] [StatusText]: Saving world data
+[19:23:00] [18/INFO] [StatusText]: Validating world save
+[19:28:20] [35/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:28:20] [35/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:32:59] [27/INFO] [StatusText]: Saving world data
+[19:33:00] [27/INFO] [StatusText]: Validating world save
+[19:36:27] [1/INFO] [Terraria]: Loaded 12000 vanilla assets
+[19:36:36] [1/INFO] [Terraria]: Loaded 13000 vanilla assets
+[19:36:40] [1/INFO] [Terraria]: Loaded 14000 vanilla assets
+[19:36:48] [1/INFO] [Terraria]: Loaded 15000 vanilla assets
+[19:40:10] [1/WARN] [tML]: Silently Caught Exception: 
 System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at Terraria.Lighting.PreRenderPhase()
-   at Terraria.Lighting.LightTiles(Int32 firstX, Int32 lastX, Int32 firstY, Int32 lastY)
+   at Terraria.Main.DrawNPC(Int32 iNPCIndex, Boolean behindTiles)
+   at Terraria.Main.DrawNPCs(Boolean behindTiles)
    at Terraria.Main.DoDraw(GameTime gameTime)
    at Terraria.Main.Draw(GameTime gameTime)
    at Microsoft.Xna.Framework.Game.Tick()
@@ -625,10 +387,27 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[23:33:24] [1/WARN] [tML]: Silently Caught Exception: 
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at Terraria.Collision.StepConveyorBelt(Entity entity, Single gravDir)
-   at Terraria.Item.UpdateItem(Int32 i)
+[19:42:59] [11/INFO] [StatusText]: Saving world data
+[19:43:00] [11/INFO] [StatusText]: Validating world save
+[19:46:44] [1/INFO] [Terraria]: Loaded 16000 vanilla assets
+[19:46:51] [1/INFO] [Terraria]: Loaded 17000 vanilla assets
+[19:46:56] [1/INFO] [Terraria]: Loaded 18000 vanilla assets
+[19:47:01] [1/INFO] [Terraria]: Loaded 19000 vanilla assets
+[19:47:07] [1/INFO] [Terraria]: Loaded 20000 vanilla assets
+[19:52:59] [29/INFO] [StatusText]: Saving world data
+[19:53:00] [29/INFO] [StatusText]: Validating world save
+[20:02:59] [6/INFO] [StatusText]: Saving world data
+[20:03:00] [6/INFO] [StatusText]: Validating world save
+[20:12:59] [21/INFO] [StatusText]: Saving world data
+[20:13:00] [21/INFO] [StatusText]: Validating world save
+[20:23:00] [30/INFO] [StatusText]: Saving world data
+[20:23:00] [30/INFO] [StatusText]: Validating world save
+[20:23:37] [1/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.NPC.AI_026_Unicorns()
+   at Terraria.NPC.VanillaAI()
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
    at Terraria.Main.DoUpdate(GameTime gameTime)
    at Terraria.Main.Update(GameTime gameTime)
    at Microsoft.Xna.Framework.Game.Tick()
@@ -638,541 +417,42 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[23:35:53] [14/INFO] [StatusText]: Saving world data
-[23:35:54] [14/INFO] [StatusText]: Validating world save
-[23:37:21] [1/INFO] [Terraria]: Loaded 13000 vanilla assets
-[23:37:25] [1/INFO] [Terraria]: Loaded 14000 vanilla assets
-[23:37:29] [1/INFO] [Terraria]: Loaded 15000 vanilla assets
-[23:37:39] [1/INFO] [Terraria]: Loaded 16000 vanilla assets
-[23:37:43] [1/INFO] [Terraria]: Loaded 17000 vanilla assets
-[23:37:47] [1/INFO] [Terraria]: Loaded 18000 vanilla assets
-[23:37:51] [1/INFO] [Terraria]: Loaded 19000 vanilla assets
-[23:45:54] [13/INFO] [StatusText]: Saving world data
-[23:45:54] [13/INFO] [StatusText]: Validating world save
-[23:55:33] [1/INFO] [Terraria]: Loaded 20000 vanilla assets
-[23:55:54] [19/INFO] [StatusText]: Saving world data
-[23:55:54] [19/INFO] [StatusText]: Validating world save
-[00:05:54] [7/INFO] [StatusText]: Saving world data
-[00:05:54] [7/INFO] [StatusText]: Validating world save
-[00:15:54] [18/INFO] [StatusText]: Saving world data
-[00:15:54] [18/INFO] [StatusText]: Validating world save
-[00:25:54] [18/INFO] [StatusText]: Saving world data
-[00:25:54] [18/INFO] [StatusText]: Validating world save
-[00:35:54] [9/INFO] [StatusText]: Saving world data
-[00:35:54] [9/INFO] [StatusText]: Validating world save
-[00:40:41] [1/INFO] [Terraria]: Loaded 21000 vanilla assets
-[00:40:45] [1/INFO] [Terraria]: Loaded 22000 vanilla assets
-[00:40:49] [1/INFO] [Terraria]: Loaded 23000 vanilla assets
-[00:40:53] [1/INFO] [Terraria]: Loaded 24000 vanilla assets
-[00:40:56] [1/INFO] [Terraria]: Loaded 25000 vanilla assets
-[00:45:54] [18/INFO] [StatusText]: Saving world data
-[00:45:54] [18/INFO] [StatusText]: Validating world save
-[00:55:54] [27/INFO] [StatusText]: Saving world data
-[00:55:54] [27/INFO] [StatusText]: Validating world save
-[01:05:54] [25/INFO] [StatusText]: Saving world data
-[01:05:54] [25/INFO] [StatusText]: Validating world save
-[01:08:38] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:38] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:39] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:39] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:40] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:40] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:40] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:41] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:41] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:41] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:42] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:42] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:43] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:43] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:43] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:44] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:44] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:44] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:08:45] [25/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
-   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
-   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
-   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
-   em System.Threading.Tasks.Task.Execute()
-   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
-   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
-   em System.Threading.ThreadPoolWorkQueue.Dispatch()
-
-[01:15:54] [3/INFO] [StatusText]: Saving world data
-[01:15:54] [3/INFO] [StatusText]: Validating world save
-[01:25:54] [30/INFO] [StatusText]: Saving world data
-[01:25:54] [30/INFO] [StatusText]: Validating world save
-[01:27:15] [1/INFO] [Terraria]: Loaded 26000 vanilla assets
-[01:35:54] [31/INFO] [StatusText]: Saving world data
-[01:35:54] [31/INFO] [StatusText]: Validating world save
-[01:45:27] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
-[01:45:27] [10/INFO] [StatusText]: Saving map data
-[01:45:29] [10/INFO] [StatusText]: Saving world data
-[01:45:29] [10/INFO] [StatusText]: Validating world save
+[20:33:00] [20/INFO] [StatusText]: Saving world data
+[20:33:00] [20/INFO] [StatusText]: Validating world save
+[20:43:00] [20/INFO] [StatusText]: Saving world data
+[20:43:00] [20/INFO] [StatusText]: Validating world save
+[20:51:06] [1/INFO] [Terraria]: Loaded 21000 vanilla assets
+[20:53:00] [21/INFO] [StatusText]: Saving world data
+[20:53:00] [21/INFO] [StatusText]: Validating world save
+[21:03:00] [29/INFO] [StatusText]: Saving world data
+[21:03:00] [29/INFO] [StatusText]: Validating world save
+[21:12:35] [1/INFO] [Terraria]: Loaded 22000 vanilla assets
+[21:13:00] [20/INFO] [StatusText]: Saving world data
+[21:13:00] [20/INFO] [StatusText]: Validating world save
+[21:23:00] [24/INFO] [StatusText]: Saving world data
+[21:23:00] [24/INFO] [StatusText]: Validating world save
+[21:33:00] [16/INFO] [StatusText]: Saving world data
+[21:33:00] [16/INFO] [StatusText]: Validating world save
+[21:43:00] [18/INFO] [StatusText]: Saving world data
+[21:43:00] [18/INFO] [StatusText]: Validating world save
+[21:53:00] [25/INFO] [StatusText]: Saving world data
+[21:53:00] [25/INFO] [StatusText]: Validating world save
+[21:57:11] [1/INFO] [Terraria]: Loaded 23000 vanilla assets
+[22:00:52] [1/INFO] [Terraria]: Loaded 24000 vanilla assets
+[22:03:00] [10/INFO] [StatusText]: Saving world data
+[22:03:00] [10/INFO] [StatusText]: Validating world save
+[22:08:47] [1/INFO] [Terraria]: Loaded 25000 vanilla assets
+[22:13:00] [8/INFO] [StatusText]: Saving world data
+[22:13:00] [8/INFO] [StatusText]: Validating world save
+[22:18:18] [1/INFO] [Terraria]: Loaded 26000 vanilla assets
+[22:23:00] [7/INFO] [StatusText]: Saving world data
+[22:23:00] [7/INFO] [StatusText]: Validating world save
+[22:23:23] [1/INFO] [Terraria]: Loaded 27000 vanilla assets
+[22:33:00] [33/INFO] [StatusText]: Saving world data
+[22:33:00] [33/INFO] [StatusText]: Validating world save
+[22:43:00] [26/INFO] [StatusText]: Saving world data
+[22:43:00] [26/INFO] [StatusText]: Validating world save
+[22:50:21] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[22:50:21] [33/INFO] [StatusText]: Saving map data
+[22:50:23] [33/INFO] [StatusText]: Saving world data
+[22:50:24] [33/INFO] [StatusText]: Validating world save
