@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 21,
+  "lastUpdateTime": 58,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.5",
@@ -36,7 +36,7 @@
     "Cichlid": "0.44",
     "PolaritiesMusic": "0.1.1",
     "FunctionalBlockSwap": "1.0.6.5",
-    "MagicStorageExtra": "0.5.4.3",
+    "MagicStorageExtra": "0.5.5.2",
     "SpiritMod": "1.4.2.3",
     "Split": "0.4.0.14",
     "CalamityMod": "1.4.5.7",
@@ -914,13 +914,6 @@
       }
     ],
     "Terraria\tStar Wrath\t3065": [
-      {
-        "mod": "Terraria",
-        "name": "Moon Lord's Core",
-        "id": 398
-      }
-    ],
-    "MagicStorageExtra\tRadiantJewel": [
       {
         "mod": "Terraria",
         "name": "Moon Lord's Core",
@@ -11424,78 +11417,6 @@
         "mod": "Terraria",
         "name": "Eater of Souls",
         "id": 6
-      }
-    ],
-    "MagicStorageExtra\tShadowDiamond": [
-      {
-        "mod": "Terraria",
-        "name": "Eye of Cthulhu",
-        "id": 4
-      },
-      {
-        "mod": "Terraria",
-        "name": "Eater of Worlds",
-        "id": 13
-      },
-      {
-        "mod": "Terraria",
-        "name": "Skeletron",
-        "id": 35
-      },
-      {
-        "mod": "Terraria",
-        "name": "King Slime",
-        "id": 50
-      },
-      {
-        "mod": "Terraria",
-        "name": "Wall of Flesh",
-        "id": 113
-      },
-      {
-        "mod": "Terraria",
-        "name": "Retinazer",
-        "id": 125
-      },
-      {
-        "mod": "Terraria",
-        "name": "Skeletron Prime",
-        "id": 127
-      },
-      {
-        "mod": "Terraria",
-        "name": "The Destroyer",
-        "id": 134
-      },
-      {
-        "mod": "Terraria",
-        "name": "Queen Bee",
-        "id": 222
-      },
-      {
-        "mod": "Terraria",
-        "name": "Golem",
-        "id": 245
-      },
-      {
-        "mod": "Terraria",
-        "name": "Plantera",
-        "id": 262
-      },
-      {
-        "mod": "Terraria",
-        "name": "Duke Fishron",
-        "id": 370
-      },
-      {
-        "mod": "Terraria",
-        "name": "Moon Lord's Core",
-        "id": 398
-      },
-      {
-        "mod": "Terraria",
-        "name": "Lunatic Cultist",
-        "id": 439
       }
     ],
     "FargowiltasSouls\tMutantTrophy": [

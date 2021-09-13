@@ -51,7 +51,8 @@
     "$type": "System.String[], mscorlib",
     "$values": [
       "MutantStatueGift",
-      "SulphurousSandNoWater"
+      "SulphurousSandNoWater",
+      "ProfanedRock"
     ]
   },
   "OresOnly": true,
