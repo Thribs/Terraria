@@ -1,6 +1,6 @@
 {
   "recipeBrowserVersion": "0.8.9",
-  "lastUpdateTime": 58,
+  "lastUpdateTime": 19,
   "calculationCancelled": false,
   "cachedMods": {
     "Terraria": "0.11.8.5",
@@ -36,7 +36,7 @@
     "Cichlid": "0.44",
     "PolaritiesMusic": "0.1.1",
     "FunctionalBlockSwap": "1.0.6.5",
-    "MagicStorageExtra": "0.5.5.2",
+    "MagicStorageExtra": "0.5.5.7",
     "SpiritMod": "1.4.2.3",
     "Split": "0.4.0.14",
     "CalamityMod": "1.4.5.7",
