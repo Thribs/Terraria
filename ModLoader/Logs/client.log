@@ -1,19 +1,19 @@
-﻿[22:46:36] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Win32NT client (26/09/2021)
-[22:46:36] [1/INFO] [tML]: Running on NetFramework 4.8
-[22:46:36] [1/INFO] [tML]: Engine: FNA
-[22:46:36] [1/INFO] [tML]: Executable: G:\Steam\steamapps\common\tModLoader\tModLoader64Bit.exe
-[22:46:36] [1/INFO] [tML]: Working Directory: G:\Steam\steamapps\common\tModLoader
-[22:46:36] [1/INFO] [tML]: Launch Parameters: 
-[22:46:36] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:46:36] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
-[22:46:36] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:46:37] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
-[22:46:37] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
-[22:46:37] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-[22:46:37] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
-[22:46:37] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
-[22:46:37] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
-[22:46:37] [1/WARN] [tML]: Silently Caught Exception: 
+﻿[19:40:45] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Win32NT client (27/09/2021)
+[19:40:45] [1/INFO] [tML]: Running on NetFramework 4.8
+[19:40:45] [1/INFO] [tML]: Engine: FNA
+[19:40:45] [1/INFO] [tML]: Executable: G:\Steam\steamapps\common\tModLoader\tModLoader64Bit.exe
+[19:40:45] [1/INFO] [tML]: Working Directory: G:\Steam\steamapps\common\tModLoader
+[19:40:45] [1/INFO] [tML]: Launch Parameters: 
+[19:40:45] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:40:45] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:40:45] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:40:46] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[19:40:47] [1/DEBUG] [tML]: Assembly Resolve:  -> FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null
+[19:40:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[19:40:48] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[19:40:48] [1/DEBUG] [tML]: Assembly Resolve: ReLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.4.0.0, Culture=neutral, PublicKeyToken=null
+[19:40:48] [1/WARN] [tML]: Upgraded Reference FNA -> Version=17.4.0.0 -> 20.4.0.0
+[19:40:49] [1/WARN] [tML]: Silently Caught Exception: 
 System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não foi possível encontrar o módulo especificado. (Exception from HRESULT: 0x8007007E)
    at Microsoft.Xna.Framework.Graphics.MetalDevice.sel_registerName(Byte[] name)
    at Microsoft.Xna.Framework.Graphics.MetalDevice..cctor()
@@ -24,25 +24,25 @@ System.DllNotFoundException: Unable to load DLL '/usr/lib/libobjc.A.dylib': Não
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:46:37] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
-[22:46:37] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
-[22:46:38] [1/INFO] [tML]: Checking Steam installation...
-[22:46:38] [1/INFO] [tML]: Steam installation OK.
-[22:46:39] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
-[22:46:43] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
-[22:46:43] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
-[22:46:44] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
-[22:46:44] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
-[22:46:44] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
-[22:46:45] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[22:46:45] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[22:46:45] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
-[22:46:45] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
-[22:46:47] [1/DEBUG] [tML]: Fallback synchronization context assigned
-[22:46:47] [6/INFO] [Terraria]: JIT loading finished
-[22:46:51] [8/INFO] [tML]: Unloading mods
-[22:46:51] [8/INFO] [tML]: Finding Mods...
-[22:46:52] [8/WARN] [tML]: Silently Caught Exception: 
+[19:40:49] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::LoadChests(BinaryReader) added by tModLoader
+[19:40:49] [1/DEBUG] [tML]: Hook On.Terraria.IO.WorldFile::SaveChests(BinaryWriter) added by tModLoader
+[19:40:50] [1/INFO] [tML]: Checking Steam installation...
+[19:40:50] [1/INFO] [tML]: Steam installation OK.
+[19:40:52] [1/DEBUG] [Terraria]: Graphics Device: Generic PnP Monitor {{Width:1600 Height:900 Format:Color}}
+[19:40:59] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[19:41:00] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[19:41:01] [1/INFO] [Terraria]: Loaded 3000 vanilla assets
+[19:41:01] [1/INFO] [Terraria]: Loaded 4000 vanilla assets
+[19:41:02] [1/INFO] [Terraria]: Loaded 5000 vanilla assets
+[19:41:03] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[19:41:03] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[19:41:03] [1/DEBUG] [tML]: Assembly Resolve: FNA, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null -> ReLogic
+[19:41:03] [1/WARN] [tML]: Upgraded Reference ReLogic -> Version= -> 1.0.0.0
+[19:41:05] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[19:41:06] [6/INFO] [Terraria]: JIT loading finished
+[19:41:09] [11/INFO] [tML]: Unloading mods
+[19:41:10] [11/INFO] [tML]: Finding Mods...
+[19:41:11] [11/WARN] [tML]: Silently Caught Exception: 
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
@@ -56,119 +56,119 @@ System.Exception: Hash mismatch, data blob has been modified or corrupted
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:46:52] [8/WARN] [tML]: Failed to read C:\Users\Thiago\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+[19:41:11] [11/WARN] [tML]: Failed to read C:\Users\Thiago\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
 System.Exception: Hash mismatch, data blob has been modified or corrupted
    em Terraria.ModLoader.Core.TmodFile.Read()
    em Terraria.ModLoader.Core.TmodFile.Open()
    em Terraria.ModLoader.Core.ModOrganizer.FindMods()
-[22:46:53] [8/INFO] [tML]: Sandboxing: CalamityMod
-[22:46:54] [8/INFO] [tML]: Sandboxing: CalamityModMusic
-[22:46:54] [8/INFO] [tML]: Sandboxing: AlchemistNPCLite
-[22:46:54] [8/INFO] [tML]: Sandboxing: AutoTrash
-[22:46:54] [8/INFO] [tML]: Sandboxing: BaseMod
-[22:46:54] [8/INFO] [tML]: Sandboxing: BossChecklist
-[22:46:54] [8/INFO] [tML]: Sandboxing: BossCursor
-[22:46:54] [8/INFO] [tML]: Sandboxing: BothEvils
-[22:46:54] [8/INFO] [tML]: Sandboxing: CalValEX
-[22:46:54] [8/INFO] [tML]: Sandboxing: CataclysmMod
-[22:46:57] [8/INFO] [tML]: Sandboxing: CheatSheet
-[22:46:57] [8/INFO] [tML]: Sandboxing: Fargowiltas
-[22:46:57] [8/INFO] [tML]: Sandboxing: FargowiltasSouls
-[22:46:57] [8/INFO] [tML]: Sandboxing: FargowiltasMusic
-[22:46:57] [8/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
-[22:46:57] [8/INFO] [tML]: Sandboxing: FKBossHealthBar
-[22:46:57] [8/INFO] [tML]: Sandboxing: FunctionalBlockSwap
-[22:46:57] [8/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
-[22:46:57] [8/INFO] [tML]: Sandboxing: MagicStorageExtra
-[22:46:57] [8/INFO] [tML]: Sandboxing: MaxStackExtra
-[22:46:57] [8/INFO] [tML]: Sandboxing: RecipeBrowser
-[22:46:57] [8/INFO] [tML]: Sandboxing: ResearchFrom14
-[22:46:57] [8/INFO] [tML]: Sandboxing: SmartDoors
-[22:46:57] [8/INFO] [tML]: Sandboxing: UtilityBombMod
-[22:46:57] [8/INFO] [tML]: Sandboxing: VeinMiner
-[22:46:57] [8/INFO] [tML]: Sandboxing: WeaponOutLite
-[22:46:57] [8/INFO] [tML]: Sandboxing: Wildlife
-[22:46:57] [8/INFO] [tML]: Sandboxing: WMITF
-[22:46:57] [8/INFO] [tML]: Instantiating Mods...
-[22:46:58] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
-[22:46:58] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
-[22:46:58] [8/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
-[22:46:59] [8/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
-[22:47:02] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:47:02] [8/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
-[22:47:02] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
-[22:47:02] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
-[22:47:02] [8/WARN] [tML]: Granted native detouring access to Fargowiltas_0
-[22:47:02] [8/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
-[22:47:02] [8/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
-[22:47:02] [8/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:47:02] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
-[22:47:06] [8/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
-[22:47:07] [8/INFO] [tML]: Initializing: ModLoader v0.11.8.5
-[22:47:10] [8/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
-[22:47:10] [8/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:10] [8/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
-[22:47:15] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
-[22:47:15] [8/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
-[22:47:15] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:15] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
-[22:47:15] [8/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
-[22:47:15] [8/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
-[22:47:16] [8/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
-[22:47:16] [8/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
-[22:47:17] [8/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
-[22:47:17] [8/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
-[22:47:18] [8/INFO] [tML]: Initializing: AutoTrash v0.5.2
-[22:47:18] [8/INFO] [tML]: Initializing: BaseMod v2.0.0.0
-[22:47:18] [8/INFO] [tML]: Initializing: BossChecklist v1.1.6.1
-[22:47:18] [8/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
-[22:47:18] [8/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[22:47:19] [8/INFO] [tML]: Initializing: BossCursor v1.5.1
-[22:47:19] [8/INFO] [tML]: Initializing: BothEvils v3.1
-[22:47:19] [8/INFO] [tML]: Initializing: CalValEX v8.5.2
-[22:47:20] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:20] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:20] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:20] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:21] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:22] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:22] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:22] [8/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
-[22:47:23] [8/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
-[22:47:23] [8/DEBUG] [CataclysmMod]: Loading mod-dependent content...
-[22:47:23] [8/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:23] [8/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
-[22:47:23] [8/DEBUG] [CataclysmMod]: Preparing direct dependency content...
-[22:47:23] [8/DEBUG] [CataclysmMod]: Loading direct dependency content...
-[22:47:23] [8/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:23] [8/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
-[22:47:23] [8/INFO] [tML]: Initializing: CheatSheet v0.6.6.4
-[22:47:23] [8/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
-[22:47:24] [8/INFO] [FargowiltasSouls]: ToggleCollections found: 4
-[22:47:25] [8/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
-[22:47:25] [8/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
-[22:47:26] [8/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
-[22:47:26] [8/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
-[22:47:26] [8/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
-[22:47:27] [8/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
-[22:47:27] [8/INFO] [tML]: Initializing: MagicStorageExtra v0.5.5.7
-[22:47:27] [8/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
-[22:47:27] [1/WARN] [tML]: Silently Caught Exception: 
+[19:41:12] [11/INFO] [tML]: Sandboxing: CalamityMod
+[19:41:13] [11/INFO] [tML]: Sandboxing: CalamityModMusic
+[19:41:13] [11/INFO] [tML]: Sandboxing: AlchemistNPCLite
+[19:41:13] [11/INFO] [tML]: Sandboxing: AutoTrash
+[19:41:13] [11/INFO] [tML]: Sandboxing: BaseMod
+[19:41:13] [11/INFO] [tML]: Sandboxing: BossChecklist
+[19:41:13] [11/INFO] [tML]: Sandboxing: BossCursor
+[19:41:13] [11/INFO] [tML]: Sandboxing: BothEvils
+[19:41:13] [11/INFO] [tML]: Sandboxing: CalValEX
+[19:41:13] [11/INFO] [tML]: Sandboxing: CataclysmMod
+[19:41:17] [11/INFO] [tML]: Sandboxing: CheatSheet
+[19:41:17] [11/INFO] [tML]: Sandboxing: Fargowiltas
+[19:41:17] [11/INFO] [tML]: Sandboxing: FargowiltasSouls
+[19:41:17] [11/INFO] [tML]: Sandboxing: FargowiltasMusic
+[19:41:17] [11/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[19:41:17] [11/INFO] [tML]: Sandboxing: FKBossHealthBar
+[19:41:17] [11/INFO] [tML]: Sandboxing: FunctionalBlockSwap
+[19:41:17] [11/INFO] [tML]: Sandboxing: LansUnlimitedBuffSlots
+[19:41:17] [11/INFO] [tML]: Sandboxing: MagicStorageExtra
+[19:41:17] [11/INFO] [tML]: Sandboxing: MaxStackExtra
+[19:41:17] [11/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:41:17] [11/INFO] [tML]: Sandboxing: ResearchFrom14
+[19:41:17] [11/INFO] [tML]: Sandboxing: SmartDoors
+[19:41:17] [11/INFO] [tML]: Sandboxing: UtilityBombMod
+[19:41:17] [11/INFO] [tML]: Sandboxing: VeinMiner
+[19:41:17] [11/INFO] [tML]: Sandboxing: WeaponOutLite
+[19:41:17] [11/INFO] [tML]: Sandboxing: Wildlife
+[19:41:17] [11/INFO] [tML]: Sandboxing: WMITF
+[19:41:17] [11/INFO] [tML]: Instantiating Mods...
+[19:41:18] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null
+[19:41:18] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FNA, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+[19:41:18] [11/WARN] [tML]: Upgraded Reference FNA -> Version=17.3.0.0 -> 20.4.0.0
+[19:41:18] [11/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[19:41:21] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:41:21] [11/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=20.11.16.1 -> 19.12.19.1
+[19:41:21] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[19:41:21] [11/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.11.16.1 -> 19.12.19.1
+[19:41:21] [11/WARN] [tML]: Granted native detouring access to Fargowiltas_0
+[19:41:21] [11/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
+[19:41:21] [11/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
+[19:41:21] [11/DEBUG] [tML]: Assembly Resolve: Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:41:21] [11/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.3.0 -> 0.11.1.0
+[19:41:25] [11/WARN] [tML]: Tried to forward ErrorLogger.Log for mod WeaponOutLite but failed (mod not found!)
+[19:41:27] [11/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[19:41:29] [11/INFO] [tML]: Initializing: CalamityMod v1.4.5.7
+[19:41:30] [11/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:41:30] [11/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[19:41:35] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[19:41:35] [11/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 19.12.19.1
+[19:41:35] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:41:35] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[19:41:35] [11/DEBUG] [tML]: Assembly Resolve: CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:41:35] [11/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.1.0
+[19:41:36] [11/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[19:41:36] [11/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[19:41:37] [11/INFO] [tML]: Initializing: CalamityModMusic v1.4.5.3
+[19:41:37] [11/INFO] [tML]: Initializing: AlchemistNPCLite v1.7.4
+[19:41:38] [11/INFO] [tML]: Initializing: AutoTrash v0.5.2
+[19:41:38] [11/INFO] [tML]: Initializing: BaseMod v2.0.0.0
+[19:41:39] [11/INFO] [tML]: Initializing: BossChecklist v1.1.6.1
+[19:41:39] [11/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:41:39] [11/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[19:41:39] [11/INFO] [tML]: Initializing: BossCursor v1.5.1
+[19:41:39] [11/INFO] [tML]: Initializing: BothEvils v3.1
+[19:41:40] [11/INFO] [tML]: Initializing: CalValEX v8.5.2
+[19:41:40] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:40] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:40] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:41] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:42] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:42] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:42] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:42] [11/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalValEX_0
+[19:41:43] [11/INFO] [tML]: Initializing: CataclysmMod v1.1.0.1
+[19:41:43] [11/DEBUG] [CataclysmMod]: Loading mod-dependent content...
+[19:41:43] [11/DEBUG] [tML]: Assembly Resolve: CataclysmMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:41:43] [11/DEBUG] [tML]: Hook IL.CalamityMod.CalPlayer.CalamityPlayerMiscEffects::MiscEffects(Player, CalamityPlayer, Mod) modified by CataclysmMod_0
+[19:41:43] [11/DEBUG] [CataclysmMod]: Preparing direct dependency content...
+[19:41:43] [11/DEBUG] [CataclysmMod]: Loading direct dependency content...
+[19:41:43] [11/DEBUG] [tML]: Assembly Resolve: CataclysmMod.DirectCalamityDependencies, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> CataclysmMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:41:43] [11/DEBUG] [CataclysmMod]: Loaded mod-dependent content.
+[19:41:43] [11/INFO] [tML]: Initializing: CheatSheet v0.6.6.4
+[19:41:44] [11/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.6
+[19:41:45] [11/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[19:41:45] [11/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
+[19:41:46] [11/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.3.1
+[19:41:46] [11/INFO] [tML]: Initializing: FKBossHealthBar v1.3.2
+[19:41:47] [11/INFO] [tML]: Initializing: FunctionalBlockSwap v1.0.6.5
+[19:41:47] [11/DEBUG] [tML]: Hook On.Terraria.Player::PlaceThing() added by FunctionalBlockSwap_0
+[19:41:47] [11/INFO] [tML]: Initializing: LansUnlimitedBuffSlots v0.2.1
+[19:41:47] [11/INFO] [tML]: Initializing: MagicStorageExtra v0.5.5.7
+[19:41:47] [11/DEBUG] [tML]: Hook On.Terraria.NetMessage::SendData(int, int, int, NetworkText, int, float, float, float, int, int, int) added by MagicStorageExtra_0
+[19:41:47] [1/WARN] [tML]: Silently Caught Exception: 
 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.ThrowHelper.ThrowKeyNotFoundException()
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
@@ -184,79 +184,103 @@ System.Collections.Generic.KeyNotFoundException: The given key was not present i
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:47:27] [8/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
-[22:47:28] [8/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
-[22:47:28] [8/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
-[22:47:28] [8/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
-[22:47:28] [8/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
-[22:47:28] [8/INFO] [tML]: Initializing: ResearchFrom14 v2.0
-[22:47:29] [8/INFO] [tML]: Initializing: SmartDoors v1.3.3
-[22:47:29] [8/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
-[22:47:29] [8/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
-[22:47:29] [8/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
-[22:47:30] [8/INFO] [tML]: Initializing: VeinMiner v1.3.1
-[22:47:30] [8/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
-[22:47:30] [8/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
-[22:47:31] [8/INFO] [tML]: Initializing: WeaponOutLite v0.1
-[22:47:31] [8/INFO] [tML]: Initializing: Wildlife v0.14
-[22:47:31] [8/INFO] [tML]: Initializing: WMITF v2.6.2
-[22:47:32] [8/INFO] [tML]: Initializing: Fargowiltas v2.4.2
-[22:47:32] [8/INFO] [tML]: Setting up...
-[22:47:33] [8/INFO] [tML]: Loading: ModLoader v0.11.8.5
-[22:47:33] [8/INFO] [tML]: Loading: CalamityMod v1.4.5.7
-[22:47:35] [8/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
-[22:47:36] [8/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
-[22:47:36] [8/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
-[22:47:36] [8/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
-[22:47:37] [8/INFO] [tML]: Loading: AutoTrash v0.5.2
-[22:47:37] [8/INFO] [tML]: Loading: BaseMod v2.0.0.0
-[22:47:38] [8/INFO] [tML]: Loading: BossChecklist v1.1.6.1
-[22:47:38] [8/INFO] [tML]: Loading: BossCursor v1.5.1
-[22:47:38] [8/INFO] [tML]: Loading: BothEvils v3.1
-[22:47:39] [8/INFO] [tML]: Loading: CalValEX v8.5.2
-[22:47:39] [8/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
-[22:47:39] [8/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
-[22:47:39] [8/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
-[22:47:40] [8/INFO] [tML]: Loading: CheatSheet v0.6.6.4
-[22:47:40] [8/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
-[22:47:42] [8/INFO] [Terraria]: Loaded 6000 vanilla assets
-[22:47:42] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
-[22:47:42] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
-[22:47:42] [8/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
-[22:47:42] [8/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
-[22:47:43] [8/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
-[22:47:43] [8/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
-[22:47:43] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:43] [8/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
-[22:47:44] [8/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
-[22:47:44] [8/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
-[22:47:44] [8/INFO] [tML]: Loading: MagicStorageExtra v0.5.5.7
-[22:47:45] [8/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
-[22:47:45] [8/INFO] [tML]: Loading: RecipeBrowser v0.8.9
-[22:47:45] [8/INFO] [tML]: Loading: ResearchFrom14 v2.0
-[22:47:46] [8/INFO] [tML]: Loading: SmartDoors v1.3.3
-[22:47:46] [8/INFO] [tML]: Loading: UtilityBombMod v0.2.5
-[22:47:46] [8/INFO] [tML]: Loading: VeinMiner v1.3.1
-[22:47:47] [8/INFO] [tML]: Loading: WeaponOutLite v0.1
-[22:47:47] [8/INFO] [tML]: Loading: Wildlife v0.14
-[22:47:48] [8/INFO] [tML]: Loading: WMITF v2.6.2
-[22:47:48] [8/INFO] [tML]: Loading: Fargowiltas v2.4.2
-[22:47:48] [8/INFO] [tML]: RAM usage: 3,6 GB
-[22:47:48] [8/INFO] [tML]: Adding Recipes...
-[22:47:50] [8/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:50] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:47:50] [8/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[22:48:04] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
-[22:48:07] [11/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
-[22:48:07] [11/INFO] [ResearchFrom14]: Research System Initialized.
-[22:48:14] [8/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
-[22:48:14] [8/INFO] [StatusText]: Resetting game objects
-[22:48:16] [8/INFO] [StatusText]: Loading world data
-[22:48:17] [8/INFO] [StatusText]: Settling liquids
-[22:48:18] [8/INFO] [StatusText]: Loading map data
-[22:48:20] [8/INFO] [StatusText]: Drawing map
-[22:48:21] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
-[22:48:26] [1/WARN] [tML]: Silently Caught Exception: 
+[19:41:47] [11/DEBUG] [tML]: Hook On.Terraria.MessageBuffer::GetData(int, int, out int) added by MagicStorageExtra_0
+[19:41:48] [11/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[19:41:48] [11/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[19:41:48] [11/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:41:49] [11/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:41:49] [11/INFO] [tML]: Initializing: ResearchFrom14 v2.0
+[19:41:49] [11/INFO] [tML]: Initializing: SmartDoors v1.3.3
+[19:41:49] [11/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by SmartDoors_0
+[19:41:49] [11/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by SmartDoors_0
+[19:41:50] [11/INFO] [tML]: Initializing: UtilityBombMod v0.2.5
+[19:41:50] [11/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:41:50] [11/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:41:50] [11/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:41:51] [11/INFO] [tML]: Initializing: WeaponOutLite v0.1
+[19:41:52] [11/INFO] [tML]: Initializing: Wildlife v0.14
+[19:41:52] [11/INFO] [tML]: Initializing: WMITF v2.6.2
+[19:41:52] [11/INFO] [tML]: Initializing: Fargowiltas v2.4.2
+[19:41:53] [11/INFO] [tML]: Setting up...
+[19:41:54] [11/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[19:41:54] [11/INFO] [tML]: Loading: CalamityMod v1.4.5.7
+[19:41:56] [11/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[19:41:57] [11/INFO] [tML]: Loading: CalamityModMusic v1.4.5.3
+[19:41:57] [11/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[19:41:57] [11/INFO] [tML]: Loading: AlchemistNPCLite v1.7.4
+[19:41:58] [11/INFO] [tML]: Loading: AutoTrash v0.5.2
+[19:41:58] [11/INFO] [tML]: Loading: BaseMod v2.0.0.0
+[19:41:58] [11/INFO] [tML]: Loading: BossChecklist v1.1.6.1
+[19:41:59] [11/INFO] [tML]: Loading: BossCursor v1.5.1
+[19:41:59] [11/INFO] [tML]: Loading: BothEvils v3.1
+[19:41:59] [11/INFO] [tML]: Loading: CalValEX v8.5.2
+[19:42:00] [11/INFO] [tML]: Loading: CataclysmMod v1.1.0.1
+[19:42:00] [11/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ThoriumMod! This content was not loaded as the given mod is not enabled.
+[19:42:00] [11/WARN] [CataclysmMod]: There was content in Cataclysm that depends on: ClickerClass! This content was not loaded as the given mod is not enabled.
+[19:42:01] [11/INFO] [tML]: Loading: CheatSheet v0.6.6.4
+[19:42:01] [11/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.6
+[19:42:03] [11/INFO] [Terraria]: Loaded 6000 vanilla assets
+[19:42:03] [11/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Still is missing
+[19:42:03] [11/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Abominationn named FargowiltasSouls/NPCs/DeviBoss/AbomBoss_Head_Boss is missing
+[19:42:03] [11/WARN] [BossChecklist]: Boss Display Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Still is missing
+[19:42:03] [11/WARN] [BossChecklist]: Boss Head Icon Texture for Fargo's Souls Mod Mutant named FargowiltasSouls/NPCs/DeviBoss/MutantBoss_Head_Boss is missing
+[19:42:04] [11/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
+[19:42:04] [11/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.3.1
+[19:42:04] [11/DEBUG] [tML]: Assembly Resolve: FargowiltasSoulsDLC_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:04] [11/INFO] [tML]: Loading: FKBossHealthBar v1.3.2
+[19:42:05] [11/INFO] [tML]: Loading: FunctionalBlockSwap v1.0.6.5
+[19:42:05] [11/INFO] [tML]: Loading: LansUnlimitedBuffSlots v0.2.1
+[19:42:05] [11/INFO] [tML]: Loading: MagicStorageExtra v0.5.5.7
+[19:42:06] [11/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[19:42:06] [11/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[19:42:06] [11/INFO] [tML]: Loading: ResearchFrom14 v2.0
+[19:42:07] [11/INFO] [tML]: Loading: SmartDoors v1.3.3
+[19:42:07] [11/INFO] [tML]: Loading: UtilityBombMod v0.2.5
+[19:42:07] [11/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:42:08] [11/INFO] [tML]: Loading: WeaponOutLite v0.1
+[19:42:08] [11/INFO] [tML]: Loading: Wildlife v0.14
+[19:42:08] [11/INFO] [tML]: Loading: WMITF v2.6.2
+[19:42:09] [11/INFO] [tML]: Loading: Fargowiltas v2.4.2
+[19:42:09] [11/INFO] [tML]: RAM usage: 3,5 GB
+[19:42:09] [11/INFO] [tML]: Adding Recipes...
+[19:42:10] [11/DEBUG] [tML]: Assembly Resolve: FargowiltasSouls_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Fargowiltas_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:11] [11/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:11] [11/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:23] [12/DEBUG] [tML]: Web Request: http://javid.ddns.net/tModLoader/listmods.php
+[19:42:24] [8/WARN] [tML]: Silently Caught Exception: 
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[19:42:24] [8/WARN] [tML]: Failed to read C:\Users\Thiago\Documents\My Games\Terraria\ModLoader\Mods\Polarities.tmod
+System.Exception: Hash mismatch, data blob has been modified or corrupted
+   em Terraria.ModLoader.Core.TmodFile.Read()
+   em Terraria.ModLoader.Core.TmodFile.Open()
+   em Terraria.ModLoader.Core.ModOrganizer.FindMods()
+[19:42:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/10kTkF0.png
+[19:42:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/DcJUbwW.png
+[19:42:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/47yOSg4.png
+[19:42:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/JHsPthm.png
+[19:42:25] [1/DEBUG] [tML]: Web Request: https://i.imgur.com/Eln81HY.png
+[19:42:28] [1/INFO] [ResearchFrom14]: Inititalizing Research System...
+[19:42:31] [11/INFO] [ResearchFrom14]: Research System: Applying Difficulty...
+[19:42:31] [11/INFO] [ResearchFrom14]: Research System Initialized.
+[19:42:43] [8/INFO] [Terraria]: Loading World: mm monke, IsCloud=False
+[19:42:43] [8/INFO] [StatusText]: Resetting game objects
+[19:42:45] [8/INFO] [StatusText]: Loading world data
+[19:42:45] [8/INFO] [StatusText]: Settling liquids
+[19:42:47] [8/INFO] [StatusText]: Loading map data
+[19:42:49] [8/INFO] [StatusText]: Drawing map
+[19:42:50] [1/INFO] [Terraria]: Entering world with player: RN, IsCloud=False
+[19:42:55] [1/WARN] [tML]: Silently Caught Exception: 
 System.ArgumentOutOfRangeException: Index must be within the bounds of the List.
 Parameter name: index
    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
@@ -274,14 +298,138 @@ Parameter name: index
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:50:13] [7/WARN] [tML]: Silently Caught Exception: 
-System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
-   em FargowiltasSouls.Items.Accessories.Souls.EternitySoul.SafeModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:linha 429
-   em FargowiltasSouls.Items.SoulsItem.ModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\SoulsItem.cs:linha 88
-   em Terraria.ModLoader.ItemLoader.ModifyTooltips(Item item, Int32& numTooltips, String[] names, String[]& text, Boolean[]& modifier, Boolean[]& badModifier, Int32& oneDropLogo, Nullable`1[]& overrideColor)
-   em ResearchFrom14.Items.GlobalTrashItem.checkTooltip(Item item) na ResearchFrom14\Items\GlobalTrashItem.cs:linha 765
-   em ResearchFrom14.Common.ResearchTable.condensedTooltip(Item item) na ResearchFrom14\Common\ResearchTable.cs:linha 1468
-   em ResearchFrom14.Common.UI.RecipePanel.recreateList() na ResearchFrom14\Common\UI\RecipePanel.cs:linha 231
+[19:43:42] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalamityUtils.ProjectileRain(Vector2 targetPos, Single xLimit, Single xVariance, Single yLimitLower, Single yLimitUpper, Single projSpeed, Int32 projType, Int32 damage, Single knockback, Int32 owner, Int32 forceType, Int32 immunitySetting, Int32 cooldown) in CalamityMod\Utilities\CalamityUtils.cs:line 1130
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 7944
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Player.Update_NPCCollision()
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:43:44] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at FargowiltasSoulsDLC.Calamity.Enchantments.PlagueReaperEnchant.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Enchantments\PlagueReaperEnchant.cs:line 86
+   at FargowiltasSoulsDLC.Calamity.Forces.DevastationForce.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Forces\DevastationForce.cs:line 46
+   at FargowiltasSoulsDLC.Calamity.Souls.CalamitySoul.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Souls\CalamitySoul.cs:line 97
+   at Terraria.ModLoader.ItemLoader.UpdateAccessory(Item item, Player player, Boolean hideVisual)
+   at Terraria.Player.UpdateEquips(Int32 i)
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:43:44] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.Projectiles.Typeless.DemonshadeRedDevil.AI() in CalamityMod\Projectiles\Typeless\DemonshadeRedDevil.cs:line 286
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile)
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile)
+   at Terraria.Projectile.Update(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:49:24] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalamityUtils.ProjectileRain(Vector2 targetPos, Single xLimit, Single xVariance, Single yLimitLower, Single yLimitUpper, Single projSpeed, Int32 projType, Int32 damage, Single knockback, Int32 owner, Int32 forceType, Int32 immunitySetting, Int32 cooldown) in CalamityMod\Utilities\CalamityUtils.cs:line 1130
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 7958
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Player.Update_NPCCollision()
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:51:08] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalamityUtils.ProjectileRain(Vector2 targetPos, Single xLimit, Single xVariance, Single yLimitLower, Single yLimitUpper, Single projSpeed, Int32 projType, Int32 damage, Single knockback, Int32 owner, Int32 forceType, Int32 immunitySetting, Int32 cooldown) in CalamityMod\Utilities\CalamityUtils.cs:line 1130
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 8185
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Player.Update_NPCCollision()
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:52:44] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 8051
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Player.Update_NPCCollision()
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:52:51] [12/INFO] [StatusText]: Saving world data
+[19:52:52] [12/INFO] [StatusText]: Validating world save
+[19:55:20] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Main.DrawNPC(Int32 iNPCIndex, Boolean behindTiles)
+   at Terraria.Main.DrawNPCs(Boolean behindTiles)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[19:58:20] [8/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
    em System.Threading.Tasks.Task.Execute()
    em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
@@ -289,36 +437,73 @@ System.NullReferenceException: Referência de objeto não definida para uma inst
    em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
    em System.Threading.ThreadPoolWorkQueue.Dispatch()
 
-[22:50:13] [7/INFO] [ResearchFrom14]: Could not get tooltip for item 6875;   em FargowiltasSouls.Items.Accessories.Souls.EternitySoul.SafeModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:linha 429
-   em FargowiltasSouls.Items.SoulsItem.ModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\SoulsItem.cs:linha 85
-   em Terraria.ModLoader.ItemLoader.ModifyTooltips(Item item, Int32& numTooltips, String[] names, String[]& text, Boolean[]& modifier, Boolean[]& badModifier, Int32& oneDropLogo, Nullable`1[]& overrideColor)
-   em ResearchFrom14.Items.GlobalTrashItem.checkTooltip(Item item) na ResearchFrom14\Items\GlobalTrashItem.cs:linha 765
-   em ResearchFrom14.Common.ResearchTable.condensedTooltip(Item item) na ResearchFrom14\Common\ResearchTable.cs:linha 1468
-[22:50:13] [7/INFO] [ResearchFrom14]: Could not get tooltip for item 6875;   em FargowiltasSouls.Items.Accessories.Souls.EternitySoul.SafeModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:linha 429
-   em FargowiltasSouls.Items.SoulsItem.ModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\SoulsItem.cs:linha 85
-   em Terraria.ModLoader.ItemLoader.ModifyTooltips(Item item, Int32& numTooltips, String[] names, String[]& text, Boolean[]& modifier, Boolean[]& badModifier, Int32& oneDropLogo, Nullable`1[]& overrideColor)
-   em ResearchFrom14.Items.GlobalTrashItem.checkTooltip(Item item) na ResearchFrom14\Items\GlobalTrashItem.cs:linha 765
-   em ResearchFrom14.Common.ResearchTable.condensedTooltip(Item item) na ResearchFrom14\Common\ResearchTable.cs:linha 1468
-[22:50:13] [10/INFO] [ResearchFrom14]: Could not get tooltip for item 6875;   em FargowiltasSouls.Items.Accessories.Souls.EternitySoul.SafeModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:linha 429
-   em FargowiltasSouls.Items.SoulsItem.ModifyTooltips(List`1 tooltips) na FargowiltasSouls\Items\SoulsItem.cs:linha 85
-   em Terraria.ModLoader.ItemLoader.ModifyTooltips(Item item, Int32& numTooltips, String[] names, String[]& text, Boolean[]& modifier, Boolean[]& badModifier, Int32& oneDropLogo, Nullable`1[]& overrideColor)
-   em ResearchFrom14.Items.GlobalTrashItem.checkTooltip(Item item) na ResearchFrom14\Items\GlobalTrashItem.cs:linha 765
-   em ResearchFrom14.Common.ResearchTable.condensedTooltip(Item item) na ResearchFrom14\Common\ResearchTable.cs:linha 1468
-[22:51:12] [1/WARN] [tML]: Silently Caught Exception: 
-System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[20:00:39] [8/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[20:02:51] [8/INFO] [StatusText]: Saving world data
+[20:02:52] [8/INFO] [StatusText]: Validating world save
+[20:12:24] [1/WARN] [tML]: Silently Caught Exception: 
+System.ArgumentOutOfRangeException: Index must be within the bounds of the List.
 Parameter name: index
    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
-   at FargowiltasSouls.Items.Accessories.Souls.EternitySoul.SafeModifyTooltips(List`1 tooltips) in FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:line 417
-   at FargowiltasSouls.Items.SoulsItem.ModifyTooltips(List`1 tooltips) in FargowiltasSouls\Items\SoulsItem.cs:line 88
-   at Terraria.ModLoader.ItemLoader.ModifyTooltips(Item item, Int32& numTooltips, String[] names, String[]& text, Boolean[]& modifier, Boolean[]& badModifier, Int32& oneDropLogo, Nullable`1[]& overrideColor)
-   at Terraria.Main.MouseText_DrawItemTooltip(Int32 rare, Byte diff, Int32 X, Int32 Y)
-   at Terraria.Main.MouseText(String cursorText, Int32 rare, Byte diff, Int32 hackedMouseX, Int32 hackedMouseY, Int32 hackedScreenWidth, Int32 hackedScreenHeight)
-   at CalamityMod.UI.RipperUI.HandleMouseInteraction(CalamityPlayer modPlayer, Vector2 rageBarSize, Vector2 adrenBarSize) in CalamityMod\UI\RipperUI.cs:line 190
-   at CalamityMod.CalamityMod.<>c.<ModifyInterfaceLayers>b__39_8() in CalamityMod.cs:line 836
-   at Terraria.UI.GameInterfaceLayer.Draw()
-   at Terraria.Main.DrawInterface(GameTime gameTime)
+   at System.Collections.Generic.List`1.Insert(Int32 index, T item)
+   at WeaponOutLite.PlayerWOFX.ModifyDrawLayers(List`1 layers)
+   at Terraria.ModLoader.PlayerHooks.GetDrawLayers(Player drawPlayer)
+   at Terraria.Main.DrawPlayer(Player drawPlayer, Vector2 Position, Single rotation, Vector2 rotationOrigin, Single shadow)
+   at Terraria.Main.DrawPlayers()
    at Terraria.Main.DoDraw(GameTime gameTime)
    at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.RedrawWindow()
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.Win32OnPaint(IntPtr func, IntPtr evtPtr)
+   at SDL2.SDL.SDL_PollEvent(SDL_Event& _event)
+   at SDL2.SDL.SDL_PollEvent(SDL_Event& _event)
+   at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[20:12:51] [12/INFO] [StatusText]: Saving world data
+[20:12:52] [12/INFO] [StatusText]: Validating world save
+[20:19:31] [19/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Coleção foi modificada; talvez a operação de enumeração não seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.fillItemsFromCraftingInteractions() na ResearchFrom14\Common\ResearchPlayer.cs:linha 689
+   em ResearchFrom14.Common.ResearchPlayer.refreshResearch() na ResearchFrom14\Common\ResearchPlayer.cs:linha 643
+   em System.Threading.Tasks.Task.Execute()
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   em System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   em System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+[20:22:51] [32/INFO] [StatusText]: Saving world data
+[20:22:52] [32/INFO] [StatusText]: Validating world save
+[20:22:53] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 8051
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Projectile.Damage()
+   at Terraria.Projectile.Update(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
    at Microsoft.Xna.Framework.Game.Tick()
    at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
    at Microsoft.Xna.Framework.Game.Run()
@@ -326,13 +511,17 @@ Parameter name: index
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:51:12] [1/WARN] [tML]: Silently Caught Exception: 
-System.InvalidOperationException: Begin has been called before calling End after the last call to Begin. Begin cannot be called again until End has been successfully called.
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformationMatrix)
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin()
-   at Terraria.Main.RenderBackground()
-   at Terraria.Main.DoDraw(GameTime gameTime)
-   at Terraria.Main.Draw(GameTime gameTime)
+[20:24:05] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at CalamityMod.CalPlayer.CalamityPlayer.PostHurt(Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit) in CalamityMod\CalPlayer\CalamityPlayer.cs:line 8052
+   at Terraria.ModLoader.PlayerHooks.PostHurt(Player player, Boolean pvp, Boolean quiet, Double damage, Int32 hitDirection, Boolean crit)
+   at Terraria.Player.Hurt(PlayerDeathReason damageSource, Int32 Damage, Int32 hitDirection, Boolean pvp, Boolean quiet, Boolean Crit, Int32 cooldownCounter)
+   at Terraria.Projectile.Damage()
+   at Terraria.Projectile.Update(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
    at Microsoft.Xna.Framework.Game.Tick()
    at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
    at Microsoft.Xna.Framework.Game.Run()
@@ -340,20 +529,31 @@ System.InvalidOperationException: Begin has been called before calling End after
    at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
    at Terraria.FNALaunch.Main(String[] args)
 
-[22:51:12] [1/ERROR] [Terraria]: System.InvalidOperationException: Begin has been called before calling End after the last call to Begin. Begin cannot be called again until End has been successfully called.
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformationMatrix)
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin()
-   at Terraria.Main.RenderBackground()
-   at Terraria.Main.DoDraw(GameTime gameTime)
-   at Terraria.Main.Draw(GameTime gameTime)
-[22:51:12] [1/FATAL] [Terraria]: Main engine crash
-System.InvalidOperationException: Begin has been called before calling End after the last call to Begin. Begin cannot be called again until End has been successfully called.
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformationMatrix)
-   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin()
-   at Terraria.Main.RenderBackground()
-   at Terraria.Main.DoDraw(GameTime gameTime)
-   at Terraria.Main.Draw(GameTime gameTime)
+[20:27:26] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.ModLoader.GlobalProjectile.Instance(Projectile projectile)
+   at Terraria.Projectile.GetGlobalProjectile[T]()
+   at FargowiltasSoulsDLC.Calamity.Enchantments.PlagueReaperEnchant.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Enchantments\PlagueReaperEnchant.cs:line 86
+   at FargowiltasSoulsDLC.Calamity.Forces.DevastationForce.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Forces\DevastationForce.cs:line 46
+   at FargowiltasSoulsDLC.Calamity.Souls.CalamitySoul.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSoulsDLC\Calamity\Souls\CalamitySoul.cs:line 97
+   at FargowiltasSouls.Items.Accessories.Souls.EternitySoul.UpdateAccessory(Player player, Boolean hideVisual) in FargowiltasSouls\Items\Accessories\Souls\EternitySoul.cs:line 565
+   at Terraria.ModLoader.ItemLoader.UpdateAccessory(Item item, Player player, Boolean hideVisual)
+   at Terraria.Player.UpdateEquips(Int32 i)
+   at DMD<Terraria.Player::Update>(Player , Int32 )
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
    at Microsoft.Xna.Framework.Game.Tick()
    at Microsoft.Xna.Framework.SDL2_FNAPlatform.RunLoop(Game game)
    at Microsoft.Xna.Framework.Game.Run()
    at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.FNALaunch.Main(String[] args)
+
+[20:32:51] [20/INFO] [StatusText]: Saving world data
+[20:32:52] [20/INFO] [StatusText]: Validating world save
+[20:42:52] [9/INFO] [StatusText]: Saving world data
+[20:42:52] [9/INFO] [StatusText]: Validating world save
+[20:43:19] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[20:43:19] [8/INFO] [StatusText]: Saving map data
+[20:43:21] [8/INFO] [StatusText]: Saving world data
+[20:43:22] [8/INFO] [StatusText]: Validating world save
